@@ -1,0 +1,3224 @@
+county_name,state,mobility_rate
+Morris, NJ,0.4381
+DuPage, IL,0.3664
+Fairfield, CT,0.3506
+Shelby, AL,0.2784
+Greenlee, AZ,0.2156
+Kenai Peninsula Borough, AK,0.2032
+Anchorage Municipality, AK,0.2002
+Benton, AR,0.1994
+Juneau City and Borough, AK,0.1987
+Baldwin, AL,0.1935
+Madison, AL,0.188
+Maricopa, AZ,0.1879
+Lee, AL,0.1866
+Fairbanks North Star Borough, AK,0.1848
+Lauderdale, AL,0.1844
+Covington, AL,0.1791
+Yavapai, AZ,0.1786
+Morgan, AL,0.1748
+Coconino, AZ,0.173
+Matanuska-Susitna Borough, AK,0.1725
+Coffee, AL,0.1702
+Ketchikan Gateway Borough, AK,0.1657
+Lamar, AL,0.1656
+Colbert, AL,0.1648
+Choctaw, AL,0.164
+Jefferson, AL,0.1636
+Fayette, AL,0.1632
+Walker, AL,0.1631
+Boone, AR,0.162
+Autauga, AL,0.1597
+Tuscaloosa, AL,0.1581
+Pima, AZ,0.1578
+Franklin, AL,0.1577
+Clarke, AL,0.1568
+Limestone, AL,0.1565
+Elmore, AL,0.1552
+Washington, AL,0.1551
+Gila, AZ,0.1538
+Baxter, AR,0.1534
+Clark, AR,0.1531
+Cochise, AZ,0.1526
+Lawrence, AL,0.1522
+Houston, AL,0.1509
+Ashley, AR,0.1505
+Cleburne, AL,0.1502
+Cullman, AL,0.1482
+Marshall, AL,0.1482
+Mobile, AL,0.1481
+Blount, AL,0.1474
+Marion, AL,0.1468
+Kodiak Island Borough, AK,0.1467
+Monroe, AL,0.1464
+Jackson, AL,0.1462
+Mohave, AZ,0.1461
+St. Clair, AL,0.1442
+Chilton, AL,0.1424
+Winston, AL,0.1409
+Navajo, AZ,0.1384
+Bibb, AL,0.138
+Graham, AZ,0.1379
+Montgomery, AL,0.1375
+Marengo, AL,0.1368
+Bradley, AR,0.1361
+Arkansas, AR,0.1359
+Dale, AL,0.1355
+Etowah, AL,0.1354
+Geneva, AL,0.1354
+Escambia, AL,0.1333
+Tallapoosa, AL,0.1327
+Cherokee, AL,0.1286
+DeKalb, AL,0.1269
+Carroll, AR,0.1263
+Calhoun, AL,0.1253
+Clay, AR,0.1252
+Yuma, AZ,0.1247
+Crenshaw, AL,0.1217
+Pike, AL,0.1187
+Henry, AL,0.1184
+Barbour, AL,0.1172
+Randolph, AL,0.117
+Pinal, AZ,0.1162
+Clay, AL,0.1146
+Talladega, AL,0.1142
+Pickens, AL,0.1131
+La Paz, AZ,0.1122
+Butler, AL,0.1004
+Dallas, AL,0.0983
+Santa Cruz, AZ,0.0972
+Conecuh, AL,0.0968
+Wilcox, AL,0.0901
+Chicot, AR,0.0882
+Coosa, AL,0.0871
+Chambers, AL,0.084
+Hale, AL,0.0815
+Russell, AL,0.0784
+Apache, AZ,0.0675
+Bullock, AL,0.0642
+Sumter, AL,0.0596
+Greene, AL,0.054
+Perry, AL,0.0527
+Macon, AL,0.0513
+Northwest Arctic Borough, AK,0.0512
+Lowndes, AL,0.0476
+Bethel Census Area, AK,0.0382
+,,
+Williams, ND,0.4273
+Stark, ND,0.4239
+Nassau, NY,0.421
+Putnam, NY,0.4004
+Rockland, NY,0.3798
+Westchester, NY,0.3717
+Richmond, NY,0.3699
+Bottineau, ND,0.365
+Montgomery, PA,0.3642
+Traill, ND,0.3611
+Chester, PA,0.3602
+Burleigh, ND,0.3469
+Bucks, PA,0.3454
+Suffolk, NY,0.3442
+Richland, ND,0.3424
+Morton, ND,0.3378
+Lavaca, TX,0.3374
+Bristol, RI,0.3307
+Collin, TX,0.3278
+Chambers, TX,0.3263
+Ward, ND,0.3193
+Delaware, PA,0.318
+Walsh, ND,0.3168
+Andrews, TX,0.3118
+Midland, TX,0.3096
+Cass, ND,0.3058
+Summit, UT,0.3048
+Williamson, TN,0.3024
+Archer, TX,0.2975
+Reagan, TX,0.2971
+Yoakum, TX,0.2959
+Saratoga, NY,0.2952
+Delaware, OH,0.2947
+Uintah, UT,0.2946
+Kingfisher, OK,0.2939
+Fort Bend, TX,0.2935
+Crane, TX,0.2934
+Washington, PA,0.2933
+Hughes, SD,0.2929
+Stutsman, ND,0.2927
+Montgomery, TX,0.289
+Grand Forks, ND,0.2889
+Rockwall, TX,0.2878
+Washington, RI,0.2866
+Union, SD,0.285
+Schenectady, NY,0.2838
+Ochiltree, TX,0.2838
+Westmoreland, PA,0.283
+Ward, TX,0.283
+Mercer, OH,0.2825
+Geauga, OH,0.2824
+Lehigh, PA,0.2819
+Ramsey, ND,0.2812
+Kendall, TX,0.2809
+Butler, PA,0.2787
+Lincoln, SD,0.2783
+Grant, SD,0.2782
+Allegheny, PA,0.2781
+Montour, PA,0.278
+Fayette, TX,0.2778
+Austin, TX,0.2777
+Kent, RI,0.2771
+Orange, NY,0.2769
+Chittenden, VT,0.2756
+Hardin, TX,0.2748
+Brookings, SD,0.2744
+Major, OK,0.2739
+Hutchinson, TX,0.2732
+Putnam, OH,0.273
+Northampton, PA,0.2727
+Randall, TX,0.2721
+Brown, SD,0.2715
+Winkler, TX,0.271
+Barnes, ND,0.2709
+Indiana, PA,0.2701
+Brazoria, TX,0.2695
+Beckham, OK,0.2688
+Cumberland, PA,0.268
+Spink, SD,0.2676
+Denton, TX,0.2671
+Newport, RI,0.2634
+Rensselaer, NY,0.2626
+Hansford, TX,0.262
+Centre, PA,0.2611
+Greene, PA,0.2608
+Gaines, TX,0.2604
+Walworth, SD,0.2603
+Washita, OK,0.26
+Berks, PA,0.2599
+Orange, NC,0.2598
+Lawrence, SD,0.2592
+Live Oak, TX,0.2587
+Davison, SD,0.2586
+Turner, SD,0.2586
+Wake, NC,0.2579
+Woodward, OK,0.2568
+Cambria, PA,0.2555
+Onondaga, NY,0.2552
+Lake, SD,0.2548
+Yankton, SD,0.2523
+Orange, TX,0.2522
+Williamson, TX,0.2517
+Woods, OK,0.2516
+Day, SD,0.2516
+Tripp, SD,0.2516
+Lackawanna, PA,0.2512
+Ector, TX,0.2511
+Leon, TX,0.2509
+Wood, OH,0.2508
+Luzerne, PA,0.25
+Washington, OR,0.2494
+Benton, OR,0.2489
+Custer, OK,0.2487
+Warren, OH,0.2483
+Beaver, PA,0.2482
+Hutchinson, SD,0.248
+Gray, TX,0.2479
+Ulster, NY,0.2476
+Queens, NY,0.2472
+Wyoming, PA,0.2465
+Monroe, NY,0.2462
+Clackamas, OR,0.2461
+Pike, PA,0.246
+Minnehaha, SD,0.2458
+Calhoun, TX,0.2456
+Canadian, OK,0.2455
+Gillespie, TX,0.2453
+Scurry, TX,0.2448
+Washington, TX,0.2448
+Panola, TX,0.2447
+Duchesne, UT,0.2443
+Jack, TX,0.2441
+Elk, PA,0.2437
+Ontario, NY,0.2436
+Lee, TX,0.2435
+York, PA,0.2431
+Armstrong, PA,0.2423
+DeWitt, TX,0.2421
+Auglaize, OH,0.2418
+Washington, OK,0.2412
+Clay, SD,0.2407
+Warren, NY,0.2406
+Codington, SD,0.2396
+Lake, OH,0.2395
+Providence, RI,0.2392
+Jackson, TX,0.2391
+Medina, OH,0.2383
+Galveston, TX,0.238
+Davis, UT,0.2379
+Refugio, TX,0.2377
+Freestone, TX,0.2357
+Hockley, TX,0.2355
+Colorado, TX,0.2354
+Clarion, PA,0.2352
+Comal, TX,0.2349
+Wise, TX,0.234
+Carbon, UT,0.2336
+Schuylkill, PA,0.2335
+Parker, TX,0.2332
+Washington, VT,0.2331
+Oneida, NY,0.232
+Mitchell, TX,0.2314
+Victoria, TX,0.2313
+Tompkins, NY,0.2309
+Cleveland, OK,0.2307
+Carbon, PA,0.2302
+Jefferson, OK,0.2295
+Lancaster, PA,0.2292
+Adams, PA,0.2287
+Wasatch, UT,0.2286
+Hamilton, OH,0.2285
+Belmont, OH,0.2273
+Beadle, SD,0.2264
+Windsor, VT,0.2263
+Utah, UT,0.226
+Moody, SD,0.2258
+Columbia, PA,0.2257
+Young, TX,0.2256
+Lebanon, PA,0.2253
+Burleson, TX,0.2248
+Matagorda, TX,0.2246
+Lawrence, PA,0.2245
+Roberts, SD,0.224
+Potter, PA,0.2238
+Pecos, TX,0.2229
+Blaine, OK,0.2227
+Harris, TX,0.2227
+Custer, SD,0.2222
+Clay, TX,0.2222
+Bradford, PA,0.2219
+Cooke, TX,0.2219
+Ottawa, OH,0.2214
+Stephens, OK,0.2212
+Fairfield, OH,0.221
+Union, PA,0.2208
+Wilson, TX,0.2208
+Salt Lake, UT,0.2208
+Rutland, VT,0.2206
+Butler, OH,0.2205
+Hood, TX,0.2197
+Madison, NY,0.2192
+Fayette, PA,0.2191
+Brazos, TX,0.2189
+Fall River, SD,0.2185
+Payne, OK,0.2183
+Hamilton, TX,0.2178
+Hancock, OH,0.2177
+Bon Homme, SD,0.2177
+Dauphin, PA,0.2175
+Montague, TX,0.2175
+Monroe, PA,0.2173
+Butte, SD,0.2169
+Liberty, TX,0.2163
+Livingston, NY,0.2155
+Howard, TX,0.2146
+Waller, TX,0.2145
+Greene, OH,0.2144
+Texas, OK,0.2144
+Jefferson, TX,0.2139
+Zapata, TX,0.213
+Union, OH,0.2125
+Mercer, PA,0.2123
+Lewis, NY,0.2122
+Wayne, PA,0.2121
+Moore, TN,0.2118
+Erie, PA,0.2114
+Henry, OH,0.2113
+Tarrant, TX,0.2112
+Sullivan, NY,0.2111
+Tulsa, OK,0.211
+Niagara, NY,0.2107
+Brewster, TX,0.2106
+Otsego, NY,0.2105
+Hays, TX,0.2103
+Wharton, TX,0.2098
+Shelby, OH,0.2095
+Seneca, NY,0.2088
+St. Lawrence, NY,0.2083
+Oswego, NY,0.2081
+Miami, OH,0.208
+Gregg, TX,0.208
+Montgomery, NY,0.2079
+Garfield, OK,0.2078
+Ellis, TX,0.2076
+Clermont, OH,0.2074
+Morrow, OR,0.2074
+Pennington, SD,0.2073
+Cuyahoga, OH,0.2071
+McClain, OK,0.2071
+Franklin, PA,0.2065
+Perry, PA,0.2064
+Charles Mix, SD,0.2063
+Rogers, OK,0.2059
+McKean, PA,0.2059
+Travis, TX,0.2057
+Steuben, NY,0.2055
+Tioga, NY,0.2053
+Mahoning, OH,0.2051
+Monroe, OH,0.205
+Grady, OK,0.205
+Lycoming, PA,0.205
+Blair, PA,0.2049
+Karnes, TX,0.2048
+Millard, UT,0.2046
+Somerset, PA,0.2043
+Susquehanna, PA,0.2042
+Cache, UT,0.2042
+Moore, TX,0.2041
+Callahan, TX,0.203
+Northumberland, PA,0.2029
+Summit, OH,0.2027
+Wyoming, NY,0.2026
+Kay, OK,0.202
+Crawford, PA,0.202
+Addison, VT,0.2019
+Tioga, PA,0.2018
+Duval, TX,0.2012
+Herkimer, NY,0.201
+Mecklenburg, NC,0.2009
+Franklin, VT,0.2008
+Jefferson, PA,0.2003
+Defiance, OH,0.2
+Noble, OK,0.1999
+Erath, TX,0.1997
+Erie, OH,0.1996
+San Juan, UT,0.199
+San Patricio, TX,0.1987
+Fulton, OH,0.1985
+Logan, OK,0.1985
+Johnson, TX,0.1984
+Lake, OR,0.1981
+Jim Wells, TX,0.1973
+Clearfield, PA,0.1972
+Aransas, TX,0.1972
+Schoharie, NY,0.1968
+Washington, OH,0.1965
+Murray, OK,0.1962
+Bennington, VT,0.1961
+Box Elder, UT,0.1959
+Jefferson, NY,0.1958
+Eastland, TX,0.1957
+Wayne, NY,0.1953
+Jefferson, OH,0.1953
+Reeves, TX,0.1952
+Van Wert, OH,0.1951
+Parmer, TX,0.1943
+Walker, TX,0.1934
+Washington, NY,0.1932
+Franklin, OH,0.1931
+Stark, OH,0.1929
+Milam, TX,0.1929
+Smith, TX,0.1917
+Paulding, OH,0.1914
+Tuscarawas, OH,0.1914
+Lexington, SC,0.1913
+Wagoner, OK,0.1912
+Lane, OR,0.1912
+Windham, VT,0.191
+Deschutes, OR,0.1907
+Davie, NC,0.1904
+Kerr, TX,0.1903
+Portage, OH,0.1901
+Sumner, TN,0.1898
+Wilson, TN,0.1898
+Johnston, OK,0.1897
+Multnomah, OR,0.1897
+Wyandot, OH,0.1895
+Rusk, TX,0.1895
+Snyder, PA,0.1893
+Pontotoc, OK,0.189
+Lucas, OH,0.1889
+Noble, OH,0.1888
+Wichita, TX,0.1886
+Harrison, OH,0.1883
+Meade, SD,0.1883
+Kleberg, TX,0.1881
+Washington, UT,0.1877
+Darke, OH,0.1876
+Weber, UT,0.1876
+Latimer, OK,0.1874
+Klamath, OR,0.1872
+Newton, TX,0.1869
+Columbia, OR,0.1867
+Terry, TX,0.1867
+Taylor, TX,0.1865
+Wood, TX,0.1861
+New York, NY,0.1859
+Burnet, TX,0.1859
+Seneca, OH,0.1856
+Polk, OR,0.1856
+Clinton, PA,0.1853
+Bailey, TX,0.1853
+Allen, OH,0.1847
+Huntingdon, PA,0.1847
+Warren, PA,0.1845
+Lubbock, TX,0.1844
+Oklahoma, OK,0.1843
+Tooele, UT,0.1843
+Love, OK,0.184
+Medina, TX,0.184
+Sanpete, UT,0.1836
+Sevier, UT,0.1836
+New Hanover, NC,0.1833
+Bedford, PA,0.1833
+Dawson, TX,0.1828
+Wasco, OR,0.1826
+Venango, PA,0.1822
+Rains, TX,0.1821
+Carter, OK,0.182
+Juniata, PA,0.182
+Sandusky, OH,0.1818
+Clatsop, OR,0.1818
+Grand, UT,0.1817
+Comanche, TX,0.1812
+Orange, VT,0.1812
+Atascosa, TX,0.1811
+Bandera, TX,0.1811
+Forsyth, NC,0.1806
+Ashland, OH,0.1802
+Floyd, TX,0.1801
+Yamhill, OR,0.1798
+Creek, OK,0.1797
+Greenville, SC,0.1797
+Wayne, OH,0.1793
+Trumbull, OH,0.1792
+Bosque, TX,0.1789
+Sabine, TX,0.1788
+Watauga, NC,0.178
+Iron, UT,0.1779
+Upshur, TX,0.1778
+Garvin, OK,0.1777
+Llano, TX,0.1777
+Union, NC,0.1776
+Knox, TN,0.1776
+Coleman, TX,0.1776
+Greer, OK,0.1775
+Guilford, NC,0.1774
+Grayson, TX,0.1773
+Nueces, TX,0.1773
+Brown, TX,0.1772
+Yates, NY,0.1768
+Guadalupe, TX,0.1767
+Marion, OR,0.1766
+Wallowa, OR,0.1764
+Fulton, PA,0.1763
+Juab, UT,0.1762
+Union, OR,0.1757
+Van Zandt, TX,0.1757
+Humphreys, TN,0.1755
+Childress, TX,0.1754
+Beaufort, SC,0.1753
+Moore, NC,0.1752
+Lorain, OH,0.1752
+Haskell, TX,0.1752
+Pickaway, OH,0.1751
+Jasper, TX,0.175
+Nowata, OK,0.1748
+Grant, OR,0.1748
+Kaufman, TX,0.1743
+Aiken, SC,0.1742
+Runnels, TX,0.1742
+Williams, OH,0.1741
+Harney, OR,0.174
+Lamoille, VT,0.1736
+Knox, OH,0.1734
+Brooks, TX,0.1732
+Umatilla, OR,0.1731
+Tom Green, TX,0.1729
+Cabarrus, NC,0.1725
+Caledonia, VT,0.1723
+Durham, NC,0.1721
+Shelby, TX,0.1715
+Montgomery, OH,0.1712
+Kings, NY,0.1711
+Dallas, TX,0.171
+Palo Pinto, TX,0.1707
+Hopkins, TX,0.1703
+Harrison, TX,0.1701
+Hill, TX,0.1701
+Limestone, TX,0.17
+Linn, OR,0.1699
+Hood River, OR,0.1698
+Jackson, OR,0.1698
+Franklin, TX,0.1697
+Orleans, NY,0.1696
+Pitt, NC,0.1696
+Columbiana, OH,0.1696
+Athens, OH,0.1691
+Dorchester, SC,0.1688
+Mifflin, PA,0.1686
+Polk, TX,0.1685
+Angelina, TX,0.1683
+Hunt, TX,0.1683
+Baker, OR,0.168
+Tyler, TX,0.1674
+Hamilton, TN,0.1672
+Huron, OH,0.1671
+Hardeman, TX,0.1671
+Sullivan, TN,0.167
+Henderson, NC,0.1663
+Pawnee, OK,0.1661
+Anderson, TX,0.1661
+Henderson, TX,0.166
+Carteret, NC,0.1659
+Logan, OH,0.1654
+Licking, OH,0.1653
+Pamlico, NC,0.165
+Stanly, NC,0.165
+Bowie, TX,0.1649
+Pittsburg, OK,0.1648
+Lampasas, TX,0.1646
+Lamb, TX,0.1644
+Curry, OR,0.1643
+Kane, UT,0.1642
+Marion, OH,0.1641
+McLennan, TX,0.1637
+San Saba, TX,0.1637
+Osage, OK,0.1631
+Crawford, OH,0.163
+Rutherford, TN,0.163
+Nacogdoches, TX,0.1628
+Jackson, OK,0.1626
+Cass, TX,0.1626
+Lincoln, TN,0.1625
+Grimes, TX,0.1625
+Camden, NC,0.1624
+Alamance, NC,0.1623
+Bee, TX,0.1623
+Dare, NC,0.162
+Philadelphia, PA,0.1619
+Cameron, PA,0.1616
+Lincoln, OK,0.1615
+Mayes, OK,0.1614
+Orleans, VT,0.1614
+Carroll, OH,0.1611
+Wilbarger, TX,0.1611
+Stephens, TX,0.161
+Dallam, TX,0.1608
+Morris, TX,0.1608
+Bryan, OK,0.1607
+Crosby, TX,0.1606
+Hardin, OH,0.1605
+Muskingum, OH,0.1605
+Lincoln, OR,0.1604
+Yadkin, NC,0.1598
+York, SC,0.1597
+Catawba, NC,0.159
+Schuyler, NY,0.1586
+Le Flore, OK,0.1586
+Buncombe, NC,0.1582
+Richland, OH,0.1582
+Navarro, TX,0.1579
+San Jacinto, TX,0.1579
+Tillamook, OR,0.157
+Douglas, OR,0.1567
+Roane, TN,0.1567
+Crook, OR,0.1565
+Coos, OR,0.1555
+Lincoln, NC,0.1553
+Morrow, OH,0.1552
+Champaign, OH,0.1551
+Kiowa, OK,0.155
+Franklin, TN,0.1547
+Josephine, OR,0.1546
+Chatham, NC,0.1544
+Jim Hogg, TX,0.1544
+Nash, NC,0.1541
+Haskell, OK,0.1534
+Camp, TX,0.1533
+Oconee, SC,0.1532
+Currituck, NC,0.153
+Coal, OK,0.153
+Gonzales, TX,0.1528
+Bastrop, TX,0.1526
+Cherokee, TX,0.152
+Bexar, TX,0.1517
+Trinity, TX,0.1515
+Clark, OH,0.1514
+Muskogee, OK,0.1514
+Hughes, OK,0.1512
+Atoka, OK,0.1508
+Maury, TN,0.1507
+Madison, TN,0.1505
+Robertson, TN,0.1505
+Wilkes, NC,0.1501
+Lamar, TX,0.1501
+Charleston, SC,0.15
+Gallia, OH,0.1495
+Guernsey, OH,0.1495
+Bell, TX,0.1495
+Johnston, NC,0.149
+Chowan, NC,0.1489
+Spartanburg, SC,0.1488
+Jones, TX,0.1488
+Nolan, TX,0.1488
+Madison, OH,0.1487
+Deaf Smith, TX,0.1483
+Polk, NC,0.1478
+Pottawatomie, OK,0.1478
+Castro, TX,0.1478
+Clinton, OH,0.1477
+Iredell, NC,0.1476
+Marshall, OK,0.1471
+Putnam, TN,0.1468
+Comanche, OK,0.1466
+McCulloch, TX,0.1465
+Preble, OH,0.1464
+Val Verde, TX,0.146
+Craven, NC,0.1458
+Morgan, OH,0.145
+Washington, TN,0.1449
+Scioto, OH,0.1448
+Craig, OK,0.1446
+Beaufort, NC,0.1445
+Ashtabula, OH,0.1441
+Fannin, TX,0.1441
+Dyer, TN,0.1438
+Caddo, OK,0.1435
+Ross, OH,0.1433
+Pickens, SC,0.1428
+Uvalde, TX,0.1428
+Surry, NC,0.1426
+Clay, NC,0.1425
+Lee, NC,0.1424
+Weakley, TN,0.1424
+Lynn, TX,0.142
+Jefferson, OR,0.1415
+Richland, SC,0.1414
+Ottawa, OK,0.1413
+Newberry, SC,0.141
+Robertson, TX,0.141
+Okmulgee, OK,0.1409
+Cochran, TX,0.1408
+Transylvania, NC,0.1404
+Stokes, NC,0.1402
+Coshocton, OH,0.1401
+Falls, TX,0.1401
+Haywood, NC,0.1396
+Smith, TN,0.1395
+Loudon, TN,0.1392
+Georgetown, SC,0.1391
+Swisher, TX,0.139
+Marshall, TN,0.1388
+Adams, OH,0.1387
+Gaston, NC,0.1384
+Rowan, NC,0.1384
+Jones, NC,0.1383
+Wilson, NC,0.1382
+Garza, TX,0.1382
+Lawrence, OH,0.138
+Anderson, SC,0.1371
+Titus, TX,0.137
+Houston, TX,0.1364
+Meigs, OH,0.1355
+Shelby, TN,0.1353
+Cotton, OK,0.1349
+Florence, SC,0.1343
+Montgomery, TN,0.1341
+Malheur, OR,0.134
+Pushmataha, OK,0.1339
+Davidson, NC,0.1333
+Hardin, TN,0.1332
+Jackson, NC,0.1325
+Horry, SC,0.1322
+Granville, NC,0.1319
+Holmes, OH,0.1318
+Perry, OH,0.1315
+Potter, TX,0.1315
+Cherokee, OK,0.1314
+Coryell, TX,0.1314
+El Paso, TX,0.1314
+Hale, TX,0.131
+Madison, TX,0.1309
+Giles, TN,0.1308
+Macon, NC,0.1305
+Berkeley, SC,0.13
+Kershaw, SC,0.13
+Morgan, TN,0.1299
+Red River, TX,0.1299
+Avery, NC,0.1294
+McMinn, TN,0.1293
+Randolph, NC,0.1292
+Rolette, ND,0.1289
+Unicoi, TN,0.1286
+Sampson, NC,0.1282
+Wayne, NC,0.128
+Tillman, OK,0.1278
+Marion, TN,0.1278
+Webb, TX,0.1276
+Stewart, TN,0.1273
+Person, NC,0.1272
+Henry, TN,0.1272
+Highland, OH,0.1265
+Brown, OH,0.1262
+Tipton, TN,0.1261
+Obion, TN,0.126
+Hamblen, TN,0.1259
+Rockingham, NC,0.1257
+Pasquotank, NC,0.1253
+Mitchell, NC,0.1251
+Sequoyah, OK,0.1251
+Starr, TX,0.1246
+Lawrence, TN,0.1242
+Cleveland, NC,0.1241
+Hidalgo, TX,0.1241
+Harnett, NC,0.124
+McNairy, TN,0.124
+Delaware, OK,0.1239
+Alexander, NC,0.1237
+Maverick, TX,0.1236
+Perquimans, NC,0.1235
+Onslow, NC,0.123
+Jefferson, TN,0.1226
+Presidio, TX,0.1225
+Yancey, NC,0.122
+Gibson, TN,0.122
+White, TN,0.122
+Seminole, OK,0.1216
+Darlington, SC,0.1216
+Perry, TN,0.1216
+Jackson, OH,0.1208
+Trousdale, TN,0.1206
+Meigs, TN,0.1193
+Rhea, TN,0.1192
+Franklin, NC,0.1188
+Alleghany, NC,0.1185
+Burke, NC,0.1185
+Marion, TX,0.1185
+Houston, TN,0.1183
+Cameron, TX,0.1181
+Frio, TX,0.118
+Hocking, OH,0.1179
+Caldwell, TX,0.1179
+Dimmit, TX,0.1178
+Brunswick, NC,0.1174
+La Salle, TX,0.1174
+Greene, NC,0.1173
+Edgefield, SC,0.1171
+Jackson, TN,0.117
+McIntosh, OK,0.1163
+Lewis, TN,0.1162
+Warren, TN,0.1162
+Fayette, OH,0.1161
+Henderson, TN,0.1161
+Okfuskee, OK,0.1158
+Richmond, NC,0.1153
+Pike, OH,0.1152
+McCurtain, OK,0.1149
+Saluda, SC,0.1148
+Sumter, SC,0.1148
+Wayne, TN,0.1148
+Caldwell, NC,0.1147
+Cumberland, NC,0.1147
+Bertie, NC,0.114
+Overton, TN,0.1139
+McDowell, NC,0.1135
+Fayette, TN,0.1135
+Sevier, TN,0.1133
+Caswell, NC,0.1131
+Duplin, NC,0.1126
+Greenwood, SC,0.1126
+Rutherford, NC,0.1124
+Choctaw, OK,0.1115
+Pender, NC,0.1107
+Cherokee, NC,0.1104
+Washington, NC,0.1103
+Polk, TN,0.1102
+Monroe, TN,0.1094
+Hawkins, TN,0.1088
+Lenoir, NC,0.1086
+Barnwell, SC,0.1086
+Lancaster, SC,0.1079
+Vinton, OH,0.1078
+Sequatchie, TN,0.1075
+San Augustine, TX,0.1072
+Martin, NC,0.1067
+Calhoun, SC,0.1056
+Chesterfield, SC,0.1055
+Halifax, NC,0.105
+Columbus, NC,0.1049
+Clarendon, SC,0.1046
+Hickman, TN,0.1045
+Cherokee, SC,0.1042
+Laurens, SC,0.1041
+Lauderdale, TN,0.1039
+Hertford, NC,0.1038
+Grainger, TN,0.1037
+Bladen, NC,0.1032
+Macon, TN,0.1031
+Swain, NC,0.1015
+Northampton, NC,0.1013
+Hampton, SC,0.1012
+Montgomery, NC,0.101
+Ashe, NC,0.1003
+Willacy, TX,0.0995
+Zavala, TX,0.0989
+Orangeburg, SC,0.0984
+Hancock, TN,0.0981
+Kimble, TX,0.0978
+Vance, NC,0.0977
+Abbeville, SC,0.0977
+Colleton, SC,0.0976
+Greene, TN,0.0946
+Anson, NC,0.0944
+Madison, NC,0.0927
+Union, TN,0.0917
+Warren, NC,0.0886
+Scotland, NC,0.0884
+Fentress, TN,0.0858
+Chester, SC,0.0842
+Haywood, TN,0.084
+Fairfield, SC,0.0835
+Hardeman, TN,0.0825
+McCormick, SC,0.082
+Union, SC,0.0808
+Scott, TN,0.0808
+Dillon, SC,0.08
+Robeson, NC,0.0782
+Bamberg, SC,0.0769
+Edgecombe, NC,0.0762
+Williamsburg, SC,0.0747
+Van Buren, TN,0.0743
+Adair, OK,0.0716
+Jasper, SC,0.0707
+Marion, SC,0.07
+Lake, TN,0.0686
+Johnson, TN,0.0682
+Grundy, TN,0.0659
+Marlboro, SC,0.0618
+Lee, SC,0.0614
+Allendale, SC,0.04
+,,
+Burke, ND,0.4572
+Fairfax, VA,0.3916
+Loudoun, VA,0.3543
+Fairfax city, VA,0.3176
+Poquoson city, VA,0.3097
+Arlington, VA,0.2923
+Manassas city, VA,0.2906
+King, WA,0.284
+James City, VA,0.2821
+York, VA,0.2769
+Albemarle, VA,0.2765
+Prince William, VA,0.2752
+Fauquier, VA,0.2745
+Stafford, VA,0.2727
+Whitman, WA,0.2725
+Hanover, VA,0.2677
+Goochland, VA,0.263
+Monongalia, WV,0.2617
+Chesterfield, VA,0.2588
+Colonial Heights city, VA,0.2588
+Roanoke, VA,0.2528
+Marshall, WV,0.2493
+Kittitas, WA,0.2489
+Snohomish, WA,0.2479
+Alexandria city, VA,0.2448
+Ohio, WV,0.2411
+Harrison, WV,0.24
+Clarke, VA,0.239
+Benton, WA,0.2381
+Williamsburg city, VA,0.2353
+Pleasants, WV,0.2353
+King George, VA,0.2325
+Whatcom, WA,0.2319
+Calhoun, WV,0.2312
+Henrico, VA,0.2298
+Marion, WV,0.2298
+Spotsylvania, VA,0.2285
+Winchester city, VA,0.2259
+San Juan, WA,0.2205
+Putnam, WV,0.2202
+New Kent, VA,0.2189
+Montgomery, VA,0.2185
+Chelan, WA,0.2174
+Kitsap, WA,0.2164
+Frederick, VA,0.2151
+Botetourt, VA,0.2147
+Radford city, VA,0.212
+Thurston, WA,0.212
+Brooke, WV,0.212
+Bedford, VA,0.2111
+Douglas, WA,0.2108
+Clark, WA,0.2091
+Skagit, WA,0.2081
+Pierce, WA,0.208
+Island, WA,0.2075
+Spokane, WA,0.2062
+Hancock, WV,0.2056
+Powhatan, VA,0.2052
+Alleghany, VA,0.2051
+Jefferson, WA,0.2042
+Virginia Beach city, VA,0.2039
+Adams, WA,0.2025
+Cowlitz, WA,0.2024
+Pacific, WA,0.1994
+Salem city, VA,0.1992
+Tyler, WV,0.1976
+Harrisonburg city, VA,0.1975
+Warren, VA,0.1971
+Grant, WA,0.1952
+King William, VA,0.1946
+Tazewell, VA,0.1943
+Charlottesville city, VA,0.1943
+Culpeper, VA,0.1939
+Kanawha, WV,0.1937
+Gloucester, VA,0.1928
+Stevens, WA,0.1924
+Lewis, WV,0.1917
+Lewis, WA,0.1915
+Upshur, WV,0.1914
+Buchanan, VA,0.1909
+Preston, WV,0.1906
+Skamania, WA,0.1897
+Walla Walla, WA,0.1892
+Raleigh, WV,0.188
+Prince George, VA,0.1871
+Grays Harbor, WA,0.187
+Isle of Wight, VA,0.1869
+Shenandoah, VA,0.1869
+Klickitat, WA,0.1866
+Tucker, WV,0.1857
+Asotin, WA,0.1854
+Boone, WV,0.1854
+Rockingham, VA,0.1852
+Middlesex, VA,0.1849
+Braxton, WV,0.1848
+Pend Oreille, WA,0.1846
+Campbell, VA,0.1843
+Franklin city, VA,0.1834
+Chesapeake city, VA,0.1832
+Nicholas, WV,0.1829
+Gilmer, WV,0.1826
+Cabell, WV,0.1825
+Franklin, WA,0.1806
+Taylor, WV,0.1805
+Mineral, WV,0.1804
+Clallam, WA,0.18
+Fredericksburg city, VA,0.1799
+Okanogan, WA,0.1799
+Jefferson, WV,0.1796
+Doddridge, WV,0.1789
+Logan, WV,0.1735
+Appomattox, VA,0.1725
+Orange, VA,0.1724
+Lynchburg city, VA,0.172
+Barbour, WV,0.1708
+Amherst, VA,0.1699
+Rockbridge, VA,0.1696
+Mercer, WV,0.1696
+Berkeley, WV,0.1686
+Jackson, WV,0.168
+Yakima, WA,0.1678
+Louisa, VA,0.1676
+Augusta, VA,0.1655
+Mason, WA,0.1643
+Manassas Park city, VA,0.1633
+Madison, VA,0.162
+Randolph, WV,0.1617
+Fayette, WV,0.1611
+Richmond, VA,0.1601
+Floyd, VA,0.1579
+Roane, WV,0.1578
+Wayne, WV,0.1572
+Staunton city, VA,0.157
+Patrick, VA,0.1569
+Mingo, WV,0.1567
+Greenbrier, WV,0.1559
+Fluvanna, VA,0.1557
+Grant, WV,0.1557
+Suffolk city, VA,0.1538
+Southampton, VA,0.1531
+Russell, VA,0.1509
+Monroe, WV,0.1508
+Pittsylvania, VA,0.1505
+Mason, WV,0.1486
+Greene, VA,0.148
+Accomack, VA,0.1477
+Ritchie, WV,0.1477
+Washington, VA,0.1472
+Bristol city, VA,0.1471
+Nelson, VA,0.1464
+Hampshire, WV,0.1459
+Pulaski, VA,0.1458
+Wise, VA,0.1458
+Waynesboro city, VA,0.1452
+Caroline, VA,0.144
+Page, VA,0.1439
+Franklin, VA,0.1436
+Dinwiddie, VA,0.1434
+Lincoln, WV,0.1432
+Surry, VA,0.1431
+Westmoreland, VA,0.1427
+Giles, VA,0.1424
+Newport News city, VA,0.1423
+Nottoway, VA,0.1412
+Halifax, VA,0.141
+Galax city, VA,0.1409
+Morgan, WV,0.1401
+Wythe, VA,0.14
+Pendleton, WV,0.1392
+Lunenburg, VA,0.1391
+Covington city, VA,0.1383
+Amelia, VA,0.1379
+Hardy, WV,0.135
+Clay, WV,0.1349
+Hampton city, VA,0.1325
+Dickenson, VA,0.1315
+Summers, WV,0.1302
+Charles City, VA,0.13
+Buckingham, VA,0.129
+Henry, VA,0.1283
+Carroll, VA,0.1277
+Grayson, VA,0.1264
+Lee, VA,0.1263
+Pocahontas, WV,0.1249
+Scott, VA,0.1248
+Mecklenburg, VA,0.1244
+Hopewell city, VA,0.1224
+Sussex, VA,0.1218
+Prince Edward, VA,0.1217
+Buena Vista city, VA,0.1196
+McDowell, WV,0.1194
+Martinsville city, VA,0.1184
+Smyth, VA,0.1169
+Brunswick, VA,0.1168
+Greensville, VA,0.1167
+Roanoke city, VA,0.1145
+Northampton, VA,0.1123
+,,
+Oliver, ND,0.4566
+Harding, SD,0.4514
+Adams, ND,0.4487
+Dunn, ND,0.4413
+Mountrail, ND,0.4398
+McKenzie, ND,0.4305
+Mercer, ND,0.4278
+Bergen, NJ,0.4209
+Bowman, ND,0.413
+Golden Valley, ND,0.408
+Slope, ND,0.4044
+Hunterdon, NJ,0.4043
+Irion, TX,0.4033
+Norfolk, MA,0.4023
+Foster, ND,0.4023
+McLean, ND,0.4019
+Billings, ND,0.3958
+Cavalier, ND,0.3931
+Somerset, NJ,0.3929
+LaMoure, ND,0.3894
+Howard, MD,0.3854
+Campbell, SD,0.383
+Renville, ND,0.3804
+Divide, ND,0.3793
+Skagway Municipality, AK,0.3779
+Monmouth, NJ,0.3776
+Upton, TX,0.3763
+Teton, WY,0.3722
+Daniels, MT,0.3707
+Steele, ND,0.3704
+Middlesex, MA,0.3683
+Sublette, WY,0.368
+Marin, CA,0.3655
+Grant, ND,0.3648
+Thayer, NE,0.3638
+Falls Church city, VA,0.3631
+Montgomery, MD,0.3612
+Kidder, ND,0.3603
+McHenry, ND,0.3587
+Roger Mills, OK,0.3577
+Pierce, ND,0.3572
+Hettinger, ND,0.3569
+Cuming, NE,0.3559
+Sussex, NJ,0.3554
+Towner, ND,0.3553
+Middlesex, NJ,0.354
+Crook, WY,0.352
+Denali Borough, AK,0.3515
+Nemaha, KS,0.3497
+Carver, MN,0.3471
+Goliad, TX,0.3468
+Ozaukee, WI,0.3466
+Perkins, NE,0.3458
+Campbell, WY,0.3449
+Carroll, IA,0.3446
+Borden, TX,0.3442
+Washington, MN,0.344
+Cedar, NE,0.3432
+Boone, NE,0.3413
+Fallon, MT,0.3404
+Nantucket, MA,0.339
+Richland, MT,0.3379
+Stevens, MN,0.3376
+Johnson, KS,0.3366
+Dakota, MN,0.3365
+Hamilton, IN,0.3346
+Waukesha, WI,0.334
+Nemaha, NE,0.3337
+Gove, KS,0.3328
+Lincoln, MN,0.3325
+Plymouth, MA,0.3323
+San Mateo, CA,0.3312
+Stanton, KS,0.3305
+Griggs, ND,0.3293
+Tolland, CT,0.3291
+St. James Parish, LA,0.3286
+Miner, SD,0.3286
+Niobrara, WY,0.3285
+Wells, ND,0.328
+Ransom, ND,0.3276
+Faulk, SD,0.3276
+Douglas, CO,0.3272
+Jerauld, SD,0.3265
+Clay, NE,0.3251
+Kossuth, IA,0.3248
+Lake, IL,0.3244
+Sweetwater, WY,0.3244
+Monroe, IL,0.324
+Sully, SD,0.3233
+Los Alamos, NM,0.3229
+Douglas, SD,0.3228
+Hartley, TX,0.3223
+Emmons, ND,0.3223
+Hayes, NE,0.3218
+Carter, MT,0.3218
+McCook, SD,0.3208
+Sioux, IA,0.3202
+Carroll, MD,0.3188
+Humboldt, IA,0.3184
+Essex, MA,0.3182
+Platte, WY,0.3182
+Polk, NE,0.318
+Converse, WY,0.3179
+Scott, MN,0.3176
+Grundy, IL,0.3173
+Santa Clara, CA,0.3164
+Edmunds, SD,0.3162
+Middlesex, CT,0.3152
+Story, IA,0.3151
+Union, NJ,0.315
+Goodhue, MN,0.3148
+Pierce, WI,0.3146
+Dubois, IN,0.3134
+McPherson, SD,0.313
+Greeley, KS,0.3127
+Wibaux, MT,0.3126
+Schleicher, TX,0.3126
+Pocahontas, IA,0.312
+Pitkin, CO,0.312
+Rio Blanco, CO,0.3116
+Albany, NY,0.3111
+Calvert, MD,0.3109
+Clinton, IL,0.3108
+Lyon, IA,0.3098
+Nelson, ND,0.3098
+Hand, SD,0.3094
+Concho, TX,0.3083
+McHenry, IL,0.3082
+Dutchess, NY,0.3082
+Washington, WI,0.3081
+Bremer, IA,0.3072
+Renville, MN,0.3071
+Hooker, NE,0.3066
+Olmsted, MN,0.3064
+Sargent, ND,0.3064
+McCone, MT,0.3064
+Chickasaw, IA,0.3058
+Pope, MN,0.3047
+Dubuque, IA,0.3042
+Lipscomb, TX,0.3039
+St. Croix, WI,0.3038
+Johnson, WY,0.3031
+Hot Springs, WY,0.303
+Plymouth, IA,0.3022
+Kingsbury, SD,0.3019
+Woodford, IL,0.3014
+Worcester, MA,0.3011
+Stearns, MN,0.3009
+Contra Costa, CA,0.3008
+Sheridan, MT,0.2996
+Litchfield, CT,0.2995
+Warren, NJ,0.2994
+Butler, NE,0.2993
+Hennepin, MN,0.2992
+Dallas, IA,0.2985
+Kent, TX,0.2984
+Dickey, ND,0.2982
+Fayette, GA,0.2978
+Hartford, CT,0.2977
+Big Stone, MN,0.2976
+Lander, NV,0.2976
+Washington, NE,0.2972
+Comanche, KS,0.2969
+Glasscock, TX,0.2967
+Anne Arundel, MD,0.2966
+Grundy, IA,0.2962
+Palo Alto, IA,0.2961
+Audubon, IA,0.2958
+Rockingham, NH,0.2958
+Iowa, IA,0.2956
+O'Brien, IA,0.2952
+St. Mary's, MD,0.2951
+Webster, NE,0.2951
+Eddy, ND,0.2951
+Dawson, MT,0.2946
+Burlington, NJ,0.2944
+Loup, NE,0.2943
+Johnson, IA,0.2941
+Mitchell, IA,0.2941
+Mercer, NJ,0.2941
+Delaware, IA,0.294
+Yellow Medicine, MN,0.2939
+Red Lake, MN,0.2939
+Frederick, MD,0.2937
+Harford, MD,0.2935
+Gloucester, NJ,0.2935
+St. Charles Parish, LA,0.2933
+Oakland, MI,0.2932
+McLeod, MN,0.2932
+Lexington city, VA,0.2928
+Antelope, NE,0.2924
+Cameron Parish, LA,0.2923
+Coke, TX,0.2923
+San Francisco, CA,0.2922
+Lyon, MN,0.2922
+Greeley, NE,0.2919
+Chase, NE,0.2918
+Pepin, WI,0.2917
+Traverse, MN,0.2916
+Will, IL,0.2913
+Wabasha, MN,0.2913
+Cherokee, IA,0.2912
+Putnam, IL,0.2912
+Ellis, KS,0.2909
+Routt, CO,0.2908
+Dodge, MN,0.2903
+Grant, NE,0.2903
+San Miguel, CO,0.2902
+Hanson, SD,0.29
+New Haven, CT,0.2897
+Hillsborough, NH,0.2897
+Winneshiek, IA,0.2896
+Johnson, NE,0.2895
+Phelps, NE,0.2894
+Stevens, KS,0.2887
+Douglas, MN,0.2886
+Dane, WI,0.2883
+Trego, KS,0.2883
+Calhoun, IL,0.288
+Wheeler, TX,0.2879
+Rock, NE,0.2875
+Shelby, IA,0.2872
+Cedar, IA,0.287
+Fillmore, NE,0.287
+Pembina, ND,0.287
+Le Sueur, MN,0.2869
+Redwood, MN,0.2869
+Frontier, NE,0.2863
+Kendall, IL,0.2861
+Ocean, NJ,0.2861
+Kittson, MN,0.2858
+Platte, NE,0.2856
+Swift, MN,0.2854
+York, NE,0.2851
+McIntosh, ND,0.285
+Brown, MN,0.2847
+Logan, ND,0.2845
+Seward, NE,0.2844
+Lac qui Parle, MN,0.2842
+Wright, MN,0.2839
+Rock, MN,0.2837
+Oldham, KY,0.2834
+Wilkin, MN,0.2833
+Calhoun, IA,0.2822
+Polk, MN,0.282
+Dundy, NE,0.2817
+Hemphill, TX,0.2817
+Winnebago, IA,0.2813
+Calumet, WI,0.2813
+Marion, IA,0.2812
+Perkins, SD,0.2811
+Prairie, MT,0.2809
+Oldham, TX,0.2809
+Sutton, TX,0.2808
+Placer, CA,0.2804
+Lafourche Parish, LA,0.2804
+Clark, SD,0.2804
+Dewey, OK,0.2804
+Eagle, CO,0.2791
+Hardin, IA,0.2791
+Ascension Parish, LA,0.2791
+Box Butte, NE,0.2791
+Uinta, WY,0.2791
+Yuma, CO,0.279
+Sac, IA,0.279
+Clark, KS,0.279
+Natrona, WY,0.2788
+Stillwater, MT,0.2787
+Arapahoe, CO,0.2786
+Bristol, MA,0.2786
+Alfalfa, OK,0.2784
+Lincoln, WY,0.2782
+Baltimore, MD,0.278
+Wichita, KS,0.278
+Grant, OK,0.2779
+Fayette, IA,0.2778
+Assumption Parish, LA,0.2778
+Marshall, MN,0.2774
+Ramsey, MN,0.2774
+Washington, IL,0.277
+Jefferson, MT,0.2768
+Marshall, KS,0.2766
+El Dorado, CA,0.2764
+Queen Anne's, MD,0.2761
+Cheyenne, NE,0.276
+McLean, IL,0.2758
+Butler, IA,0.2758
+Sherburne, MN,0.2756
+Steele, MN,0.2754
+Kandiyohi, MN,0.2752
+Roberts, TX,0.2751
+Passaic, NJ,0.275
+Norman, MN,0.2749
+Sibley, MN,0.2749
+Hampshire, MA,0.2748
+Sheridan, ND,0.2746
+Hamilton, NE,0.2743
+Alameda, CA,0.2738
+St. Charles, MO,0.2738
+Anoka, MN,0.2737
+Clay, MN,0.2737
+Jefferson, NE,0.2736
+Boone, IN,0.2735
+Nuckolls, NE,0.2732
+Aurora, SD,0.2732
+Wayne, NE,0.273
+Boulder, CO,0.2729
+Waseca, MN,0.2728
+Rice, MN,0.2726
+Knox, NE,0.2723
+Platte, MO,0.272
+Elko, NV,0.272
+Brule, SD,0.2719
+Guthrie, IA,0.2717
+St. Louis, MO,0.2717
+Brown, NE,0.2716
+Hodgeman, KS,0.2716
+Kimball, NE,0.2713
+Broomfield, CO,0.2712
+Winona, MN,0.2709
+Decatur, KS,0.2706
+Garfield, UT,0.2704
+Cobb, GA,0.2703
+Jefferson, CO,0.2702
+Barnstable, MA,0.2701
+Deuel, NE,0.2701
+Polk, IA,0.27
+Nicollet, MN,0.27
+Brown, WI,0.2699
+Warren, IA,0.2697
+Charles, MD,0.2692
+Pennington, MN,0.2689
+Ellis, OK,0.2689
+Thomas, KS,0.2688
+Pipestone, MN,0.2686
+Ida, IA,0.2684
+Morgan, UT,0.2676
+Ellsworth, KS,0.2675
+Murray, MN,0.2674
+Howard, IA,0.2672
+Holt, NE,0.2672
+Benton, IN,0.2667
+Porter, IN,0.2667
+Fillmore, MN,0.2667
+De Baca, NM,0.2665
+Poweshiek, IA,0.2664
+LaSalle Parish, LA,0.2661
+Pierce, NE,0.2661
+Gilliam, OR,0.2659
+Hyde, SD,0.2659
+Eureka, NV,0.2658
+Lafayette, WI,0.2657
+Martin, MN,0.2656
+Musselshell, MT,0.2656
+Ness, KS,0.2655
+Salem, NJ,0.2653
+Grant, WI,0.2653
+Clayton, IA,0.2652
+Buena Vista, IA,0.2651
+Barber, KS,0.2651
+Outagamie, WI,0.2651
+Sheridan, WY,0.2648
+Green Lake, WI,0.2647
+Mitchell, KS,0.2646
+Rush, KS,0.2646
+Washtenaw, MI,0.2644
+Jackson, IA,0.2643
+Lee, IL,0.2641
+Buchanan, IA,0.2639
+Meeker, MN,0.2639
+Haskell, KS,0.2636
+Wallace, KS,0.2636
+Chisago, MN,0.2635
+Madison, NE,0.2633
+Crawford, IA,0.2632
+Gage, NE,0.2628
+Jones, IA,0.2627
+Kane, IL,0.2626
+Hancock, IA,0.2622
+Livingston, MI,0.2622
+Daggett, UT,0.262
+Linn, IA,0.2616
+Furnas, NE,0.2615
+Erie, NY,0.2614
+Orange, CA,0.2611
+Dodge, NE,0.261
+Greene, IA,0.2609
+McPherson, KS,0.2608
+Saline, NE,0.2608
+Effingham, IL,0.2607
+Hendricks, IN,0.2607
+Osceola, IA,0.2606
+Pondera, MT,0.2604
+Grant, MN,0.2602
+Carson, TX,0.2598
+DeKalb, IL,0.2597
+Boone, IA,0.2597
+Fremont, WY,0.2594
+Scott, IA,0.2591
+Scott, KS,0.2588
+Beaver, OK,0.2588
+Sonoma, CA,0.2587
+Camden, NJ,0.2586
+Nance, NE,0.2585
+Tippecanoe, IN,0.2584
+Otoe, NE,0.2584
+Allamakee, IA,0.2583
+Armstrong, TX,0.2583
+Weston, WY,0.258
+Somervell, TX,0.258
+Corson, SD,0.2578
+Wright, IA,0.2577
+Kingman, KS,0.2576
+Clinton, MI,0.2575
+Ste. Genevieve, MO,0.2573
+Merrick, NE,0.257
+Posey, IN,0.2569
+Benton, MN,0.2567
+Jackson, MN,0.2567
+Cerro Gordo, IA,0.2566
+Harrison, IA,0.2566
+Valley, MT,0.2566
+La Crosse, WI,0.2566
+Livingston, IL,0.2564
+Pratt, KS,0.2561
+Blue Earth, MN,0.2559
+Sioux, NE,0.2559
+Macomb, MI,0.2556
+Inyo, CA,0.2554
+Warrick, IN,0.2554
+St. Louis, MN,0.2553
+Lincoln, WA,0.255
+Sherman, TX,0.2549
+Fond du Lac, WI,0.2547
+Hamilton, IA,0.2546
+Dukes, MA,0.2546
+Blaine, NE,0.2546
+Buffalo, NE,0.2545
+Wheeler, OR,0.2544
+Henry, IL,0.2541
+Napa, CA,0.254
+Lewis, ID,0.254
+Douglas, NE,0.2539
+Clear Creek, CO,0.2539
+Harding, NM,0.2539
+Floyd, IA,0.2537
+Iowa, WI,0.2535
+Wheatland, MT,0.2535
+Haakon, SD,0.2534
+Midland, MI,0.2531
+Portage, WI,0.2528
+Menard, IL,0.2527
+Forsyth, GA,0.2526
+Jo Daviess, IL,0.2526
+Saunders, NE,0.2526
+Piatt, IL,0.2525
+Oconee, GA,0.2523
+Dickinson, IA,0.2523
+Marshall, SD,0.2523
+LaSalle, IL,0.252
+Henry, IA,0.2517
+Sherman, NE,0.2515
+Manitowoc, WI,0.2514
+Houston, MN,0.2511
+Cape May, NJ,0.2507
+Clinton, IA,0.2506
+Boyd, NE,0.2506
+Jasper, IA,0.2505
+Summit, CO,0.2505
+Hamlin, SD,0.2504
+Custer, NE,0.2503
+Garfield, WA,0.25
+Dawes, NE,0.2499
+Sarpy, NE,0.2499
+Wood, WI,0.2499
+Faribault, MN,0.2498
+Otter Tail, MN,0.2497
+Jackson, CO,0.2497
+Terrebonne Parish, LA,0.2495
+New London, CT,0.2493
+Jasper, IN,0.2493
+Columbia, GA,0.249
+Carbon, WY,0.249
+Madison, IA,0.2488
+Mono, CA,0.2487
+Lafayette Parish, LA,0.2482
+Marathon, WI,0.2479
+Hancock, IL,0.2478
+Marshall, IL,0.2476
+Howard, NE,0.2475
+Clay, IA,0.2473
+Adams, NE,0.2473
+Wadena, MN,0.247
+Chase, KS,0.2468
+Moffat, CO,0.2467
+Black Hawk, IA,0.2467
+Vermilion Parish, LA,0.2467
+Gregory, SD,0.2466
+Itasca, MN,0.2463
+Briscoe, TX,0.2463
+Ogle, IL,0.2461
+Potter, SD,0.2461
+Grant, KS,0.246
+Lake, MN,0.2459
+Nobles, MN,0.2459
+Lancaster, NE,0.2459
+Watonwan, MN,0.2457
+Thomas, NE,0.2457
+Cottonwood, MN,0.2453
+Benton, IA,0.2452
+Fremont, IA,0.245
+Webster, IA,0.2449
+Morrison, MN,0.2449
+Humboldt, NV,0.2449
+Dixon, NE,0.2448
+Madison, MT,0.2447
+Mower, MN,0.2446
+Meade, KS,0.2446
+Keith, NE,0.2445
+Columbia, WI,0.2443
+Worth, IA,0.2442
+Valley, NE,0.2442
+Hancock, IN,0.244
+Campbell, KY,0.2439
+Essex, NJ,0.2439
+Custer, ID,0.2439
+Hampden, MA,0.2438
+Park, WY,0.2437
+St. Tammany Parish, LA,0.2434
+Sanborn, SD,0.2433
+Eau Claire, WI,0.2432
+Chariton, MO,0.243
+Larimer, CO,0.2429
+Gwinnett, GA,0.2428
+Becker, MN,0.2427
+New Castle, DE,0.2424
+Mellette, SD,0.2423
+Randolph, IL,0.2421
+Rooks, KS,0.2421
+Cumberland, ME,0.2421
+Kearney, NE,0.2415
+Sabine Parish, LA,0.2414
+Kent, MD,0.2414
+Tipton, IN,0.2413
+Pawnee, KS,0.2412
+Latah, ID,0.241
+Yolo, CA,0.2409
+Plaquemines Parish, LA,0.2409
+Cimarron, OK,0.2407
+Goshen, WY,0.2406
+Adams, IA,0.2406
+Mills, TX,0.24
+Gunnison, CO,0.2399
+Gibson, IN,0.2399
+Talbot, MD,0.2398
+Dunn, WI,0.2397
+Chouteau, MT,0.2396
+Pottawatomie, KS,0.2395
+Franklin, IA,0.2393
+Ouray, CO,0.2393
+San Luis Obispo, CA,0.2391
+Champaign, IL,0.2391
+Lane, KS,0.2391
+Custer, MT,0.2389
+Granite, MT,0.2389
+Deuel, SD,0.2388
+Green, WI,0.2385
+La Plata, CO,0.2384
+Page, IA,0.2383
+Jefferson, WI,0.2383
+Washakie, WY,0.2383
+Shackelford, TX,0.2378
+Mercer, IL,0.2377
+Ventura, CA,0.2376
+Kit Carson, CO,0.2376
+Nodaway, MO,0.2376
+Tazewell, IL,0.2375
+Cass, IA,0.2374
+Cass, NE,0.2374
+Merrimack, NH,0.2373
+Koochiching, MN,0.2372
+Bureau, IL,0.2371
+Johnson, IN,0.2371
+Strafford, NH,0.237
+Clearwater, MN,0.2369
+Nevada, CA,0.2368
+Buffalo, WI,0.2367
+Lucas, IA,0.2366
+St. Bernard Parish, LA,0.2365
+Ottawa, KS,0.2363
+West Baton Rouge Parish, LA,0.2361
+Eddy, NM,0.236
+Polk, WI,0.236
+Winnebago, WI,0.2359
+White Pine, NV,0.2358
+Riley, KS,0.2356
+Mills, IA,0.2352
+McDonough, IL,0.2351
+Roseau, MN,0.2348
+Marshall, IA,0.2347
+Franklin, NE,0.2347
+Woodson, KS,0.2347
+Adair, IA,0.2344
+Dodge, WI,0.2343
+Cheyenne, KS,0.2342
+Macoupin, IL,0.2341
+Marquette, MI,0.2341
+Albany, WY,0.234
+Logan, CO,0.2339
+Sheboygan, WI,0.2339
+Carlton, MN,0.2337
+Silver Bow, MT,0.2336
+Evangeline Parish, LA,0.2332
+Wabaunsee, KS,0.233
+Kanabec, MN,0.2328
+Gallatin, MT,0.2328
+Sedgwick, CO,0.2328
+Clay, MO,0.2327
+Colfax, NE,0.2327
+Yellowstone, MT,0.2324
+Acadia Parish, LA,0.2322
+Washington, IA,0.232
+Lincoln, NE,0.232
+Oneida, WI,0.232
+Elbert, CO,0.2318
+Coffey, KS,0.2317
+Chippewa, WI,0.2317
+Carlisle, KY,0.2317
+Mahaska, IA,0.2314
+Isanti, MN,0.2314
+Montgomery, IA,0.2312
+Montgomery, IL,0.2311
+Morrill, NE,0.231
+Pike, IN,0.2308
+Smith, KS,0.2305
+Boone, KY,0.2303
+Sullivan, PA,0.2303
+Sierra, CA,0.2302
+Iroquois, IL,0.2301
+Shelby, IL,0.2301
+Broome, NY,0.2301
+Phillips, MT,0.23
+Martin, TX,0.23
+Lake of the Woods, MN,0.2298
+Phillips, KS,0.2297
+Mason, TX,0.2296
+Berkshire, MA,0.2295
+Kewaunee, WI,0.2294
+Rappahannock, VA,0.2294
+Chippewa, MN,0.2293
+Garfield, CO,0.2292
+Kenton, KY,0.2286
+Tuolumne, CA,0.2284
+Solano, CA,0.2283
+Bear Lake, ID,0.2279
+Sauk, WI,0.2279
+Spencer, IN,0.2278
+Rawlins, KS,0.2278
+Thurston, NE,0.2277
+Emery, UT,0.2277
+Cecil, MD,0.2276
+Dickinson, MI,0.2275
+Beltrami, MN,0.2275
+Price, WI,0.2275
+Walworth, WI,0.2275
+Gosper, NE,0.2275
+Livingston Parish, LA,0.2274
+Ripley, IN,0.2273
+Douglas, KS,0.2273
+Osborne, KS,0.2273
+Cole, MO,0.2273
+Ottawa, MI,0.2271
+Jackson, KS,0.2268
+Lincoln, WI,0.2266
+Columbia, NY,0.2264
+Pike, IL,0.2263
+Woodbury, IA,0.2263
+Calcasieu Parish, LA,0.2262
+Racine, WI,0.2262
+Knox, IN,0.2261
+Houghton, MI,0.2261
+Franklin, IN,0.2259
+Presque Isle, MI,0.2258
+Freeborn, MN,0.2256
+Sangamon, IL,0.2255
+Columbia, WA,0.2255
+Modoc, CA,0.2254
+St. John the Baptist Parish, LA,0.2254
+Ford, IL,0.2253
+Trempealeau, WI,0.2253
+Logan, KS,0.2251
+Carbon, MT,0.225
+Douglas, NV,0.2249
+Keokuk, IA,0.2248
+Hamilton, KS,0.2248
+Santa Cruz, CA,0.2246
+Monroe, MI,0.2243
+Cloud, KS,0.2241
+Perry, MO,0.2241
+Honolulu, HI,0.2239
+Vilas, WI,0.2239
+Peoria, IL,0.2238
+Todd, MN,0.2238
+Toole, MT,0.2238
+Wheeler, NE,0.2236
+Emmet, IA,0.2235
+Russell, KS,0.2235
+Webster, KY,0.2235
+Burt, NE,0.2235
+Perry, IN,0.2234
+Plumas, CA,0.2232
+Grafton, NH,0.2231
+Blanco, TX,0.2231
+Carroll, MO,0.223
+Morgan, CO,0.2229
+Cook, IL,0.2229
+Huron, MI,0.2228
+Rosebud, MT,0.2228
+Treasure, MT,0.2228
+Gray, KS,0.2228
+Monona, IA,0.2227
+Clay, KS,0.2227
+Gallatin, IL,0.2224
+Taylor, IA,0.2223
+Davis, IA,0.2222
+Kalamazoo, MI,0.2221
+Crawford, WI,0.2221
+Madison, IL,0.222
+St. Johns, FL,0.2218
+Red Willow, NE,0.2218
+Monroe, IA,0.2217
+Aitkin, MN,0.2215
+Washington, KS,0.2213
+Cumberland, IL,0.221
+Clarke, IA,0.221
+Union, IA,0.221
+Crow Wing, MN,0.221
+Garfield, NE,0.2209
+Clark, IL,0.2206
+Sheridan, NE,0.2206
+McMullen, TX,0.2206
+Floyd, IN,0.2205
+Martin, FL,0.2204
+Crawford, IL,0.2204
+York, ME,0.2204
+Christian, IL,0.2203
+Gilpin, CO,0.2203
+Butler, KS,0.2198
+Franklin, MA,0.2195
+Door, WI,0.2191
+Richardson, NE,0.219
+Clark, WI,0.219
+Hitchcock, NE,0.219
+Clearwater, ID,0.2188
+Saline, IL,0.2188
+Phillips, CO,0.2184
+Morris, KS,0.2183
+Barron, WI,0.2183
+Mille Lacs, MN,0.2177
+Lea, NM,0.2176
+Dearborn, IN,0.2175
+Taylor, WI,0.2175
+Edwards, KS,0.2172
+Hall, NE,0.217
+Clinton, NY,0.217
+Windham, CT,0.2169
+Seminole, FL,0.2169
+Sullivan, IN,0.2169
+DeKalb, MO,0.2168
+Lamar, MS,0.2165
+Cherokee, GA,0.2163
+Amador, CA,0.2161
+Greene, NY,0.216
+East Baton Rouge Parish, LA,0.2156
+Sheridan, KS,0.2156
+Pershing, NV,0.2155
+Jefferson, KS,0.2154
+Marinette, WI,0.2153
+Jasper, IL,0.2151
+Ingham, MI,0.2151
+Osage, MO,0.2151
+Meagher, MT,0.2151
+Eaton, MI,0.215
+Harper, OK,0.2149
+Gentry, MO,0.2148
+Cheshire, NH,0.2148
+Adams, IL,0.2147
+Wabash, IL,0.2147
+Jefferson Davis Parish, LA,0.2147
+Rock Island, IL,0.2145
+Ringgold, IA,0.2141
+Jefferson Parish, LA,0.2141
+Stanton, NE,0.214
+Laramie, WY,0.214
+Lincoln, CO,0.214
+Bond, IL,0.2139
+Kankakee, IL,0.2139
+Genesee, NY,0.2139
+Norton, KS,0.2138
+Rusk, WI,0.2138
+Henderson, IL,0.2138
+White, IN,0.2134
+Boone, IL,0.2133
+Cayuga, NY,0.2131
+Vernon, WI,0.2131
+Lewis and Clark, MT,0.2128
+Beaverhead, MT,0.2127
+San Diego, CA,0.2126
+Missoula, MT,0.2126
+Des Moines, IA,0.2125
+Lee, IA,0.2125
+Scotts Bluff, NE,0.2124
+Blaine, ID,0.2123
+Leelanau, MI,0.2121
+Santa Barbara, CA,0.2119
+Ohio, IN,0.2119
+Miami, KS,0.2119
+Gogebic, MI,0.2118
+Mesa, CO,0.2116
+Jersey, IL,0.2115
+Grand Isle, VT,0.2114
+Lassen, CA,0.2113
+Stephenson, IL,0.2113
+Madison, ID,0.2112
+Broadwater, MT,0.2111
+Lake, IN,0.211
+Leavenworth, KS,0.2109
+Wetzel, WV,0.2109
+McCracken, KY,0.2107
+Lincoln, NV,0.2107
+Pine, MN,0.2105
+Chaffee, CO,0.2104
+Carroll, IL,0.2104
+Tama, IA,0.2104
+Marion, KS,0.2104
+Cape Girardeau, MO,0.2104
+Morgan, IL,0.2103
+Boone, MO,0.2103
+Weld, CO,0.2102
+Fulton, GA,0.2101
+Kenosha, WI,0.21
+Kent, MI,0.2098
+Logan, IL,0.2097
+Knox, IL,0.2095
+Madison, MS,0.2095
+Collingsworth, TX,0.2095
+Shawnee, KS,0.2094
+Pointe Coupee Parish, LA,0.2093
+Pottawattamie, IA,0.2092
+Iberville Parish, LA,0.2092
+Hamilton, IL,0.2091
+White, IL,0.2091
+Atlantic, NJ,0.2091
+Washington, MD,0.209
+Ferry, WA,0.2089
+Adams, IN,0.2088
+Newton, IN,0.2088
+Barton, KS,0.2088
+Delta, MI,0.2087
+Republic, KS,0.2086
+Glades, FL,0.2085
+Douglas, IL,0.2085
+Mahnomen, MN,0.2085
+Chautauqua, KS,0.2083
+Bath, VA,0.2082
+Belknap, NH,0.2081
+Carroll, NH,0.2081
+Grand Traverse, MI,0.2079
+Delaware, NY,0.2078
+Decatur, IN,0.2077
+Benson, ND,0.2077
+Franklin, MO,0.2074
+Vanderburgh, IN,0.2073
+Whiteside, IL,0.2072
+Bay, MI,0.207
+Stark, IL,0.207
+Atchison, MO,0.2069
+Stafford, KS,0.2068
+Emmet, MI,0.2066
+Sacramento, CA,0.2064
+Wapello, IA,0.2064
+Bartholomew, IN,0.2061
+Osage, KS,0.2059
+Deer Lodge, MT,0.2059
+St. Joseph, IN,0.2057
+Jefferson, IA,0.2057
+Atchison, KS,0.2056
+Lincoln, KS,0.2056
+Fisher, TX,0.2054
+Richland, IL,0.2052
+Allen, IN,0.2051
+Calaveras, CA,0.2048
+Louisa, IA,0.2048
+Martin, IN,0.2047
+Archuleta, CO,0.2045
+Bonneville, ID,0.2045
+Muscatine, IA,0.2045
+St. Clair, MI,0.2043
+Hill, MT,0.2042
+Rock, WI,0.2041
+Park, CO,0.204
+Harvey, KS,0.204
+Macon, IL,0.2035
+Otsego, MI,0.2032
+Coos, NH,0.2032
+Washington, CO,0.2031
+Daviess, KY,0.2031
+Lincoln Parish, LA,0.2031
+Douglas, WI,0.2031
+Morton, KS,0.203
+Mason, IL,0.2029
+Conejos, CO,0.2028
+Menominee, MI,0.2028
+Greene, MS,0.2027
+Mariposa, CA,0.2026
+Beauregard Parish, LA,0.2026
+Fayette, KY,0.2025
+Waupaca, WI,0.2024
+Rich, UT,0.2024
+Warren, IN,0.2023
+Wayne, IA,0.2022
+Delta, TX,0.2021
+Livingston, MO,0.202
+Harlan, NE,0.202
+Saline, KS,0.2019
+Graham, KS,0.2018
+Big Horn, WY,0.2017
+Crawford, KS,0.2016
+Stanley, SD,0.2015
+Baylor, TX,0.2015
+Shawano, WI,0.2011
+Fergus, MT,0.201
+Oconto, WI,0.201
+Lyon, KS,0.2009
+Stonewall, TX,0.2009
+Cass, MO,0.2008
+West Carroll Parish, LA,0.2007
+Union, KY,0.2005
+Jackson, IL,0.2004
+DeKalb, IN,0.2003
+Rice, KS,0.2003
+Warren, MO,0.2003
+San Benito, CA,0.2001
+Ada, ID,0.2001
+Harrison, IN,0.2
+Chemung, NY,0.2
+Hudson, NJ,0.1999
+Lake, CA,0.1998
+Cascade, MT,0.1997
+Delta, CO,0.1996
+Wilson, KS,0.1996
+Fulton, NY,0.1996
+Teller, CO,0.1995
+St. Landry Parish, LA,0.1995
+Isabella, MI,0.1995
+Throckmorton, TX,0.1994
+Forest, PA,0.1993
+Colusa, CA,0.1992
+Pulaski, IN,0.1992
+Sarasota, FL,0.1991
+Winnebago, IL,0.1991
+Lapeer, MI,0.199
+Edwards, TX,0.199
+De Witt, IL,0.1988
+St. Mary Parish, LA,0.1988
+Allegany, MD,0.1987
+Crockett, TX,0.1987
+Alpine, CA,0.1983
+Monroe, IN,0.1981
+Daviess, IN,0.198
+Sumner, KS,0.1978
+Beaver, UT,0.1976
+Butte, CA,0.1974
+West Feliciana Parish, LA,0.1972
+Hardin, IL,0.197
+Hubbard, MN,0.1969
+Pawnee, NE,0.1969
+Rankin, MS,0.1968
+Valley, ID,0.1968
+Brown, KS,0.1966
+Pike, MO,0.1965
+Wells, IN,0.1964
+Warren, IL,0.1963
+Alpena, MI,0.1963
+Siskiyou, CA,0.1961
+Mineral, MT,0.196
+Harper, KS,0.1959
+Jackson Parish, LA,0.1958
+Fountain, IN,0.1957
+Dickinson, KS,0.1957
+Teton, MT,0.1957
+Ontonagon, MI,0.1956
+Iron, MI,0.1954
+Sutter, CA,0.1953
+Shasta, CA,0.1952
+Andrew, MO,0.1949
+Grant, AR,0.1948
+Sherman, KS,0.1946
+Adair, MO,0.1946
+El Paso, CO,0.1945
+Neosho, KS,0.1945
+LaPorte, IN,0.1944
+Greenwood, KS,0.1944
+Ravalli, MT,0.1944
+Mathews, VA,0.1944
+Washoe, NV,0.1943
+Jewell, KS,0.1943
+Jefferson, MO,0.1941
+Dakota, NE,0.1941
+Hamilton, NY,0.194
+Bryan, GA,0.1939
+Clark, MO,0.1938
+Appanoose, IA,0.1937
+Cass, IL,0.1936
+Glacier, MT,0.1932
+Penobscot, ME,0.1931
+Cleveland, AR,0.193
+Franklin, KS,0.1928
+Alger, MI,0.1928
+Carroll, KY,0.1925
+Moultrie, IL,0.1924
+Banner, NE,0.1924
+Nelson, KY,0.1923
+Worcester, MD,0.192
+Allen Parish, LA,0.1919
+Marshall, IN,0.1918
+Dawson, NE,0.1917
+Bossier Parish, LA,0.1915
+Bourbon, KS,0.1914
+Collier, FL,0.1913
+Kootenai, ID,0.1913
+St. Clair, IL,0.1913
+Edwards, IL,0.1911
+Chautauqua, NY,0.1911
+Monroe, WI,0.1911
+Caribou, ID,0.191
+Greene, IL,0.191
+Iberia Parish, LA,0.191
+Fayette, IL,0.1908
+Jefferson, IN,0.1908
+Shelby, IN,0.1908
+Perry, IL,0.1907
+Rush, IN,0.1905
+Idaho, ID,0.1904
+Coles, IL,0.1904
+Custer, CO,0.1904
+Baca, CO,0.1903
+Lafayette, MO,0.1901
+Washington, AR,0.19
+Clinton, MO,0.19
+Carson City, NV,0.1898
+Kern, CA,0.1897
+St. Martin Parish, LA,0.1897
+Faulkner, AR,0.1895
+Alachua, FL,0.1895
+Sedgwick, KS,0.1895
+Cortland, NY,0.1895
+Rockdale, GA,0.1894
+Nez Perce, ID,0.1894
+Suffolk, MA,0.1893
+Jackson, WI,0.1892
+Schuyler, IL,0.1891
+Kennebec, ME,0.1891
+Flathead, MT,0.1891
+Oneida, ID,0.189
+San Joaquin, CA,0.1889
+Parke, IN,0.1889
+Franklin, NY,0.1889
+Sherman, OR,0.1889
+Los Angeles, CA,0.1886
+Avoyelles Parish, LA,0.1886
+Reno, KS,0.1884
+Jefferson, KY,0.1883
+Richland, WI,0.1883
+Effingham, GA,0.1882
+Montgomery, IN,0.1882
+Johnson, KY,0.1882
+Union, NM,0.1881
+Greenup, KY,0.1877
+Las Animas, CO,0.1875
+Columbia, AR,0.1873
+McPherson, NE,0.1873
+Fulton, IL,0.1872
+Kosciusko, IN,0.1872
+Arenac, MI,0.1871
+Lincoln, MO,0.1871
+Powder River, MT,0.1871
+Putnam, IN,0.187
+Roosevelt, MT,0.1869
+Cattaraugus, NY,0.1867
+Ashland, WI,0.1863
+Burnett, WI,0.1863
+Palm Beach, FL,0.1862
+Essex, NY,0.1862
+Lee, GA,0.1861
+White, AR,0.186
+Hopkins, KY,0.1859
+Marquette, WI,0.1854
+Stanislaus, CA,0.1853
+Anderson, KS,0.1853
+Kauai, HI,0.1849
+Jackson, MI,0.1849
+Jackson, IN,0.1847
+Sanilac, MI,0.1847
+Union, IL,0.1844
+San Juan, NM,0.1843
+Jefferson, ID,0.1841
+Carroll, IN,0.1841
+Hickman, KY,0.1839
+Saginaw, MI,0.1838
+Henderson, KY,0.1836
+Shiawassee, MI,0.1836
+Labette, KS,0.1835
+Allegan, MI,0.1835
+Keya Paha, NE,0.1834
+George, MS,0.1833
+Washburn, WI,0.1833
+Wahkiakum, WA,0.1833
+Ralls, MO,0.1831
+Haines Borough, AK,0.183
+Wicomico, MD,0.1829
+Monroe, FL,0.1828
+Edgar, IL,0.1828
+Harmon, OK,0.1825
+Cassia, ID,0.1824
+Lenawee, MI,0.1824
+Cass, MN,0.1824
+Tangipahoa Parish, LA,0.1823
+Garden, NE,0.1823
+Ionia, MI,0.1822
+Washington, KY,0.1821
+Brown, IL,0.1821
+Humboldt, CA,0.182
+Doniphan, KS,0.182
+Cooper, MO,0.1819
+Broward, FL,0.1818
+Scott, IL,0.1818
+Lawrence, MS,0.1818
+Wayne, UT,0.1817
+Craighead, AR,0.1814
+Anderson, TN,0.1814
+Norton city, VA,0.1814
+Bingham, ID,0.1813
+Powell, MT,0.1813
+Maui, HI,0.1811
+Linn, KS,0.1811
+Ray, MO,0.181
+Johnson, IL,0.1809
+Muhlenberg, KY,0.1807
+Wyoming, WV,0.1806
+Marion, IL,0.1805
+Androscoggin, ME,0.1805
+Henry, MO,0.1805
+Keweenaw, MI,0.1805
+Graves, KY,0.1804
+Milwaukee, WI,0.1803
+Whitley, IN,0.1802
+Park, MT,0.1802
+Mercer, MO,0.1802
+Garrett, MD,0.1801
+Lincoln, MT,0.1801
+Fulton, IN,0.18
+Huntington, IN,0.18
+Essex, VA,0.18
+Ballard, KY,0.1799
+Woodford, KY,0.1799
+Wabash, IN,0.1798
+Finney, KS,0.1794
+Caldwell Parish, LA,0.1794
+Catahoula Parish, LA,0.1794
+Vigo, IN,0.1793
+Jefferson, IL,0.1792
+Sullivan, NH,0.1791
+Tuscola, MI,0.1789
+Howard, IN,0.1788
+Cook, MN,0.1787
+Hancock, KY,0.1785
+Sterling, TX,0.1785
+Calloway, KY,0.1784
+Tensas Parish, LA,0.1783
+Sussex, DE,0.178
+Barry, MI,0.178
+Clay, IN,0.1779
+Williamson, IL,0.1778
+Cowley, KS,0.1777
+Chenango, NY,0.1777
+Conway, AR,0.1775
+Allegany, NY,0.1774
+Bonner, ID,0.1772
+Greene, IN,0.1769
+Bayfield, WI,0.1769
+Clinton, IN,0.1768
+Juneau, WI,0.1768
+McLean, KY,0.1767
+Valdez-Cordova Census Area, AK,0.1767
+Morgan, IN,0.1766
+Iron, WI,0.1766
+Wood, WV,0.1765
+Leon, FL,0.1764
+Pope, AR,0.1763
+Hancock, ME,0.1761
+Berrien, MI,0.1761
+Linn, MO,0.1758
+Prowers, CO,0.1756
+Marion, KY,0.1755
+Lincoln, ME,0.1755
+Northumberland, VA,0.1755
+Marshall, KY,0.1754
+Vermillion, IN,0.1753
+Buchanan, MO,0.1752
+Lancaster, VA,0.1751
+Franklin, ID,0.175
+Crittenden, KY,0.1749
+Langlade, WI,0.1748
+Waushara, WI,0.1745
+Lafayette, MS,0.1743
+Marion, MS,0.174
+Bannock, ID,0.1739
+Trimble, KY,0.1739
+Kiowa, CO,0.1739
+Boyle, KY,0.1738
+Monterey, CA,0.1736
+Clark, IN,0.1736
+Ford, KS,0.1736
+Phelps, MO,0.1736
+Cheyenne, CO,0.1735
+Union, AR,0.1733
+Concordia Parish, LA,0.1733
+Elkhart, IN,0.1732
+Santa Fe, NM,0.1731
+Forest, WI,0.1731
+Pinellas, FL,0.1729
+Cumberland, NJ,0.1729
+San Bernardino, CA,0.1728
+Kent, DE,0.1727
+Lake, CO,0.1723
+Marion, MO,0.1723
+Lawrence, IL,0.1722
+Mason, KY,0.1722
+Montgomery, MO,0.1722
+Caldwell, KY,0.1721
+Dade, MO,0.1721
+Harris, GA,0.172
+Aroostook, ME,0.172
+Montgomery, KS,0.1719
+Grant Parish, LA,0.1719
+Mecosta, MI,0.1719
+Gratiot, MI,0.1718
+Macon, MO,0.1717
+Cherry, NE,0.1717
+Webster Parish, LA,0.1716
+Genesee, MI,0.1716
+Steuben, IN,0.1715
+Caldwell, MO,0.171
+Knox, TX,0.171
+Bernalillo, NM,0.1708
+Knox, ME,0.1706
+Montrose, CO,0.1705
+Sebastian, AR,0.1704
+Power, ID,0.1704
+Sanders, MT,0.1703
+Jerome, ID,0.17
+Liberty, MT,0.17
+Wayne, IL,0.1699
+Teton, ID,0.1698
+Claiborne Parish, LA,0.1696
+Monroe, MO,0.1696
+Trinity, CA,0.1694
+Franklin, IL,0.1694
+Starke, IN,0.1693
+Pope, IL,0.1693
+Bennett, SD,0.1692
+Coweta, GA,0.1689
+Cass, IN,0.1689
+Seward, KS,0.1689
+Judith Basin, MT,0.1689
+Prince George's, MD,0.1686
+Riverside, CA,0.1684
+Jackson, SD,0.1684
+Massac, IL,0.1681
+DeSoto, MS,0.1681
+Otero, CO,0.168
+Vermilion, IL,0.168
+Boyd, KY,0.1679
+Van Buren, IA,0.1678
+Bates, MO,0.1678
+Scott, KY,0.1677
+Greene, MO,0.1677
+Worth, MO,0.1677
+Southeast Fairbanks Census Area, AK,0.1676
+Flagler, FL,0.1675
+Dickens, TX,0.1675
+Clay, IL,0.1674
+Hancock, MS,0.1673
+Brevard, FL,0.1672
+Alcona, MI,0.1671
+Golden Valley, MT,0.167
+Saline, AR,0.1669
+Henry, GA,0.1668
+Warren, KY,0.1664
+Decatur, IA,0.1663
+Piscataquis, ME,0.1663
+Calhoun, MI,0.1662
+Mendocino, CA,0.1661
+Franklin, ME,0.166
+Noble, IN,0.1659
+Larue, KY,0.1658
+Craig, VA,0.1655
+Coffee, TN,0.1654
+Montmorency, MI,0.1653
+Adams, CO,0.1652
+Manistee, MI,0.1652
+Shelby, KY,0.1651
+Alamosa, CO,0.165
+Logan, NE,0.165
+Hawaii, HI,0.1649
+Henry, IN,0.1649
+Webster, WV,0.1649
+King and Queen, VA,0.1648
+Audrain, MO,0.1642
+Churchill, NV,0.1642
+Piute, UT,0.1641
+Lares Municipio, PR,0.164
+Somerset, ME,0.1639
+Wexford, MI,0.1639
+Hillsborough, FL,0.1636
+Douglas, GA,0.1636
+Gasconade, MO,0.1636
+Aguadilla Municipio, PR,0.1636
+Mason, MI,0.1635
+Fremont, CO,0.1633
+Lee, FL,0.1633
+Bullitt, KY,0.1633
+Pettis, MO,0.1632
+Foard, TX,0.1625
+Del Norte, CA,0.1623
+Tehama, CA,0.1623
+Houston, GA,0.1622
+Nassau, FL,0.1621
+Lyon, KY,0.162
+Independence, AR,0.1618
+Montezuma, CO,0.1618
+Johnson, MO,0.1617
+Delaware, IN,0.1616
+Minidoka, ID,0.1615
+Big Horn, MT,0.1614
+Lonoke, AR,0.1612
+Kiowa, KS,0.1612
+Indian River, FL,0.161
+Twin Falls, ID,0.1609
+Mackinac, MI,0.1609
+Hall, GA,0.1608
+Natchitoches Parish, LA,0.1608
+Meade, KY,0.1607
+Scott, MO,0.1607
+Walton, GA,0.1606
+Gem, ID,0.1606
+Curry, NM,0.1606
+Garland, AR,0.1605
+Clarke, GA,0.1604
+Jackson, MO,0.1604
+Drew, AR,0.1603
+Callaway, MO,0.1602
+Lyon, NV,0.1602
+Benewah, ID,0.1601
+Ouachita Parish, LA,0.1601
+Knox, MO,0.1599
+Glenn, CA,0.1598
+Gooding, ID,0.1597
+Miami, IN,0.1597
+Pearl River, MS,0.1597
+Dolores, CO,0.1597
+Madison, IN,0.1594
+East Feliciana Parish, LA,0.1594
+Holt, MO,0.1593
+Decatur, TN,0.1593
+Allen, KS,0.159
+Sagadahoc, ME,0.159
+Christian, MO,0.1589
+Elk, KS,0.1589
+Cass, MI,0.1587
+Charlevoix, MI,0.1587
+Branch, MI,0.1586
+Clay, FL,0.1583
+Taylor, KY,0.1582
+Pulaski, AR,0.1578
+Spencer, KY,0.1578
+Hall, TX,0.1578
+Marion, IN,0.1577
+Butte, ID,0.1576
+Franklin Parish, LA,0.1574
+Kearny, KS,0.1574
+Hoonah-Angoon Census Area, AK,0.1574
+Wayne, MI,0.1573
+Lincoln, MS,0.1571
+Logan, AR,0.1569
+Randolph, IN,0.1564
+Newaygo, MI,0.1563
+Chippewa, MI,0.1562
+Camden, MO,0.1562
+Highland, VA,0.1562
+Okaloosa, FL,0.1561
+Carroll, GA,0.1561
+Van Buren, MI,0.1561
+Cleburne, AR,0.156
+Yuba, CA,0.156
+Ziebach, SD,0.156
+Sweet Grass, MT,0.1558
+Charlotte, FL,0.1556
+Antrim, MI,0.1556
+San German Municipio, PR,0.1553
+Franklin, MS,0.155
+Union, IN,0.1549
+Wayne, IN,0.1548
+Lincoln, NM,0.1548
+Merced, CA,0.1547
+Union, GA,0.1546
+Adams, ID,0.1546
+Santa Rosa, FL,0.1544
+Newton, MO,0.1544
+Rapides Parish, LA,0.1543
+Franklin, AR,0.154
+Madison, AR,0.154
+Cheboygan, MI,0.1538
+St. Joseph, MI,0.1538
+Sandoval, NM,0.1538
+Jay, IN,0.1537
+Vernon Parish, LA,0.1536
+Lake, MT,0.1536
+Clark, NV,0.1536
+Florence, WI,0.1536
+White, GA,0.1535
+Winn Parish, LA,0.1535
+Davidson, TN,0.1534
+Muskegon, MI,0.1533
+Grand, CO,0.1532
+Osceola, MI,0.1531
+Paulding, GA,0.153
+Fresno, CA,0.1529
+Gallatin, KY,0.1526
+Floyd, GA,0.1525
+Iosco, MI,0.1524
+Miami-Dade, FL,0.1522
+Roscommon, MI,0.1521
+Jones, MS,0.1521
+Martin, KY,0.1519
+Moniteau, MO,0.1518
+Jessamine, KY,0.1517
+Gladwin, MI,0.1517
+Manatee, FL,0.1516
+Bland, VA,0.1514
+Grundy, MO,0.1512
+Dawson, GA,0.1511
+Letcher, KY,0.1511
+Pike, KY,0.1509
+Hardin, KY,0.1505
+Daviess, MO,0.1505
+Blount, TN,0.1505
+Monroe, GA,0.1504
+Dorchester, MD,0.1504
+Jackson, MS,0.1503
+Mercer, KY,0.1501
+Carroll, TN,0.1501
+Shelby, MO,0.15
+Hyde, NC,0.1499
+Caroline, MD,0.1498
+Missaukee, MI,0.1498
+Breckinridge, KY,0.1495
+Barren, KY,0.1494
+Kings, CA,0.1492
+Franklin, KY,0.1491
+Cheatham, TN,0.1491
+Kenedy, TX,0.1491
+Denver, CO,0.149
+Baraga, MI,0.1489
+Union Parish, LA,0.1488
+Pasco, FL,0.1487
+Elmore, ID,0.1486
+Clark, KY,0.1483
+Bienville Parish, LA,0.1483
+Oktibbeha, MS,0.1479
+Scotland, MO,0.1479
+Hillsdale, MI,0.1478
+Tulare, CA,0.1477
+Cottle, TX,0.1477
+Barton, MO,0.1476
+Oxford, ME,0.1474
+Lawrence, IN,0.1473
+Orange, IN,0.1473
+Caddo Parish, LA,0.1473
+Lafayette, FL,0.1472
+Madison, KY,0.1472
+Schoolcraft, MI,0.1472
+Pueblo, CO,0.1471
+Robertson, KY,0.1471
+Boundary, ID,0.1468
+Dickson, TN,0.1468
+Sawyer, WI,0.1468
+Menard, TX,0.1468
+Storey, NV,0.1467
+Ohio, KY,0.1466
+Ogemaw, MI,0.1466
+Habersham, GA,0.1465
+Tishomingo, MS,0.1465
+Lewis, MO,0.1465
+Colfax, NM,0.1464
+Donley, TX,0.1464
+Rio Grande, CO,0.1463
+Chaves, NM,0.1463
+Warren, MS,0.1462
+Washington, ID,0.146
+Citrus, FL,0.1459
+Amite, MS,0.1458
+Webster, MS,0.1457
+Payette, ID,0.1456
+Jones, SD,0.1455
+De Soto Parish, LA,0.1454
+Rowan, KY,0.1448
+Montgomery, KY,0.1447
+Todd, KY,0.1447
+Lincoln, ID,0.1447
+Orange, FL,0.1446
+Wayne, MS,0.1446
+Leake, MS,0.1442
+Lawrence, KY,0.1441
+Simpson, KY,0.1441
+Randolph, AR,0.144
+Lauderdale, MS,0.144
+Bulloch, GA,0.1436
+Howard, MO,0.1436
+Waldo, ME,0.1434
+Calhoun, AR,0.1434
+Do±íáüna, NM,0.1432
+Blaine, MT,0.143
+Saguache, CO,0.143
+Walthall, MS,0.1429
+Greene, AR,0.1428
+Barrow, GA,0.1425
+Fremont, ID,0.1425
+Simpson, MS,0.1425
+Lemhi, ID,0.1423
+Chester, TN,0.1423
+Magoffin, KY,0.1422
+Pickens, GA,0.1421
+Randolph, MO,0.1421
+Grant, IN,0.142
+San Juan Municipio, PR,0.1419
+Logan, KY,0.1418
+Shoshone, ID,0.1417
+Washington, ME,0.1416
+Adams, MS,0.1414
+Jasper, MO,0.1413
+Toombs, GA,0.1412
+Oscoda, MI,0.1412
+Volusia, FL,0.1411
+Catoosa, GA,0.1411
+Lawrence, MO,0.141
+Rabun, GA,0.1409
+New Madrid, MO,0.1409
+Adams, WI,0.1407
+Madera, CA,0.1406
+Bledsoe, TN,0.1406
+Duval, FL,0.1405
+Oceana, MI,0.1404
+Crawford, AR,0.1403
+Camden, GA,0.1402
+Lee, MS,0.1402
+Henry, KY,0.14
+Maries, MO,0.14
+Montcalm, MI,0.1399
+Attala, MS,0.1397
+Pike, GA,0.1396
+Sitka City and Borough, AK,0.1396
+Trigg, KY,0.1394
+Boise, ID,0.1394
+Petersburg Borough, AK,0.1394
+Benzie, MI,0.1393
+Floyd, KY,0.1391
+Perry, AR,0.139
+Harrison, MO,0.139
+Fayette, IN,0.1389
+Bourbon, KY,0.1388
+Crowley, CO,0.1388
+Chatham, GA,0.1385
+Mayaguez Municipio, PR,0.1383
+Lake, FL,0.1378
+Morgan, GA,0.1377
+Bay, FL,0.1373
+Harrison, MS,0.1373
+Bartow, GA,0.1372
+Sevier, AR,0.1371
+Switzerland, IN,0.1371
+Hernando, FL,0.137
+Harrison, KY,0.137
+Pike, AR,0.1369
+LaGrange, IN,0.1367
+Lee, KY,0.1365
+Nicholas, KY,0.1365
+Dade, GA,0.1363
+St. Francois, MO,0.1363
+Scott, IN,0.1362
+Forrest, MS,0.1362
+Otero, NM,0.1362
+Benton, MO,0.1361
+Lincoln, GA,0.136
+Guaynabo Municipio, PR,0.1359
+Catano Municipio, PR,0.1358
+Taney, MO,0.1357
+Jeff Davis, TX,0.1354
+Johnson, AR,0.135
+Prairie, AR,0.1348
+Stone, MS,0.1346
+Thomas, GA,0.1344
+Cherokee, KS,0.1344
+Bradley, TN,0.1343
+Dallas, AR,0.1342
+Clarke, MS,0.1342
+Tate, MS,0.1342
+Miller, MO,0.1342
+Washington, IN,0.1341
+Wilcox, GA,0.1339
+Choctaw, MS,0.1339
+Bleckley, GA,0.1337
+Livingston, KY,0.1337
+Wrangell City and Borough, AK,0.1336
+Coffee, GA,0.1335
+Schuyler, MO,0.1335
+Charlotte, VA,0.1334
+Richland Parish, LA,0.1333
+Van Buren, AR,0.1332
+Wayne, GA,0.1331
+Polk, MO,0.1331
+Rio Arriba, NM,0.133
+Lowndes, GA,0.1328
+Ouachita, AR,0.1327
+Stoddard, MO,0.1326
+Stone, AR,0.1325
+Hot Spring, AR,0.1324
+Owen, KY,0.1324
+Appling, GA,0.1323
+Cross, AR,0.1322
+Garfield, MT,0.1322
+Banks, GA,0.1319
+Taos, NM,0.1317
+Clare, MI,0.1316
+Miller, AR,0.1315
+Crawford, IN,0.1315
+Polk, FL,0.1314
+Glynn, GA,0.1314
+Canyon, ID,0.1313
+Blackford, IN,0.1313
+Troup, GA,0.1311
+Scott, MS,0.131
+Escambia, FL,0.1309
+Benton, TN,0.1308
+Bedford, TN,0.1307
+Montgomery, MS,0.1305
+Pendleton, KY,0.1302
+Christian, KY,0.1301
+Jackson, GA,0.1299
+Covington, MS,0.1299
+Elliott, KY,0.1298
+Whitfield, GA,0.1296
+Jennings, IN,0.1295
+Motley, TX,0.1292
+Lafayette, AR,0.129
+Owen, IN,0.1289
+Red River Parish, LA,0.1287
+Evans, GA,0.1283
+Brown, IN,0.1283
+Saline, MO,0.1283
+Vernon, MO,0.1283
+Grant, KY,0.128
+Polk, AR,0.1276
+Gordon, GA,0.1276
+Lowndes, MS,0.1276
+Baker, FL,0.1275
+Valencia, NM,0.1268
+Little River, AR,0.1267
+Sumter, FL,0.1267
+Barry, MO,0.1267
+Bibb, GA,0.1265
+Madison, GA,0.1262
+Nye, NV,0.1262
+St. Clair, MO,0.1261
+District of Columbia, DC,0.1259
+Newton, MS,0.1258
+Grant, NM,0.1258
+Pickett, TN,0.1258
+Perry, KY,0.1256
+Bent, CO,0.1255
+Marion, FL,0.1254
+Baldwin, GA,0.1252
+Haralson, GA,0.1252
+Carter, KY,0.1252
+Laurel, KY,0.1252
+Butts, GA,0.125
+Laurens, GA,0.125
+Harlan, KY,0.125
+Sierra, NM,0.125
+DeKalb, GA,0.1249
+Hinds, MS,0.1245
+Stone, MO,0.1244
+Wirt, WV,0.1244
+Perry, MS,0.1241
+Jackson, AR,0.1238
+Morehouse Parish, LA,0.1238
+Butler, MO,0.1237
+Grenada, MS,0.1232
+Walton, FL,0.123
+Jones, GA,0.1229
+Berrien, GA,0.1228
+Anderson, KY,0.1227
+Imperial, CA,0.1226
+Neshoba, MS,0.1226
+Searcy, AR,0.1224
+Pierce, GA,0.1224
+Jasper, MS,0.1221
+San Juan, CO,0.1221
+Holmes, FL,0.122
+Montgomery, GA,0.122
+Hardee, FL,0.1218
+Sullivan, MO,0.1217
+Real, TX,0.1216
+Huerfano, CO,0.1215
+Mississippi, MO,0.1214
+Wakulla, FL,0.1212
+Cumberland, TN,0.1207
+Mora, NM,0.1207
+Clark, ID,0.1204
+Pulaski, KY,0.1203
+Ben Hill, GA,0.1201
+Roosevelt, NM,0.1201
+Gates, NC,0.12
+Pike, MS,0.1198
+Yazoo, MS,0.1198
+Catron, NM,0.1198
+Oglethorpe, GA,0.1197
+Alcorn, MS,0.1196
+Bath, KY,0.1195
+Gilmer, GA,0.1191
+Somerset, MD,0.1189
+Geary, KS,0.1187
+Luce, MI,0.1187
+Bollinger, MO,0.1187
+Dunklin, MO,0.1187
+Sharp, AR,0.1184
+St. Lucie, FL,0.1184
+Smith, MS,0.1184
+Cedar, MO,0.1184
+Howell, MO,0.1184
+Newton, GA,0.1183
+Ozark, MO,0.1181
+Owyhee, ID,0.118
+Fleming, KY,0.118
+Franklin, GA,0.1179
+Crawford, MO,0.1179
+Quay, NM,0.1179
+Putnam, GA,0.1178
+Desha, AR,0.1177
+Putnam, MO,0.1177
+Cannon, TN,0.1177
+Pulaski, MO,0.1176
+Reynolds, MO,0.1175
+Emanuel, GA,0.1174
+Stephens, GA,0.1174
+Charlton, GA,0.1173
+Gulf, FL,0.1172
+Tift, GA,0.1171
+Ware, GA,0.117
+Essex, VT,0.117
+Nevada, AR,0.1169
+Osceola, FL,0.1168
+Bolivar, MS,0.1166
+Culberson, TX,0.1166
+Butler, KY,0.1162
+Winston, MS,0.1161
+Cibola, NM,0.1161
+Dodge, GA,0.116
+Mississippi, AR,0.1159
+Monroe, KY,0.1159
+Highlands, FL,0.1158
+Monroe, MS,0.1157
+Brantley, GA,0.1156
+Washington Parish, LA,0.1154
+Russell, KY,0.1153
+Wright, MO,0.1153
+Carroll, MS,0.1149
+Grayson, KY,0.1148
+Union, MS,0.1148
+Kalkaska, MI,0.1147
+Calhoun, MS,0.1147
+Bell, KY,0.1145
+Crawford, MI,0.1145
+Taylor, FL,0.1142
+Crawford, GA,0.1142
+Bracken, KY,0.1141
+Kinney, TX,0.1141
+Patillas Municipio, PR,0.1139
+Howard, AR,0.1138
+Polk, GA,0.1138
+Towns, GA,0.1137
+Wilkes, GA,0.1136
+Laclede, MO,0.1136
+DeKalb, TN,0.1135
+Lawrence, AR,0.1134
+Dent, MO,0.1134
+McKinley, NM,0.1134
+Montgomery, AR,0.1133
+Wyandotte, KS,0.1133
+Camas, ID,0.113
+Woodruff, AR,0.1129
+Green, KY,0.1129
+Knott, KY,0.1129
+Lake, MI,0.1129
+Bronx, NY,0.1129
+Sumter, GA,0.1126
+Crittenden, AR,0.1124
+Lyman, SD,0.1123
+Esmeralda, NV,0.1123
+Costilla, CO,0.1122
+Lincoln, AR,0.112
+Crockett, TN,0.112
+Jefferson, AR,0.1117
+Newton, AR,0.1117
+Crisp, GA,0.1117
+Danville city, VA,0.1117
+Hickory, MO,0.1115
+Jefferson Davis, MS,0.1114
+Lumpkin, GA,0.1113
+Greene, GA,0.1111
+Pulaski, GA,0.111
+Dillingham Census Area, AK,0.111
+Schley, GA,0.111
+Chattahoochee, GA,0.1108
+McDuffie, GA,0.1108
+Muscogee, GA,0.1108
+Yalobusha, MS,0.1108
+Hudspeth, TX,0.1108
+Monroe, AR,0.1107
+Fulton, AR,0.1106
+Socorro, NM,0.1106
+Issaquena, MS,0.1106
+Hart, GA,0.1105
+Upson, GA,0.1105
+Clinton, KY,0.1105
+Hempstead, AR,0.1102
+Norfolk city, VA,0.1101
+Garrard, KY,0.11
+Liberty, FL,0.1098
+Whitley, KY,0.1098
+Suwannee, FL,0.1097
+Tyrrell, NC,0.1096
+Morgan, MO,0.1093
+Early, GA,0.1092
+Washington, MO,0.1092
+Walker, GA,0.109
+Madison, MO,0.1089
+Orleans Parish, LA,0.1087
+Marion, AR,0.1084
+Baker, GA,0.1084
+Jackson, FL,0.1083
+Carter, TN,0.1083
+Gilchrist, FL,0.1081
+Washington, FL,0.1081
+Tippah, MS,0.1081
+Fulton, KY,0.108
+Screven, GA,0.1075
+St. Helena Parish, LA,0.1073
+Oregon, MO,0.1071
+Bradford, FL,0.107
+Gurabo Municipio, PR,0.1068
+Trujillo Alto Municipio, PR,0.1067
+Bacon, GA,0.1063
+Dallas, MO,0.1063
+Prince of Wales-Hyder Census Area, AK,0.1061
+Washington, GA,0.1059
+Elbert, GA,0.1057
+Estill, KY,0.1057
+Clinch, GA,0.1056
+Spalding, GA,0.1055
+Texas, MO,0.1051
+Hamilton, FL,0.1049
+Burke, GA,0.1049
+Pulaski, IL,0.1049
+Powell, KY,0.1047
+Sharkey, MS,0.1047
+San Miguel, NM,0.1046
+Itawamba, MS,0.1043
+Glascock, GA,0.1043
+DeSoto, FL,0.104
+Cidra Municipio, PR,0.1039
+Jeff Davis, GA,0.1038
+Yell, AR,0.1037
+Izard, AR,0.1036
+Candler, GA,0.1034
+Webster, MO,0.1034
+Lincoln, KY,0.1031
+Irwin, GA,0.103
+Webster, GA,0.103
+Jefferson, FL,0.1028
+Columbia, FL,0.1027
+McDonald, MO,0.1027
+Treutlen, GA,0.1026
+Arecibo Municipio, PR,0.1026
+Decatur, GA,0.1025
+Pontotoc, MS,0.1025
+Miller, GA,0.1023
+Leslie, KY,0.1023
+Emporia city, VA,0.1023
+Colquitt, GA,0.1021
+Wayne, KY,0.1021
+Terrell, TX,0.102
+Copiah, MS,0.1018
+Luna, NM,0.1016
+Telfair, GA,0.1014
+Richmond city, VA,0.1014
+Peach, GA,0.1012
+Wilkinson, MS,0.101
+Torrance, NM,0.101
+Edmonson, KY,0.1009
+Hart, KY,0.1007
+Echols, GA,0.1007
+Penuelas Municipio, PR,0.1006
+Putnam, FL,0.1004
+Corozal Municipio, PR,0.1003
+Okeechobee, FL,0.1002
+Scott, AR,0.1001
+Knox, KY,0.1
+Lewis, KY,0.1
+Rockcastle, KY,0.1
+Iron, MO,0.1
+Portsmouth city, VA,0.1
+Panola, MS,0.0999
+Morgan, KY,0.0995
+Richmond, GA,0.0994
+Tattnall, GA,0.0993
+Grady, GA,0.0992
+Taylor, GA,0.0984
+Kemper, MS,0.0984
+Worth, GA,0.0981
+Claiborne, TN,0.0975
+Dooly, GA,0.0974
+Hendry, FL,0.0973
+Prentiss, MS,0.0971
+Cumberland, KY,0.097
+Fannin, GA,0.0969
+Liberty, GA,0.0969
+Toa Alta Municipio, PR,0.0969
+Allen, KY,0.0968
+Hinsdale, CO,0.0965
+Hidalgo, NM,0.0964
+Clayton, GA,0.0963
+Cumberland, VA,0.0961
+Guadalupe, NM,0.096
+Wayne, MO,0.0958
+Jefferson, GA,0.0957
+Aleutians West Census Area, AK,0.0957
+Jasper, GA,0.0954
+Lamar, GA,0.0954
+Chattooga, GA,0.0952
+Levy, FL,0.095
+Anasco Municipio, PR,0.095
+Adair, KY,0.0948
+Ripley, MO,0.0947
+Dorado Municipio, PR,0.0946
+Wilkinson, GA,0.0945
+Coahoma, MS,0.0943
+Campbell, TN,0.0937
+Lee, AR,0.0936
+Caguas Municipio, PR,0.0934
+St. Louis city, MO,0.0933
+Rincon Municipio, PR,0.0932
+Poinsett, AR,0.0931
+Turner, GA,0.0927
+Marion, GA,0.0926
+Breathitt, KY,0.0926
+Calhoun, FL,0.0923
+St. Francis, AR,0.0921
+Morovis Municipio, PR,0.0921
+Guayama Municipio, PR,0.0919
+Adjuntas Municipio, PR,0.0916
+Clay, TN,0.0914
+Clay, KY,0.0911
+Dewey, SD,0.0907
+Union, FL,0.0906
+Leflore, MS,0.0899
+North Slope Borough, AK,0.0898
+Alexander, IL,0.0896
+Douglas, MO,0.0894
+Lake and Peninsula Borough, AK,0.0894
+Cayey Municipio, PR,0.0889
+Johnson, GA,0.0881
+Noxubee, MS,0.0879
+Rio Grande Municipio, PR,0.0876
+Casey, KY,0.0872
+Clay, MS,0.0871
+Chickasaw, MS,0.0867
+Brooks, GA,0.0864
+Heard, GA,0.086
+Baltimore city, MD,0.0859
+Seminole, GA,0.0855
+Terrell, GA,0.0854
+Jenkins, GA,0.0851
+Pemiscot, MO,0.0845
+Murray, GA,0.0844
+Dougherty, GA,0.0843
+Macon, GA,0.0842
+Washington, MS,0.0838
+Mitchell, GA,0.0833
+Meriwether, GA,0.0832
+Twiggs, GA,0.0832
+Buffalo, SD,0.0827
+Shannon, MO,0.0822
+Carter, MO,0.082
+Cook, GA,0.0818
+Madison Parish, LA,0.0803
+Madison, FL,0.0801
+Owsley, KY,0.0787
+Holmes, MS,0.0777
+Jackson, KY,0.0776
+Nome Census Area, AK,0.0771
+Warren, GA,0.0767
+Atkinson, GA,0.0765
+Marshall, MS,0.0764
+Yukon-Koyukuk Census Area, AK,0.076
+Stewart, GA,0.076
+Menifee, KY,0.0758
+Lanier, GA,0.0754
+Cocke, TN,0.0754
+Mineral, NV,0.0745
+Metcalfe, KY,0.0744
+Ceiba Municipio, PR,0.0742
+Cabo Rojo Municipio, PR,0.0736
+Talbot, GA,0.073
+Mineral, CO,0.0725
+Fajardo Municipio, PR,0.0719
+Graham, NC,0.0715
+East Carroll Parish, LA,0.0709
+Bayamon Municipio, PR,0.0708
+Franklin, FL,0.0707
+Wolfe, KY,0.0702
+Sunflower, MS,0.0698
+Aleutians East Borough, AK,0.0695
+Long, GA,0.0687
+Wheeler, GA,0.0687
+Clay, GA,0.068
+Phillips, AR,0.0672
+Sioux, ND,0.0663
+Benton, MS,0.0655
+Hoke, NC,0.0654
+Dixie, FL,0.0651
+Guanica Municipio, PR,0.0642
+Humphreys, MS,0.062
+McIntosh, GA,0.0609
+Aguada Municipio, PR,0.0601
+Carolina Municipio, PR,0.06
+Gadsden, FL,0.0598
+Jefferson, MS,0.0597
+Quitman, MS,0.0594
+Hancock, GA,0.0588
+Jayuya Municipio, PR,0.0579
+Yauco Municipio, PR,0.0572
+McCreary, KY,0.0567
+Petersburg city, VA,0.0563
+Aibonito Municipio, PR,0.0562
+Camuy Municipio, PR,0.0554
+Claiborne, MS,0.0551
+Calhoun, GA,0.0521
+Todd, SD,0.0519
+Lajas Municipio, PR,0.0508
+Randolph, GA,0.0507
+Tallahatchie, MS,0.0502
+Ponce Municipio, PR,0.0492
+Ciales Municipio, PR,0.0485
+Isabela Municipio, PR,0.0477
+San Sebastian Municipio, PR,0.0461
+Vega Alta Municipio, PR,0.0446
+Santa Isabel Municipio, PR,0.0445
+Tunica, MS,0.0421
+Taliaferro, GA,0.0419
+Toa Baja Municipio, PR,0.0414
+Barranquitas Municipio, PR,0.0405
+Utuado Municipio, PR,0.0393
+Humacao Municipio, PR,0.0377
+Moca Municipio, PR,0.0369
+Bristol Bay Borough, AK,0.0351
+Orocovis Municipio, PR,0.035
+San Lorenzo Municipio, PR,0.033
+Vega Baja Municipio, PR,0.0321
+Yakutat City and Borough, AK,0.0316
+Menominee, WI,0.0311
+Luquillo Municipio, PR,0.0292
+Villalba Municipio, PR,0.0271
+Coamo Municipio, PR,0.027
+Manati Municipio, PR,0.0264
+Sabana Grande Municipio, PR,0.0249
+Kusilvak Census Area, AK,0.0223
+Hatillo Municipio, PR,0.0217
+Oglala Lakota, SD,0.0215
+Quitman, GA,0.0207
+Juana Diaz Municipio, PR,0.0197
+Aguas Buenas Municipio, PR,0.0171
+Yabucoa Municipio, PR,0.0159
+Comerio Municipio, PR,0.0153
+Las Piedras Municipio, PR,0.0132
+Juncos Municipio, PR,0.0106
+Naranjito Municipio, PR,0.0065
+Maunabo Municipio, PR,0.006
+Naguabo Municipio, PR,0.002
+Salinas Municipio, PR,0.0015
+Loiza Municipio, PR,0
+Arroyo Municipio, PR,0
+Canovanas Municipio, PR,0
+Quebradillas Municipio, PR,0
+Guayanilla Municipio, PR,0
+King, TX,
+Florida Municipio, PR,
+Vieques Municipio, PR,
+Las Marias Municipio, PR,
+Barceloneta Municipio, PR,
+Kalawao, HI,
+Petroleum, MT,
+Loving, TX,
+Arthur, NE,
+Hormigueros Municipio, PR,
+Culebra Municipio, PR,
+Maricao Municipio, PR,
