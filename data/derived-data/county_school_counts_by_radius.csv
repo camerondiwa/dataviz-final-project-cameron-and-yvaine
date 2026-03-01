@@ -99,14 +99,10 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 38053,McKenzie County,ND,North Dakota,0,2,3
 39167,Washington County,OH,Ohio,3,8,24
 40095,Marshall County,OK,Oklahoma,2,4,11
-02020,Anchorage Municipality,AK,Alaska,0,3,3
-02180,Nome Census Area,AK,Alaska,0,0,0
-02070,Dillingham Census Area,AK,Alaska,0,0,0
 41015,Curry County,OR,Oregon,0,1,4
 41007,Clatsop County,OR,Oregon,1,4,23
 41035,Klamath County,OR,Oregon,0,1,3
 41033,Josephine County,OR,Oregon,1,3,4
-02066,Copper River Census Area,AK,Alaska,0,0,0
 41065,Wasco County,OR,Oregon,0,1,17
 48037,Bowie County,TX,Texas,2,3,8
 42071,Lancaster County,PA,Pennsylvania,11,45,125
@@ -285,15 +281,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 55057,Juneau County,WI,Wisconsin,0,1,6
 55035,Eau Claire County,WI,Wisconsin,1,2,7
 56013,Fremont County,WY,Wyoming,1,1,1
-60050,Western District,AS,American Samoa,0,0,0
-66010,Guam,GU,Guam,0,0,0
-69110,Saipan Municipality,MP,Commonwealth of the Northern Mariana Islands,0,0,0
-72097,Mayagüez Municipio,PR,Puerto Rico,0,0,0
-72115,Quebradillas Municipio,PR,Puerto Rico,0,0,0
-72141,Utuado Municipio,PR,Puerto Rico,0,0,0
-72023,Cabo Rojo Municipio,PR,Puerto Rico,0,0,0
-72015,Arroyo Municipio,PR,Puerto Rico,0,0,0
-78010,St. Croix Island,VI,United States Virgin Islands,0,0,0
 08033,Dolores County,CO,Colorado,0,1,1
 01073,Jefferson County,AL,Alabama,6,10,12
 09170,South Central Connecticut Planning Region,CT,Connecticut,12,29,145
@@ -388,10 +375,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 40023,Choctaw County,OK,Oklahoma,0,1,6
 40135,Sequoyah County,OK,Oklahoma,1,6,13
 40089,McCurtain County,OK,Oklahoma,0,0,5
-02130,Ketchikan Gateway Borough,AK,Alaska,0,0,0
-02185,North Slope Borough,AK,Alaska,0,0,0
-02290,Yukon-Koyukuk Census Area,AK,Alaska,0,0,0
-02220,Sitka City and Borough,AK,Alaska,0,0,0
 41051,Multnomah County,OR,Oregon,17,23,28
 41021,Gilliam County,OR,Oregon,0,1,3
 42133,York County,PA,Pennsylvania,12,44,100
@@ -400,7 +383,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 42127,Wayne County,PA,Pennsylvania,7,21,72
 42029,Chester County,PA,Pennsylvania,26,78,121
 42089,Monroe County,PA,Pennsylvania,1,32,152
-02100,Haines Borough,AK,Alaska,0,0,0
 45045,Greenville County,SC,South Carolina,8,18,31
 45025,Chesterfield County,SC,South Carolina,1,10,33
 25025,Suffolk County,MA,Massachusetts,54,87,106
@@ -571,8 +553,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 13305,Wayne County,GA,Georgia,0,1,8
 13289,Twiggs County,GA,Georgia,3,7,11
 13249,Schley County,GA,Georgia,1,5,13
-15003,Honolulu County,HI,Hawaii,10,10,10
-15001,Hawaii County,HI,Hawaii,0,2,2
 16013,Blaine County,ID,Idaho,0,0,1
 16061,Lewis County,ID,Idaho,0,4,4
 16025,Camas County,ID,Idaho,0,0,3
@@ -703,10 +683,7 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 37145,Person County,NC,North Carolina,1,19,48
 39171,Williams County,OH,Ohio,4,15,39
 40079,Le Flore County,OK,Oklahoma,1,3,6
-02170,Matanuska-Susitna Borough,AK,Alaska,0,0,1
-02122,Kenai Peninsula Borough,AK,Alaska,0,1,3
 41045,Malheur County,OR,Oregon,0,0,4
-02240,Southeast Fairbanks Census Area,AK,Alaska,0,0,0
 41039,Lane County,OR,Oregon,1,4,13
 41001,Baker County,OR,Oregon,0,1,1
 42125,Washington County,PA,Pennsylvania,18,38,51
@@ -814,7 +791,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 21095,Harlan County,KY,Kentucky,0,7,18
 36111,Ulster County,NY,New York,9,19,83
 48061,Cameron County,TX,Texas,1,3,3
-72127,San Juan Municipio,PR,Puerto Rico,0,0,0
 21127,Lawrence County,KY,Kentucky,2,10,16
 22087,St. Bernard Parish,LA,Louisiana,0,10,14
 01047,Dallas County,AL,Alabama,3,6,14
@@ -857,8 +833,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 45067,Marion County,SC,South Carolina,1,6,13
 45009,Bamberg County,SC,South Carolina,4,5,24
 46137,Ziebach County,SD,South Dakota,0,0,0
-72037,Ceiba Municipio,PR,Puerto Rico,0,0,0
-78030,St. Thomas Island,VI,United States Virgin Islands,0,0,0
 12045,Gulf County,FL,Florida,0,1,6
 12029,Dixie County,FL,Florida,0,1,4
 12129,Wakulla County,FL,Florida,3,3,6
@@ -885,7 +859,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 37161,Rutherford County,NC,North Carolina,2,20,42
 38035,Grand Forks County,ND,North Dakota,1,3,7
 39161,Van Wert County,OH,Ohio,2,13,28
-02050,Bethel Census Area,AK,Alaska,0,0,0
 41019,Douglas County,OR,Oregon,1,5,7
 42111,Somerset County,PA,Pennsylvania,3,16,41
 42045,Delaware County,PA,Pennsylvania,50,79,126
@@ -924,9 +897,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 54007,Braxton County,WV,West Virginia,1,3,12
 55099,Price County,WI,Wisconsin,0,0,3
 56035,Sublette County,WY,Wyoming,0,0,0
-60010,Eastern District,AS,American Samoa,0,0,0
-72039,Ciales Municipio,PR,Puerto Rico,0,0,0
-72139,Trujillo Alto Municipio,PR,Puerto Rico,0,0,0
 06039,Madera County,CA,California,0,7,11
 06033,Lake County,CA,California,1,2,11
 08037,Eagle County,CO,Colorado,0,0,0
@@ -1006,9 +976,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 34011,Cumberland County,NJ,New Jersey,3,50,91
 34021,Mercer County,NJ,New Jersey,17,166,259
 39123,Ottawa County,OH,Ohio,2,10,40
-02275,Wrangell City and Borough,AK,Alaska,0,0,0
-02282,Yakutat City and Borough,AK,Alaska,0,0,0
-02195,Petersburg Borough,AK,Alaska,0,0,0
 45069,Marlboro County,SC,South Carolina,2,8,23
 30089,Sanders County,MT,Montana,0,1,2
 32031,Washoe County,NV,Nevada,0,0,1
@@ -1068,7 +1035,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 13217,Newton County,GA,Georgia,3,26,37
 13319,Wilkinson County,GA,Georgia,2,6,11
 13107,Emanuel County,GA,Georgia,1,3,8
-15009,Maui County,HI,Hawaii,1,1,1
 17017,Cass County,IL,Illinois,1,5,23
 17129,Menard County,IL,Illinois,3,8,16
 35033,Mora County,NM,New Mexico,0,2,6
@@ -1138,7 +1104,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 39021,Champaign County,OH,Ohio,4,26,44
 24045,Wicomico County,MD,Maryland,3,5,11
 37165,Scotland County,NC,North Carolina,2,14,23
-02090,Fairbanks North Star Borough,AK,Alaska,0,1,1
 45043,Georgetown County,SC,South Carolina,0,1,13
 26007,Alpena County,MI,Michigan,1,1,3
 30081,Ravalli County,MT,Montana,0,0,1
@@ -1177,7 +1142,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 37013,Beaufort County,NC,North Carolina,1,5,16
 38087,Slope County,ND,North Dakota,0,1,2
 48203,Harrison County,TX,Texas,3,11,19
-02110,Juneau City and Borough,AK,Alaska,0,0,0
 48391,Refugio County,TX,Texas,0,5,6
 49045,Tooele County,UT,Utah,0,0,6
 51057,Essex County,VA,Virginia,0,11,39
@@ -1215,7 +1179,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 48155,Foard County,TX,Texas,0,0,2
 51149,Prince George County,VA,Virginia,4,14,27
 54045,Logan County,WV,West Virginia,1,7,20
-78020,St. John Island,VI,United States Virgin Islands,0,0,0
 08005,Arapahoe County,CO,Colorado,1,9,18
 13103,Effingham County,GA,Georgia,2,5,8
 04003,Cochise County,AZ,Arizona,0,1,2
@@ -1226,7 +1189,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 24035,Queen Anne's County,MD,Maryland,4,33,82
 37095,Hyde County,NC,North Carolina,0,1,8
 37173,Swain County,NC,North Carolina,0,8,24
-02013,Aleutians East Borough,AK,Alaska,0,0,0
 42101,Philadelphia County,PA,Pennsylvania,51,91,162
 26029,Charlevoix County,MI,Michigan,1,3,3
 29031,Cape Girardeau County,MO,Missouri,2,4,6
@@ -1243,7 +1205,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 21125,Laurel County,KY,Kentucky,1,7,14
 49035,Salt Lake County,UT,Utah,5,8,9
 51790,Staunton city,VA,Virginia,4,10,22
-60020,Manu'a District,AS,American Samoa,0,0,0
 11001,District of Columbia,DC,District of Columbia,23,51,64
 12039,Gadsden County,FL,Florida,3,5,8
 17031,Cook County,IL,Illinois,41,51,62
@@ -1251,7 +1212,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 23025,Somerset County,ME,Maine,0,0,1
 37031,Carteret County,NC,North Carolina,0,2,6
 39095,Lucas County,OH,Ohio,5,17,37
-02188,Northwest Arctic Borough,AK,Alaska,0,0,0
 25011,Franklin County,MA,Massachusetts,6,32,94
 01063,Greene County,AL,Alabama,1,5,12
 30071,Phillips County,MT,Montana,0,1,1
@@ -1397,11 +1357,9 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 39073,Hocking County,OH,Ohio,3,18,33
 06027,Inyo County,CA,California,0,0,1
 37115,Madison County,NC,North Carolina,4,13,30
-02158,Kusilvak Census Area,AK,Alaska,0,0,0
 27173,Yellow Medicine County,MN,Minnesota,1,1,5
 48481,Wharton County,TX,Texas,1,2,21
 48169,Garza County,TX,Texas,0,4,8
-69100,Rota Municipality,MP,Commonwealth of the Northern Mariana Islands,0,0,0
 13209,Montgomery County,GA,Georgia,1,4,6
 17189,Washington County,IL,Illinois,0,10,26
 21031,Butler County,KY,Kentucky,1,3,18
@@ -1503,15 +1461,12 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 46049,Faulk County,SD,South Dakota,0,1,2
 46125,Turner County,SD,South Dakota,0,6,17
 46111,Sanborn County,SD,South Dakota,2,3,5
-72153,Yauco Municipio,PR,Puerto Rico,0,0,0
-72009,Aibonito Municipio,PR,Puerto Rico,0,0,0
 09160,Northwest Hills Planning Region,CT,Connecticut,5,45,118
 12081,Manatee County,FL,Florida,3,12,22
 35049,Santa Fe County,NM,New Mexico,2,8,9
 36069,Ontario County,NY,New York,7,23,38
 46071,Jackson County,SD,South Dakota,0,1,2
 46063,Harding County,SD,South Dakota,0,0,0
-72055,Guánica Municipio,PR,Puerto Rico,0,0,0
 12115,Sarasota County,FL,Florida,2,7,21
 12111,St. Lucie County,FL,Florida,1,4,13
 13073,Columbia County,GA,Georgia,2,4,17
@@ -1566,8 +1521,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 55119,Taylor County,WI,Wisconsin,0,0,4
 56031,Platte County,WY,Wyoming,0,1,5
 56043,Washakie County,WY,Wyoming,0,0,2
-60040,Swains Island,AS,American Samoa,0,0,0
-72113,Ponce Municipio,PR,Puerto Rico,0,0,0
 01015,Calhoun County,AL,Alabama,1,5,16
 04019,Pima County,AZ,Arizona,1,2,2
 47087,Jackson County,TN,Tennessee,1,4,21
@@ -1578,7 +1531,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 39165,Warren County,OH,Ohio,11,29,37
 39119,Muskingum County,OH,Ohio,3,15,45
 56019,Johnson County,WY,Wyoming,0,0,1
-72043,Coamo Municipio,PR,Puerto Rico,0,0,0
 04017,Navajo County,AZ,Arizona,0,0,0
 05113,Polk County,AR,Arkansas,0,1,8
 05031,Craighead County,AR,Arkansas,3,3,14
@@ -1589,8 +1541,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 39163,Vinton County,OH,Ohio,2,9,34
 39027,Clinton County,OH,Ohio,5,27,44
 39115,Morgan County,OH,Ohio,2,12,32
-72111,Peñuelas Municipio,PR,Puerto Rico,0,0,0
-72147,Vieques Municipio,PR,Puerto Rico,0,0,0
 05027,Columbia County,AR,Arkansas,1,1,11
 08007,Archuleta County,CO,Colorado,0,1,2
 08081,Moffat County,CO,Colorado,0,1,1
@@ -1602,8 +1552,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 40063,Hughes County,OK,Oklahoma,0,6,16
 40019,Carter County,OK,Oklahoma,0,3,11
 40137,Stephens County,OK,Oklahoma,0,2,17
-72031,Carolina Municipio,PR,Puerto Rico,0,0,0
-72125,San Germán Municipio,PR,Puerto Rico,0,0,0
 08115,Sedgwick County,CO,Colorado,0,0,0
 01021,Chilton County,AL,Alabama,1,15,21
 21163,Meade County,KY,Kentucky,0,9,14
@@ -1616,10 +1564,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 40099,Murray County,OK,Oklahoma,0,2,17
 40057,Harmon County,OK,Oklahoma,0,1,1
 40029,Coal County,OK,Oklahoma,1,3,9
-72035,Cayey Municipio,PR,Puerto Rico,0,0,0
-72071,Isabela Municipio,PR,Puerto Rico,0,0,0
-72041,Cidra Municipio,PR,Puerto Rico,0,0,0
-72007,Aguas Buenas Municipio,PR,Puerto Rico,0,0,0
 48285,Lavaca County,TX,Texas,0,3,7
 48247,Jim Hogg County,TX,Texas,0,0,5
 48045,Briscoe County,TX,Texas,0,1,4
@@ -1629,37 +1573,22 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 48033,Borden County,TX,Texas,0,3,6
 41067,Washington County,OR,Oregon,10,25,28
 41071,Yamhill County,OR,Oregon,3,25,29
-72003,Aguada Municipio,PR,Puerto Rico,0,0,0
-72143,Vega Alta Municipio,PR,Puerto Rico,0,0,0
-72101,Morovis Municipio,PR,Puerto Rico,0,0,0
-72109,Patillas Municipio,PR,Puerto Rico,0,0,0
 29017,Bollinger County,MO,Missouri,0,4,7
 29139,Montgomery County,MO,Missouri,0,10,35
 29179,Reynolds County,MO,Missouri,0,2,5
 30019,Daniels County,MT,Montana,0,1,1
 41069,Wheeler County,OR,Oregon,0,0,0
 42019,Butler County,PA,Pennsylvania,5,31,54
-72151,Yabucoa Municipio,PR,Puerto Rico,0,0,0
-72131,San Sebastián Municipio,PR,Puerto Rico,0,0,0
-72017,Barceloneta Municipio,PR,Puerto Rico,0,0,0
-72137,Toa Baja Municipio,PR,Puerto Rico,0,0,0
-72005,Aguadilla Municipio,PR,Puerto Rico,0,0,0
 31037,Colfax County,NE,Nebraska,0,4,23
 31155,Saunders County,NE,Nebraska,1,18,23
 42025,Carbon County,PA,Pennsylvania,5,34,108
 42079,Luzerne County,PA,Pennsylvania,9,22,42
-72133,Santa Isabel Municipio,PR,Puerto Rico,0,0,0
-72025,Caguas Municipio,PR,Puerto Rico,0,0,0
-72051,Dorado Municipio,PR,Puerto Rico,0,0,0
-72093,Maricao Municipio,PR,Puerto Rico,0,0,0
 31047,Dawson County,NE,Nebraska,0,2,3
 31059,Fillmore County,NE,Nebraska,1,4,9
 31123,Morrill County,NE,Nebraska,0,2,3
 31181,Webster County,NE,Nebraska,0,2,3
 42087,Mifflin County,PA,Pennsylvania,3,12,29
 42053,Forest County,PA,Pennsylvania,2,6,19
-72063,Gurabo Municipio,PR,Puerto Rico,0,0,0
-72001,Adjuntas Municipio,PR,Puerto Rico,0,0,0
 38065,Oliver County,ND,North Dakota,0,3,4
 08103,Rio Blanco County,CO,Colorado,0,1,2
 08075,Logan County,CO,Colorado,0,0,0
@@ -1668,9 +1597,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 31069,Garden County,NE,Nebraska,0,0,2
 45037,Edgefield County,SC,South Carolina,3,7,19
 45039,Fairfield County,SC,South Carolina,2,12,41
-72047,Corozal Municipio,PR,Puerto Rico,0,0,0
-72045,Comerío Municipio,PR,Puerto Rico,0,0,0
-72029,Canóvanas Municipio,PR,Puerto Rico,0,0,0
 19019,Buchanan County,IA,Iowa,0,11,19
 19073,Greene County,IA,Iowa,0,5,10
 19077,Guthrie County,IA,Iowa,0,5,9
@@ -1796,7 +1722,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 51740,Portsmouth city,VA,Virginia,11,15,21
 51735,Poquoson city,VA,Virginia,11,12,27
 13177,Lee County,GA,Georgia,2,4,7
-15007,Kauai County,HI,Hawaii,0,0,0
 27003,Anoka County,MN,Minnesota,19,27,34
 27143,Sibley County,MN,Minnesota,2,9,38
 27041,Douglas County,MN,Minnesota,1,3,10
@@ -2044,7 +1969,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 20113,McPherson County,KS,Kansas,5,9,14
 20151,Pratt County,KS,Kansas,1,2,8
 41029,Jackson County,OR,Oregon,2,3,6
-02230,Skagway Municipality,AK,Alaska,0,0,0
 42039,Crawford County,PA,Pennsylvania,3,14,31
 35015,Eddy County,NM,New Mexico,1,1,4
 36101,Steuben County,NY,New York,3,15,34
@@ -2188,7 +2112,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 40139,Texas County,OK,Oklahoma,1,1,1
 40147,Washington County,OK,Oklahoma,1,7,14
 40085,Love County,OK,Oklahoma,1,5,14
-02105,Hoonah-Angoon Census Area,AK,Alaska,0,0,0
 31015,Boyd County,NE,Nebraska,0,0,3
 31025,Cass County,NE,Nebraska,7,19,20
 26081,Kent County,MI,Michigan,8,13,25
@@ -2197,7 +2120,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 18025,Crawford County,IN,Indiana,0,9,16
 18119,Owen County,IN,Indiana,2,9,16
 19033,Cerro Gordo County,IA,Iowa,1,4,9
-02150,Kodiak Island Borough,AK,Alaska,0,0,0
 40129,Roger Mills County,OK,Oklahoma,0,0,1
 31165,Sioux County,NE,Nebraska,0,4,4
 31131,Otoe County,NE,Nebraska,1,17,20
@@ -2215,7 +2137,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 17137,Morgan County,IL,Illinois,1,4,26
 05035,Crittenden County,AR,Arkansas,8,9,13
 39007,Ashtabula County,OH,Ohio,1,22,40
-02068,Denali Borough,AK,Alaska,0,0,0
 41049,Morrow County,OR,Oregon,0,1,5
 05055,Greene County,AR,Arkansas,3,4,9
 08085,Montrose County,CO,Colorado,0,1,2
@@ -2332,9 +2253,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 34029,Ocean County,NJ,New Jersey,18,56,198
 17011,Bureau County,IL,Illinois,0,6,23
 20191,Sumner County,KS,Kansas,0,5,10
-72103,Naguabo Municipio,PR,Puerto Rico,0,0,0
-72077,Juncos Municipio,PR,Puerto Rico,0,0,0
-72054,Florida Municipio,PR,Puerto Rico,0,0,0
 01133,Winston County,AL,Alabama,0,1,17
 24510,Baltimore city,MD,Maryland,23,54,88
 48027,Bell County,TX,Texas,4,9,14
@@ -2345,7 +2263,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 27071,Koochiching County,MN,Minnesota,0,0,4
 20181,Sherman County,KS,Kansas,0,0,0
 21083,Graves County,KY,Kentucky,1,3,7
-72049,Culebra Municipio,PR,Puerto Rico,0,0,0
 30079,Prairie County,MT,Montana,0,2,2
 12061,Indian River County,FL,Florida,2,4,13
 37041,Chowan County,NC,North Carolina,2,9,23
@@ -2383,10 +2300,8 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 37025,Cabarrus County,NC,North Carolina,13,21,43
 13111,Fannin County,GA,Georgia,3,10,38
 13115,Floyd County,GA,Georgia,3,9,34
-02198,Prince of Wales-Hyder Census Area,AK,Alaska,0,0,0
 40025,Cimarron County,OK,Oklahoma,0,1,1
 41037,Lake County,OR,Oregon,0,0,0
-02016,Aleutians West Census Area,AK,Alaska,0,0,0
 42083,McKean County,PA,Pennsylvania,2,7,13
 54105,Wirt County,WV,West Virginia,1,5,18
 55097,Portage County,WI,Wisconsin,1,1,7
@@ -2700,7 +2615,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 48101,Cottle County,TX,Texas,0,0,1
 53043,Lincoln County,WA,Washington,0,7,8
 55081,Monroe County,WI,Wisconsin,0,2,7
-02164,Lake and Peninsula Borough,AK,Alaska,0,0,0
 40059,Harper County,OK,Oklahoma,0,0,3
 47069,Hardeman County,TN,Tennessee,1,8,19
 53039,Klickitat County,WA,Washington,0,3,3
@@ -2715,8 +2629,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 39103,Medina County,OH,Ohio,8,30,43
 39091,Logan County,OH,Ohio,0,21,44
 39175,Wyandot County,OH,Ohio,5,13,42
-69120,Tinian Municipality,MP,Commonwealth of the Northern Mariana Islands,0,0,0
-72067,Hormigueros Municipio,PR,Puerto Rico,0,0,0
 39107,Mercer County,OH,Ohio,1,12,33
 40009,Beckham County,OK,Oklahoma,0,1,2
 42007,Beaver County,PA,Pennsylvania,12,38,60
@@ -2727,21 +2639,16 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 39057,Greene County,OH,Ohio,10,20,48
 39127,Perry County,OH,Ohio,4,22,34
 40121,Pittsburg County,OK,Oklahoma,0,4,12
-72123,Salinas Municipio,PR,Puerto Rico,0,0,0
-72087,Loíza Municipio,PR,Puerto Rico,0,0,0
 28023,Clarke County,MS,Mississippi,1,5,8
 29149,Oregon County,MO,Missouri,0,2,6
 29005,Atchison County,MO,Missouri,1,3,21
 31095,Jefferson County,NE,Nebraska,0,2,10
 56025,Natrona County,WY,Wyoming,0,1,1
-69085,Northern Islands Municipality,MP,Commonwealth of the Northern Mariana Islands,0,0,0
-72059,Guayanilla Municipio,PR,Puerto Rico,0,0,0
 18101,Martin County,IN,Indiana,0,3,21
 40119,Payne County,OK,Oklahoma,2,6,25
 40011,Blaine County,OK,Oklahoma,0,2,17
 40005,Atoka County,OK,Oklahoma,0,4,6
 46115,Spink County,SD,South Dakota,0,1,3
-72057,Guayama Municipio,PR,Puerto Rico,0,0,0
 12085,Martin County,FL,Florida,2,5,16
 32005,Douglas County,NV,Nevada,1,1,3
 17089,Kane County,IL,Illinois,9,51,60
@@ -2815,7 +2722,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 31107,Knox County,NE,Nebraska,0,3,7
 31043,Dakota County,NE,Nebraska,4,8,13
 55049,Iowa County,WI,Wisconsin,0,6,10
-72099,Moca Municipio,PR,Puerto Rico,0,0,0
 19181,Warren County,IA,Iowa,4,9,12
 19087,Henry County,IA,Iowa,1,4,20
 19027,Carroll County,IA,Iowa,0,2,9
@@ -2826,8 +2732,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 30025,Fallon County,MT,Montana,0,0,2
 31127,Nemaha County,NE,Nebraska,1,4,22
 33011,Hillsborough County,NH,New Hampshire,13,45,106
-72119,Río Grande Municipio,PR,Puerto Rico,0,0,0
-72107,Orocovis Municipio,PR,Puerto Rico,0,0,0
 20155,Reno County,KS,Kansas,2,11,15
 20109,Logan County,KS,Kansas,0,0,0
 20133,Neosho County,KS,Kansas,1,5,12
@@ -2838,8 +2742,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 17183,Vermilion County,IL,Illinois,1,5,13
 17091,Kankakee County,IL,Illinois,2,20,56
 20021,Cherokee County,KS,Kansas,4,8,15
-72075,Juana Díaz Municipio,PR,Puerto Rico,0,0,0
-72069,Humacao Municipio,PR,Puerto Rico,0,0,0
 20153,Rawlins County,KS,Kansas,0,0,1
 21009,Barren County,KY,Kentucky,0,3,16
 31041,Custer County,NE,Nebraska,0,0,3
@@ -2849,8 +2751,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 20037,Crawford County,KS,Kansas,2,7,10
 18165,Vermillion County,IN,Indiana,1,9,15
 20029,Cloud County,KS,Kansas,0,1,4
-72061,Guaynabo Municipio,PR,Puerto Rico,0,0,0
-72145,Vega Baja Municipio,PR,Puerto Rico,0,0,0
 21143,Lyon County,KY,Kentucky,0,1,8
 21173,Montgomery County,KY,Kentucky,0,9,15
 51021,Bland County,VA,Virginia,5,9,18
@@ -2858,15 +2758,11 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 31067,Gage County,NE,Nebraska,0,7,10
 17121,Marion County,IL,Illinois,0,2,17
 19071,Fremont County,IA,Iowa,1,12,21
-72021,Bayamón Municipio,PR,Puerto Rico,0,0,0
-72083,Las Marías Municipio,PR,Puerto Rico,0,0,0
 21105,Hickman County,KY,Kentucky,1,3,8
 22007,Assumption Parish,LA,Louisiana,1,5,19
 51079,Greene County,VA,Virginia,4,8,27
 19155,Pottawattamie County,IA,Iowa,8,11,19
 19043,Clayton County,IA,Iowa,1,8,18
-72105,Naranjito Municipio,PR,Puerto Rico,0,0,0
-72053,Fajardo Municipio,PR,Puerto Rico,0,0,0
 22061,Lincoln Parish,LA,Louisiana,2,3,9
 22093,St. James Parish,LA,Louisiana,1,15,19
 26143,Roscommon County,MI,Michigan,1,3,11
@@ -2877,9 +2773,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 27105,Nobles County,MN,Minnesota,0,4,11
 17199,Williamson County,IL,Illinois,2,4,5
 17053,Ford County,IL,Illinois,0,5,21
-72081,Lares Municipio,PR,Puerto Rico,0,0,0
-72033,Cataño Municipio,PR,Puerto Rico,0,0,0
-72117,Rincón Municipio,PR,Puerto Rico,0,0,0
 27057,Hubbard County,MN,Minnesota,3,4,7
 27141,Sherburne County,MN,Minnesota,2,27,34
 51570,Colonial Heights city,VA,Virginia,7,11,27
@@ -2887,7 +2780,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 55017,Chippewa County,WI,Wisconsin,1,2,6
 21053,Clinton County,KY,Kentucky,0,3,10
 01127,Walker County,AL,Alabama,0,8,13
-72073,Jayuya Municipio,PR,Puerto Rico,0,0,0
 08051,Gunnison County,CO,Colorado,1,1,1
 08039,Elbert County,CO,Colorado,0,6,15
 27007,Beltrami County,MN,Minnesota,1,5,7
@@ -2945,7 +2837,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 47137,Pickett County,TN,Tennessee,0,2,10
 13109,Evans County,GA,Georgia,1,5,9
 13007,Baker County,GA,Georgia,0,3,10
-15005,Kalawao County,HI,Hawaii,0,1,11
 31035,Clay County,NE,Nebraska,1,2,6
 31167,Stanton County,NE,Nebraska,2,4,12
 31017,Brown County,NE,Nebraska,0,0,1
@@ -3018,7 +2909,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 56011,Crook County,WY,Wyoming,0,1,1
 18079,Jennings County,IN,Indiana,1,6,32
 40093,Major County,OK,Oklahoma,0,1,4
-72079,Lajas Municipio,PR,Puerto Rico,0,0,0
 13257,Stephens County,GA,Georgia,3,11,23
 23009,Hancock County,ME,Maine,2,5,8
 48255,Karnes County,TX,Texas,0,9,19
@@ -3027,7 +2917,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 18005,Bartholomew County,IN,Indiana,1,8,31
 47171,Unicoi County,TN,Tennessee,4,12,25
 53077,Yakima County,WA,Washington,2,3,5
-72121,Sabana Grande Municipio,PR,Puerto Rico,0,0,0
 08041,El Paso County,CO,Colorado,5,6,15
 42121,Venango County,PA,Pennsylvania,2,9,42
 46027,Clay County,SD,South Dakota,2,12,15
@@ -3048,9 +2937,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 21015,Boone County,KY,Kentucky,11,17,39
 31133,Pawnee County,NE,Nebraska,0,2,13
 39009,Athens County,OH,Ohio,2,12,35
-72065,Hatillo Municipio,PR,Puerto Rico,0,0,0
-72149,Villalba Municipio,PR,Puerto Rico,0,0,0
-72091,Manatí Municipio,PR,Puerto Rico,0,0,0
 17083,Jersey County,IL,Illinois,3,21,27
 17081,Jefferson County,IL,Illinois,0,3,9
 17041,Douglas County,IL,Illinois,2,6,13
@@ -3060,7 +2946,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 51610,Falls Church city,VA,Virginia,23,52,64
 41011,Coos County,OR,Oregon,1,2,3
 46109,Roberts County,SD,South Dakota,1,3,6
-72027,Camuy Municipio,PR,Puerto Rico,0,0,0
 12035,Flagler County,FL,Florida,4,7,25
 13147,Hart County,GA,Georgia,3,14,28
 20183,Smith County,KS,Kansas,0,0,3
@@ -3100,14 +2985,12 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 51013,Arlington County,VA,Virginia,22,51,64
 39051,Fulton County,OH,Ohio,5,16,38
 40045,Ellis County,OK,Oklahoma,0,0,1
-02063,Chugach Census Area,AK,Alaska,0,0,0
 13095,Dougherty County,GA,Georgia,1,4,7
 13059,Clarke County,GA,Georgia,2,12,38
 42001,Adams County,PA,Pennsylvania,8,33,82
 27115,Pine County,MN,Minnesota,0,1,10
 55117,Sheboygan County,WI,Wisconsin,2,15,24
 13017,Ben Hill County,GA,Georgia,0,3,7
-02060,Bristol Bay Borough,AK,Alaska,0,0,0
 26131,Ontonagon County,MI,Michigan,0,1,3
 13037,Calhoun County,GA,Georgia,1,3,8
 33001,Belknap County,NH,New Hampshire,4,16,45
@@ -3127,9 +3010,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 39125,Paulding County,OH,Ohio,1,14,33
 40061,Haskell County,OK,Oklahoma,1,6,10
 54091,Taylor County,WV,West Virginia,2,7,28
-60030,Rose Island,AS,American Samoa,0,0,0
-72135,Toa Alta Municipio,PR,Puerto Rico,0,0,0
-72089,Luquillo Municipio,PR,Puerto Rico,0,0,0
 19179,Wapello County,IA,Iowa,3,4,11
 20115,Marion County,KS,Kansas,3,13,16
 20163,Rooks County,KS,Kansas,0,1,2
@@ -3187,8 +3067,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 46119,Sully County,SD,South Dakota,0,0,0
 48113,Dallas County,TX,Texas,18,27,34
 48083,Coleman County,TX,Texas,0,1,6
-72129,San Lorenzo Municipio,PR,Puerto Rico,0,0,0
-72011,Añasco Municipio,PR,Puerto Rico,0,0,0
 47177,Warren County,TN,Tennessee,0,6,27
 47169,Trousdale County,TN,Tennessee,3,17,21
 48367,Parker County,TX,Texas,1,13,31
@@ -3197,7 +3075,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 01053,Escambia County,AL,Alabama,0,3,8
 48299,Llano County,TX,Texas,0,0,11
 48047,Brooks County,TX,Texas,0,2,5
-72085,Las Piedras Municipio,PR,Puerto Rico,0,0,0
 04011,Greenlee County,AZ,Arizona,0,0,1
 48397,Rockwall County,TX,Texas,10,24,35
 48059,Callahan County,TX,Texas,3,5,6
@@ -3218,7 +3095,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 06029,Kern County,CA,California,1,2,11
 18143,Scott County,IN,Indiana,2,8,23
 56017,Hot Springs County,WY,Wyoming,0,1,2
-72019,Barranquitas Municipio,PR,Puerto Rico,0,0,0
 40105,Nowata County,OK,Oklahoma,2,7,16
 44003,Kent County,RI,Rhode Island,13,45,121
 28041,Greene County,MS,Mississippi,0,8,11
@@ -3227,8 +3103,6 @@ geoid,county_name,state,state_name,schools_within_25mi,schools_within_50mi,schoo
 27159,Wadena County,MN,Minnesota,0,1,9
 01079,Lawrence County,AL,Alabama,0,8,11
 48231,Hunt County,TX,Texas,1,15,34
-72013,Arecibo Municipio,PR,Puerto Rico,0,0,0
-72095,Maunabo Municipio,PR,Puerto Rico,0,0,0
 31161,Sheridan County,NE,Nebraska,0,1,2
 17119,Madison County,IL,Illinois,6,20,26
 28155,Webster County,MS,Mississippi,0,2,8
