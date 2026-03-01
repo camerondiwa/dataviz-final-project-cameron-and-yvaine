@@ -367,7 +367,7 @@ import matplotlib.pyplot as plt
 
 COUNTIES_PATH = "data/derived-data/counties.geojson"
 EAS_PATH = "data/derived-data/eas_by_radius.csv"
-SCHOOLS_PATH = "data/derived-data/schools.geojson"   # 你之前保存的
+SCHOOLS_PATH = "data/derived-data/schools.geojson"   
 OUT_PATH = "data/derived-data/static_map_deserts_50mi_with_schools.png"
 
 # 1) Load
@@ -387,7 +387,7 @@ gdf = counties_map.merge(
     validate="1:1"
 )
 
-# 4) Ensure CRS, crop to CONUS bbox (避免画布被撑大)
+# 4) Ensure CRS, crop to CONUS bbox for better visualization, and fix any invalid geometries
 if gdf.crs is None:
     gdf = gdf.set_crs("EPSG:4326")
 if schools.crs is None:
@@ -396,30 +396,26 @@ if schools.crs is None:
 gdf_ll = gdf.to_crs("EPSG:4326")
 schools_ll = schools.to_crs("EPSG:4326")
 
-# 几何修复（稳）
+# 
 gdf_ll["geometry"] = gdf_ll.geometry.buffer(0)
 
-# 本土裁剪
+# clip to the continental US bounding box to avoid weird outliers in AK/HI and make the map more focused
 gdf_ll = gdf_ll.cx[slice(-125, -66.5), slice(24, 49.5)]
 schools_ll = schools_ll.cx[slice(-125, -66.5), slice(24, 49.5)]
 
 # 5) Identify deserts = bottom 20% of EAS (50mi)
-#   用 rank(pct=True) 更稳，不怕重复值太多
+#   rank(pct=True) 
 gdf_ll["eas_rank_pct"] = gdf_ll["eas_50mi_per10k"].rank(pct=True, method="average")
 gdf_ll["is_desert"] = gdf_ll["eas_rank_pct"] <= 0.20
 
 deserts = gdf_ll[gdf_ll["is_desert"]].copy()
 
 # 6) Select schools to plot
-#    选项 A：所有学校点（默认）
+#    only plot schools that fall within desert counties or within 50 miles of them (for better visibility)
 schools_plot = schools_ll.copy()
 
-#    选项 B（可选）：只画 broad-access（你前面有 is_broad_access）
-# schools_plot = schools_ll[schools_ll["is_broad_access"] == True].copy()
 
-# 7) 只显示 “落在 desert counties 内”的学校点（更干净）
-#    注意：这里是 “在 county polygon 内”，不是 50-mile 圈内。
-#    （圈内点建议放到 streamlit 动态里做）
+# 7) Identify schools that fall within desert counties 
 schools_in_deserts = gpd.sjoin(
     schools_plot,
     deserts[["county_name", "state_name", "geometry"]],
@@ -437,11 +433,12 @@ gdf_ll.plot(ax=ax, color="#efefef", linewidth=0.05, edgecolor="white")
 deserts.plot(ax=ax, color="#4a1486", linewidth=0.08, edgecolor="white", alpha=0.95)
 
 # schools points (small + semi-transparent)
-# 注意：matplotlib 点大小用 markersize（不是 s）
 schools_in_deserts.plot(
     ax=ax,
-    markersize=6,
-    alpha=0.55
+    markersize=3,
+    color="#FFD700",        # golden color for better visibility
+    linewidth=0.3,
+    alpha=0.6
 )
 
 ax.set_title("Education Deserts (Bottom 20% EAS) and Nearby Institutions, 50-mile definition", fontsize=16, pad=12)
