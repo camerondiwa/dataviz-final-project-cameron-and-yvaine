@@ -161,7 +161,8 @@ mobility = mobility.rename(columns={'Frac._in_Top_20%_Based_on_Household_Income_
 out_file = os.path.join(derived_path, "mobility_rate.csv")
 mobility.to_csv(out_file, index=False)
 
-#=============================================================================
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 #================================
 # Calculating EAS
 #================================
@@ -169,9 +170,6 @@ mobility.to_csv(out_file, index=False)
 from shapely.geometry import Point
 import pyproj
 import matplotlib.pyplot as plt
-
-# drop counties in U.S. territories
-counties = counties[~counties['state'].isin(['AK', 'HI', 'AS', 'GU', 'MP', 'PR', 'VI'])]
 
 
 MILES_TO_METERS = 1609.344
@@ -183,6 +181,9 @@ PROJECTED_CRS = "EPSG:5070"   # meters
 # -------------------------
 derived_path = "data/derived-data"
 counties = gpd.read_file(os.path.join(derived_path, "counties.geojson"))
+# drop counties in U.S. territories
+counties = counties[~counties['state'].isin(['AK', 'HI', 'AS', 'GU', 'MP', 'PR', 'VI'])]
+
 
 # Ensure a known CRS (most GeoJSON are EPSG:4326)
 if counties.crs is None:
@@ -257,3 +258,102 @@ print("Saved:")
 print("- data/derived-data/county_school_counts_by_radius.csv (no geometry)")
 print("- data/derived-data/county_school_counts_by_radius.gpkg (with geometry)")
 print("- data/derived-data/county_school_counts_by_radius.geojson (with geometry)")
+
+import numpy as np
+
+# -------------------------
+# 7) Compute EAS (per 10k people age 18-24)
+#     merge keys:
+#       counts: county_name + state_name + state
+#       population: county_name + state_name
+# -------------------------
+
+counts = pd.read_csv("data/derived-data/county_school_counts_by_radius.csv")
+
+pop = pd.read_csv("data/derived-data/county_population_18_24_2023.csv")
+
+
+
+# merge on county_name and state_name (and also state for safety, but it should be unique by then)
+df_eas = counts.merge(
+    pop,
+    on=["county_name", "state_name"],
+    how="left",
+    validate="m:1"
+)
+
+for r in [25, 50, 75]:
+    df_eas[f"eas_{r}mi_per10k"] = (df_eas[f"schools_within_{r}mi"] / df_eas["population_18_24"]) * 10000
+
+# drop counties in U.S. territories
+df_eas = df_eas[df_eas['state'].isin(['AK', 'HI', 'AS', 'GU', 'MP', 'PR', 'VI']) == False]
+
+df_eas.to_csv("data/derived-data/eas_by_radius.csv", index=False)
+
+print("Saved: data/derived-data/eas_by_radius.csv")
+print(df_eas[["county_name","state_name","state","eas_25mi_per10k","eas_50mi_per10k","eas_75mi_per10k"]].head())
+
+# ===============================================
+# Static Plot 1: Choropleth map of EAS (50 miles)
+# ===============================================
+import matplotlib.pyplot as plt
+import numpy as np
+import geopandas as gpd
+import pandas as pd
+
+EXCLUDE_STATES = ['AK', 'HI', 'AS', 'GU', 'MP', 'PR', 'VI']  # 你不想显示的
+
+counties_map = gpd.read_file("data/derived-data/counties.geojson")
+eas = pd.read_csv("data/derived-data/eas_by_radius.csv")
+
+# drop counties in U.S. territories
+counties_map = counties_map[~counties_map["state"].isin(EXCLUDE_STATES)].copy()
+
+# merge
+gdf_map = counties_map.merge(
+    eas[["county_name", "state_name", "eas_50mi_per10k"]],
+    on=["county_name", "state_name"],
+    how="left",
+    validate="1:1"
+)
+
+# log scale for better visualization
+gdf_map["eas50_plot"] = np.log1p(gdf_map["eas_50mi_per10k"])
+
+# is this in lat/lon? If so, convert to projected CRS for accurate buffering and distance-based visualization
+if gdf_map.crs is None:
+    gdf_map = gdf_map.set_crs("EPSG:4326")
+
+# if it's in lat/lon, convert to projected CRS for accurate buffering and distance-based visualization
+gdf_ll = gdf_map.to_crs("EPSG:4326")
+
+# sometimes geometries can be invalid after operations, so we can fix them with buffer(0)
+gdf_ll["geometry"] = gdf_ll.geometry.buffer(0)
+
+# clip to the continental US bounding box to avoid weird outliers in AK/HI and make the map more focused
+gdf_ll = gdf_ll.cx[slice(-125, -66.5), slice(24, 49.5)]
+
+fig, ax = plt.subplots(1, 1, figsize=(16, 10))
+
+gdf_ll.plot(
+    column="eas50_plot",
+    ax=ax,
+    legend=True,
+    linewidth=0.15,
+    edgecolor="white",
+    missing_kwds={"color": "lightgrey", "label": "Missing"},
+    legend_kwds={
+        "label": "log(1 + EAS per 10k), 50-mile radius",
+        "shrink": 0.6,   # colorbar
+        "pad": 0.02
+    },
+)
+
+ax.set_title("Education Access Score (EAS), 50-mile radius", fontsize=16, pad=12)
+ax.set_axis_off()
+
+plt.tight_layout()
+plt.savefig("data/derived-data/static_map_eas_50mi.png", dpi=350, bbox_inches="tight")
+plt.close()
+
+print("Saved: data/derived-data/static_map_eas_50mi.png")
