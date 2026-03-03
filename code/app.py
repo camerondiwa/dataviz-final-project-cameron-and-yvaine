@@ -27,11 +27,15 @@ racial_minority_threshold = st.sidebar.slider("Minimum Racial Minority Populatio
 @st.cache_data
 def load_data():
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-    data_path = os.path.join(BASE_DIR, "..", "data", "derived-data", "county_and_opscore_gdf.parquet")
-    county_and_opscore_gdf = gpd.read_parquet(data_path)
+    
+    parquet_path = os.path.join(BASE_DIR, "..", "data", "derived-data", "county_and_opscore_gdf.parquet")
+    county_and_opscore_gdf = gpd.read_parquet(parquet_path)
     county_and_opscore_gdf = county_and_opscore_gdf.to_crs("EPSG:5070")
+    county_and_opscore_gdf['fips'] = county_and_opscore_gdf['fips'].astype(str).str.zfill(5)
 
-    pov_opscore_rm_df = os.path.join(BASE_DIR, "..", "data", "derived-data", "pov_opscore_rm_df.csv")
+    csv_path = os.path.join(BASE_DIR, "..", "data", "derived-data", "poverty_racial_merged.csv")
+    pov_opscore_rm_df = pd.read_csv(csv_path)
+    pov_opscore_rm_df['fips'] = pov_opscore_rm_df['fips'].astype(str).str.zfill(5)
 
     # merge into one geodataframe
     master = county_and_opscore_gdf.merge(pov_opscore_rm_df[['fips', 'poverty_rate', 'prop_racial_min']], on='fips', how='left')
@@ -74,7 +78,7 @@ m1, m2, m3 = st.columns(3)
 # summary metrics
 count = len(filtered_data)
 avg_score = filtered_data['dynamic_opscore'].mean() if count > 0 else 0
-avg_minority = filtered_data['minority_pct'].mean() if count > 0 else 0
+avg_minority = filtered_data['prop_racial_min'].mean() if count > 0 else 0
 
 m1.metric("Counties Identified", count)
 m2.metric("Average Opportunity Score", f"{avg_score:.1f}")
@@ -109,11 +113,11 @@ with col2:
 
     display_df = filtered_data.sort_values('dynamic_opscore').head(15)
     st.dataframe(
-        display_df[['County_Name', 'State_Abbr', 'poverty_rate', 'minority_pct', 'dynamic_opscore']],
+        display_df[['county', 'state', 'poverty_rate', 'prop_racial_min', 'dynamic_opscore']],
         hide_index=True,
         column_config={
             "poverty_rate": st.column_config.NumberColumn("Poverty %", format="%.1f"),
-            "minority_pct": st.column_config.NumberColumn("Minority %", format="%.1f"),
+            "prop_racial_min": st.column_config.NumberColumn("Minority %", format="%.1f"),
             "dynamic_opscore": st.column_config.ProgressColumn("Opportunity Score", min_value=0, max_value=100)
         }
     )
