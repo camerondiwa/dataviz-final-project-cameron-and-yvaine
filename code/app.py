@@ -31,35 +31,10 @@ def load_data():
     county_and_opscore_gdf = gpd.read_parquet(data_path)
     county_and_opscore_gdf = county_and_opscore_gdf.to_crs("EPSG:5070")
 
-    # define a header to avoid being blocked
-    header = {"User-Agent": "Streamlit-Education-Project (Contact: camerondiwa@uchicago.edu)"}
-
-    # get census data
-    url = "https://api.census.gov/data/2022/acs/acs5?get=NAME,S1701_C03_001E,B01001_001E,B02001_002E&for=county:*"
-    response = requests.get(url, headers=header)
-    response.encoding = 'latin-1' 
-    
-    if response.status_code != 200:
-        st.error(f"Census API returned an error: {response.status_code}.")
-        return county_and_opscore_gdf 
-
-    try:
-        census_json = response.json()
-    except Exception as e:
-        st.error(f"Census API didn't return valid JSON. Response text: {response.text[:100]}...")
-        return county_and_opscore_gdf
-    
-    census_df = pd.DataFrame(census_json[1:], columns=census_json[0])
-
-    # clean the data
-    census_df['fips'] = census_df['state'] + census_df['county']
-    census_df['poverty_rate'] = pd.to_numeric(census_df['S1701_C03_001E'], errors='coerce')
-    total_pop = pd.to_numeric(census_df['B01001_001E'], errors='coerce')
-    white_alone = pd.to_numeric(census_df['B02001_002E'], errors='coerce')
-    census_df['minority_pct'] = ((total_pop - white_alone) / total_pop) * 100
+    pov_opscore_rm_df = os.path.join(BASE_DIR, "..", "data", "derived-data", "pov_opscore_rm_df.csv")
 
     # merge into one geodataframe
-    master = county_and_opscore_gdf.merge(census_df[['fips', 'poverty_rate', 'minority_pct']], on='fips', how='left')
+    master = county_and_opscore_gdf.merge(pov_opscore_rm_df[['fips', 'poverty_rate', 'prop_racial_min']], on='fips', how='left')
 
     return master
 
@@ -90,7 +65,7 @@ def calculate_opscore(access_weight, mobility_weight, equity_weight):
 data = calculate_opscore(access_weight, mobility_weight, equity_weight)
 
 # apply the filters
-filtered_data = data[(data['poverty_rate'] >= poverty_threshold) & (data['minority_pct'] >= racial_minority_threshold)]
+filtered_data = data[(data['poverty_rate'] >= poverty_threshold) & (data['prop_racial_min'] >= racial_minority_threshold)]
 
 
 #----- visuals -----#
