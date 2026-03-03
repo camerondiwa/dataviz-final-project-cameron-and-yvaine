@@ -47,11 +47,11 @@ with st.spinner("Loading Data..."):
     master_gdf = load_data()
 
 @st.cache_data
-def calculate_opscore(access_weight, mobility_weight, equity_weight):
+def calculate_opscore(_df, access_weight, mobility_weight, equity_weight):
     """
     Calculates an Opportunity Score based on the user's inputs.
     """
-    df = master_gdf.copy()
+    df = _df.copy()
     total_weight = access_weight + mobility_weight + equity_weight
 
     # prevent division by 0
@@ -66,7 +66,7 @@ def calculate_opscore(access_weight, mobility_weight, equity_weight):
 
     return df
     
-data = calculate_opscore(access_weight, mobility_weight, equity_weight)
+data = calculate_opscore(master_gdf, access_weight, mobility_weight, equity_weight)
 
 # apply the filters
 filtered_data = data[(data['poverty_rate'] >= poverty_threshold) & (data['prop_racial_min'] >= racial_minority_threshold)]
