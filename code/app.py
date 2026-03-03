@@ -32,13 +32,23 @@ def load_data():
     county_and_opscore_gdf = county_and_opscore_gdf.to_crs("EPSG:5070")
 
     # define a header to avoid being blocked
-    header = {"User-Agent": "Mozilla/5.0"}
+    header = {"User-Agent": "Streamlit-Education-Project (Contact: camerondiwa@uchicago.edu)"}
 
     # get census data
     url = "https://api.census.gov/data/2022/acs/acs5?get=NAME,S1701_C03_001E,B01001_001E,B02001_002E&for=county:*"
     response = requests.get(url, headers=header)
     response.encoding = 'latin-1' 
-    census_json = response.json()
+    
+    if response.status_code != 200:
+        st.error(f"Census API returned an error: {response.status_code}.")
+        return county_and_opscore_gdf 
+
+    try:
+        census_json = response.json()
+    except Exception as e:
+        st.error(f"Census API didn't return valid JSON. Response text: {response.text[:100]}...")
+        return county_and_opscore_gdf
+    
     census_df = pd.DataFrame(census_json[1:], columns=census_json[0])
 
     # clean the data
