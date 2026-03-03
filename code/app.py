@@ -47,7 +47,7 @@ def load_data():
 
     # merge into one geodataframe
     scores = pd.read_csv("../data/derived-data/county_and_opscore_gdf.csv")
-    master = county_gdf.merge(scores, on='fips').merge(census_df[['fips', 'poverty_rate', 'minority_pct']], on='fips')
+    master = county_and_opscore_gdf.merge(scores, on='fips').merge(census_df[['fips', 'poverty_rate', 'minority_pct']], on='fips')
 
     return master
 
