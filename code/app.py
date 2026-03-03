@@ -31,9 +31,12 @@ def load_data():
     county_and_opscore_gdf = gpd.read_parquet(data_path)
     county_and_opscore_gdf = county_and_opscore_gdf.to_crs("EPSG:5070")
 
+    # define a header to avoid being blocked
+    header = {"User-Agent": "Mozilla/5.0"}
+
     # get census data
     url = "https://api.census.gov/data/2022/acs/acs5?get=NAME,S1701_C03_001E,B01001_001E,B02001_002E&for=county:*"
-    response = requests.get(url)
+    response = requests.get(url, headers=header)
     response.encoding = 'latin-1' 
     census_json = response.json()
     census_df = pd.DataFrame(census_json[1:], columns=census_json[0])
@@ -46,8 +49,7 @@ def load_data():
     census_df['minority_pct'] = ((total_pop - white_alone) / total_pop) * 100
 
     # merge into one geodataframe
-    scores = pd.read_csv("../data/derived-data/county_and_opscore_gdf.csv")
-    master = county_and_opscore_gdf.merge(scores, on='fips').merge(census_df[['fips', 'poverty_rate', 'minority_pct']], on='fips')
+    master = county_and_opscore_gdf.merge(census_df[['fips', 'poverty_rate', 'minority_pct']], on='fips', how='left')
 
     return master
 
@@ -61,11 +63,17 @@ def calculate_opscore(access_weight, mobility_weight, equity_weight):
     Calculates an Opportunity Score based on the user's inputs.
     """
     df = master_gdf.copy()
+    total_weight = access_weight + mobility_weight + equity_weight
+
+    # prevent division by 0
+    if total_weight == 0: 
+        total_weight = 1
+
     df['dynamic_opscore'] = (
         (df['access_score'] * access_weight) +
         (df['earnings_score'] * mobility_weight) +
         (df['pell_score'] * equity_weight)
-    ) * 100 / (access_weight + mobility_weight + equity_weight)
+    ) * 100 / total_weight
 
     return df
     
@@ -79,9 +87,13 @@ filtered_data = data[(data['poverty_rate'] >= poverty_threshold) & (data['minori
 m1, m2, m3 = st.columns(3)
 
 # summary metrics
-m1.metric("Counties Identified", len(filtered_data))
-m2.metric("Avgerage Opportunity Score", f"{filtered_data['dynamic_opscore'].mean():.1f}")
-m3.metric("Avgerage Minority %", f"{filtered_data['minority_pct'].mean():.1f}%")
+count = len(filtered_data)
+avg_score = filtered_data['dynamic_opscore'].mean() if count > 0 else 0
+avg_minority = filtered_data['minority_pct'].mean() if count > 0 else 0
+
+m1.metric("Counties Identified", count)
+m2.metric("Average Opportunity Score", f"{avg_score:.1f}")
+m3.metric("Average Minority %", f"{avg_minority:.1f}%")
 
 # map and table data
 col1, col2 = st.columns([2, 1])
