@@ -3,6 +3,7 @@ import pandas as pd
 import geopandas as gpd
 import matplotlib.pyplot as plt
 import requests
+import os
 
 #----- set up the app -----#
 st.set_page_config(layout="wide", page_title="U.S. Education Desert Diagnostic Tool")
@@ -25,7 +26,9 @@ racial_minority_threshold = st.sidebar.slider("Minimum Racial Minority Populatio
 #----- process the data -----#
 @st.cache_data
 def load_data():
-    county_and_opscore_gdf = gpd.read_parquet("../data/derived-data/county_and_opscore_gdf.parquet")
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    data_path = os.path.join(BASE_DIR, "..", "data", "derived-data", "county_and_opscore_gdf.parquet")
+    county_and_opscore_gdf = gpd.read_parquet(data_path)
     county_and_opscore_gdf = county_and_opscore_gdf.to_crs("EPSG:5070")
 
     # get census data
