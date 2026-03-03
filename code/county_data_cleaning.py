@@ -3,8 +3,10 @@ import pandas as pd
 import os
 import altair as alt
 from shapely.geometry import Point
-import pyproj
+import pyproj as pyproj   
 import matplotlib.pyplot as plt
+import numpy as np
+
 #=========================
 # school data cleaning
 #=========================
@@ -165,6 +167,48 @@ median_income = median_income.rename(columns={'B19013_001E': 'median_income'})
 out_file = os.path.join(derived_path, "median_income.csv")
 median_income.to_csv(out_file, index=False)
 
+#================================
+#  degree data cleaning
+#================================
+# load the mobility data
+data = os.path.join(in_path, "ACSST5Y2023.S1501_2026-03-02T233050","ACSST5Y2023.S1501-Data.csv")
+degree_data= pd.read_csv(data, skiprows=[1]).copy()
+
+# 2. Split the NAME column into county_name and state
+
+degree_data = degree_data[['NAME', 'S1501_C01_006E', 'S1501_C01_015E']]
+# 2. Split the NAME column into county_name and state
+degree_data['NAME'] = degree_data['NAME'].astype(str)
+degree_data[['county_name', 'state_name']] = (
+    degree_data['NAME'].str.split(',', n=1, expand=True)
+)
+
+# Strip leading/trailing whitespace from county_name and state
+degree_data['county_name'] = degree_data['county_name'].str.strip()
+degree_data['state_name'] = degree_data['state_name'].str.strip()
+
+# 3. Only keep the columns we need and rename the median income column for clarity
+degree_data = degree_data[['county_name', 'state_name', 'S1501_C01_006E', 'S1501_C01_015E']]
+# Rename the degree data columns for clarity
+degree_data = degree_data.rename(columns={'S1501_C01_006E': 'total_population', 'S1501_C01_015E': 'bachelor_degree_or_higher'})
+# 4. Clean the degree data columns (remove non-numeric characters and convert to numeric)
+# errors='coerce' 会把非数字字符变成 NaN
+degree_data['bachelor_degree_or_higher'] = pd.to_numeric(degree_data['bachelor_degree_or_higher'], errors='coerce')
+degree_data['total_population'] = pd.to_numeric(degree_data['total_population'], errors='coerce')
+
+# 2. Handle missing values: if bachelor_degree_or_higher is NaN, we can assume it's 0 (no one has a bachelor's degree or higher); if total_population is NaN, we can keep it as NaN for now and handle it in the next step when we calculate the percentage
+degree_data['bachelor_degree_or_higher'] = degree_data['bachelor_degree_or_higher'].fillna(0)
+# if total_population is 0, we should set it to NaN to avoid division by zero when calculating the percentage later (since if total_population is 0, the percentage of people with a bachelor's degree or higher is undefined)
+degree_data['total_population'] = degree_data['total_population'].replace(0, np.nan) 
+
+# 3. Calculate the percentage of people with a bachelor's degree or higher
+degree_data['percent_bachelor_degree_or_higher'] = (
+    degree_data['bachelor_degree_or_higher'] / degree_data['total_population']
+) * 100
+
+# 5. Save the cleaned degree data to a new CSV file
+out_file = os.path.join(derived_path, "degree_data.csv")
+degree_data.to_csv(out_file, index=False)
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 #================================
@@ -471,45 +515,27 @@ print("Schools shown:", len(schools_in_deserts))
 
 
 # ===============================================
-# Static Plot 2: Scatter (EAS vs Mobility)
+# Static Plot 2: Scatter (EAS vs Degree)
 # ===============================================
 import pandas as pd
 import altair as alt
 
 # Paths
 EAS_PATH = "data/derived-data/eas_by_radius.csv"
-MOBILITY_PATH = "data/derived-data/mobility_rate.csv"
-OUT_PATH = "data/derived-data/static_scatter_eas_vs_mobility_50mi.png"
+DEGREE_DATA_PATH = "data/derived-data/degree_data.csv"
+OUT_PATH = "data/derived-data/static_scatter_eas_vs_degree_50mi.png"
 
 # 1) Load
 eas = pd.read_csv(EAS_PATH)
-mobility = pd.read_csv(MOBILITY_PATH)
-
-#find the duplicated rows in mobility
-dup = mobility[mobility.duplicated(
-    subset=["county_name", "state"],
-    keep=False
-)].sort_values(["county_name", "state"])
-
-print("Number of duplicate rows:", len(dup))
-print("\nDuplicate combinations:")
-print(
-    dup[["county_name", "state"]]
-    .value_counts()
-    .reset_index(name="count")
-    .head(20)
-)
-
-print("\nSample duplicate rows:")
-print(dup.head(20))
+degree_data = pd.read_csv(DEGREE_DATA_PATH)
 
 # find out the duplicated rows are NA
-mobility = mobility.dropna(subset=["county_name", "state"])
+degree_data = degree_data.dropna(subset=["county_name", "state_name"])
 
-# 2) Merge EAS and mobility data on county_name and state
+# 2) Merge EAS and degree_data data on county_name and state
 df = eas.merge(
-    mobility,
-    on=["county_name", "state"],
+    degree_data,
+    on=["county_name", "state_name"],
     how="left",
     validate="1:1"
 )
@@ -520,8 +546,8 @@ deserts_flag = pd.read_csv("data/derived-data/county_desert_flag.csv")
 
 # merge the desert flag onto df
 df = df.merge(
-    deserts_flag[["county_name", "state", "is_desert"]],
-    on=["county_name", "state"],
+    deserts_flag[["county_name", "state_name", "is_desert"]],
+    on=["county_name", "state_name"],
     how="left"
 )
 
@@ -529,17 +555,18 @@ df = df.merge(
 df["is_desert"] = df["is_desert"].fillna(False)
 
 # 3) Drop missing
-df = df.dropna(subset=["eas_50mi_per10k", "mobility_rate"])
+df = df.dropna(subset=["eas_50mi_per10k", "percent_bachelor_degree_or_higher"])
 
 # 4) log transform EAS if very skewed
-df["log_eas_50mi"] = df["eas_50mi_per10k"].apply(lambda x: 0 if x <= 0 else x).pipe(lambda s: s + 1).apply(lambda x: np.log(x))
+df["eas_50mi_per10k"] = pd.to_numeric(df["eas_50mi_per10k"], errors="coerce")
+df["log_eas_50mi"] = np.log1p(df["eas_50mi_per10k"].clip(lower=0))
 
 # 5) Build Altair chart
 base = alt.Chart(df).encode(
-    x=alt.X("log_eas_50mi:Q", title="log(EAS + 1), 50-mile"),
+    x=alt.X("log_eas_50mi:Q", title="EAS , 50-mile"),
     y=alt.Y(
-        "mobility_rate:Q",
-        title="Mobility Rate (Top 20% income)"),
+        "percent_bachelor_degree_or_higher:Q",
+        title="Percent Bachelor's Degree or Higher",),
     color=alt.Color(
     "is_desert:N",
     title="Education desert?",
@@ -559,7 +586,7 @@ points = base.mark_circle(
 
 trend = base.transform_regression(
     "log_eas_50mi",
-    "mobility_rate"
+    "percent_bachelor_degree_or_higher",
 ).mark_line(
     color="red",
     size=2
@@ -568,7 +595,7 @@ trend = base.transform_regression(
 chart = (points + trend).properties(
     width=700,
     height=500,
-    title="Education Access vs Intergenerational Mobility (50-mile)"
+    title="Education Access vs Educational Attainment (Bachelor's or Higher)"
 )
 
 # 6) Save
@@ -581,67 +608,9 @@ import numpy as np
 import altair as alt
 import pandas as pd
 
-#=========================
-# plot not sure
-#=========================
-# 1. 确保你已经读取了刚才保存的 desert_flag 文件
-desert_flags = pd.read_csv("data/derived-data/county_desert_flag.csv")
+chart = alt.Chart(df).mark_boxplot().encode(
+    x=alt.X("is_desert:N", title="Education desert?"),
+    y=alt.Y("percent_bachelor_degree_or_higher:Q", title="Percent Bachelor's Degree or Higher")
+).properties(width=450, height=400, title="Percent Bachelor's Degree or Higher: Deserts vs Non-deserts")
 
-# 2. 读取流动率数据 (mobility_rate)
-mobility_df = pd.read_csv("data/derived-data/mobility_rate.csv")
-
-# 3. 将两者合并到 df 中
-# 注意：你的 mobility 数据里列名是 'state'，而 flag 数据里是 'state'，确保 merge 键一致
-df = mobility_df.merge(
-    desert_flags[["county_name", "state_name", "is_desert"]],
-    on=["county_name"], # 如果 mobility 数据里没有 state_name，先用 county_name 试探
-    how="inner"
-)
-
-# 4. 现在再执行 groupby 就不会报错了
-result = df.groupby("is_desert")["mobility_rate"].mean()
-print(result)
-# ------------------------------------------------
-# 2) 计算 group summary
-# ------------------------------------------------
-summary = (
-    df.groupby("is_desert")["mobility_rate"]
-    .agg(["mean", "count", "std"])
-    .reset_index()
-)
-
-summary["se"] = summary["std"] / np.sqrt(summary["count"])
-summary["ci_low"] = summary["mean"] - 1.96 * summary["se"]
-summary["ci_high"] = summary["mean"] + 1.96 * summary["se"]
-
-# ------------------------------------------------
-# 3) Plot
-# ------------------------------------------------
-base = alt.Chart(summary).encode(
-    x=alt.X("is_desert:N", title="Education Desert"),
-)
-
-bars = base.mark_bar(size=80).encode(
-    y=alt.Y("mean:Q", title="Average Mobility Rate (Top 20%)"),
-    color=alt.Color(
-        "is_desert:N",
-        scale=alt.Scale(
-            domain=[False, True],
-            range=["#bdbdbd", "#311B92"]  # 灰 vs 深紫
-        ),
-        legend=None
-    )
-)
-
-error = base.mark_rule(color="black", strokeWidth=2).encode(
-    y="ci_low:Q",
-    y2="ci_high:Q"
-)
-
-chart = (bars + error).properties(
-    width=450,
-    height=500,
-    title="Mobility is Lower in Education Desert Counties"
-)
-
-chart
+chart.save("data/derived-data/static_box_degree_desert.png")
