@@ -68,6 +68,16 @@ def calculate_opscore(_df, access_weight, mobility_weight, equity_weight):
     
 data = calculate_opscore(master_gdf, access_weight, mobility_weight, equity_weight)
 
+# check if poverty_rate exists before filtering to prevent crash
+if 'poverty_rate' in data.columns:
+    filtered_data = data[
+        (data['poverty_rate'] >= poverty_threshold) & 
+        (data['prop_racial_min'] >= racial_minority_threshold)
+    ]
+else:
+    st.error("Data Column Error: 'poverty_rate' not found. Please clear Streamlit Cache.")
+    filtered_data = data.copy()
+
 # apply the filters
 filtered_data = data[(data['poverty_rate'] >= poverty_threshold) & (data['prop_racial_min'] >= racial_minority_threshold)]
 
