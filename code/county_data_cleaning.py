@@ -3,8 +3,10 @@ import pandas as pd
 import os
 import altair as alt
 from shapely.geometry import Point
-import pyproj
+import pyproj as pyproj   
 import matplotlib.pyplot as plt
+import numpy as np
+
 #=========================
 # school data cleaning
 #=========================
@@ -134,33 +136,79 @@ populations.to_csv(out_file, index=False)
 
 
 #================================
-# mobility rate data cleaning
+# median income data cleaning
 #================================
 # load the mobility data
-data = os.path.join(in_path, "cty_kfr_top20_rP_gP_pall.csv")
-mobility = gpd.read_file(data)
+data = os.path.join(in_path, "ACSDT5Y2023.B19013_2026-03-02T221821","ACSDT5Y2023.B19013-Data.csv")
+median_income= pd.read_csv(data, skiprows=[1]).copy()
 
 # 2. Split the NAME column into county_name and state
-mobility['Name'] = mobility['Name'].astype(str)
-mobility[['county_name', 'state']] = (
-    mobility['Name'].str.split(',', n=1, expand=True)
+
+median_income = median_income[['NAME', 'B19013_001E']]
+
+# 2. Split the NAME column into county_name and state
+median_income['NAME'] = median_income['NAME'].astype(str)
+median_income[['county_name', 'state_name']] = (
+    median_income['NAME'].str.split(',', n=1, expand=True)
 )
-mobility["state"] = mobility["state"].str.strip()
-mobility['county_name'] = (
-    mobility['county_name']
-    .str.strip()
+
+# Strip leading/trailing whitespace from county_name and state
+median_income['county_name'] = median_income['county_name'].str.strip()
+median_income['state_name'] = median_income['state_name'].str.strip()
+
+
+# 3. Only keep the columns we need and rename the median income column for clarity
+median_income = median_income[['county_name', 'state_name', 'B19013_001E']]
+# Rename the median income column 
+median_income = median_income.rename(columns={'B19013_001E': 'median_income'})
+
+
+# 5. Save the cleaned median income data to a new CSV file
+out_file = os.path.join(derived_path, "median_income.csv")
+median_income.to_csv(out_file, index=False)
+
+#================================
+#  degree data cleaning
+#================================
+# load the mobility data
+data = os.path.join(in_path, "ACSST5Y2023.S1501_2026-03-02T233050","ACSST5Y2023.S1501-Data.csv")
+degree_data= pd.read_csv(data, skiprows=[1]).copy()
+
+# 2. Split the NAME column into county_name and state
+
+degree_data = degree_data[['NAME', 'S1501_C01_006E', 'S1501_C01_015E']]
+# 2. Split the NAME column into county_name and state
+degree_data['NAME'] = degree_data['NAME'].astype(str)
+degree_data[['county_name', 'state_name']] = (
+    degree_data['NAME'].str.split(',', n=1, expand=True)
 )
 
-# 3. Only keep the columns we need and rename the mobility rate column for clarity
-mobility = mobility[['county_name', 'state', 'Frac._in_Top_20%_Based_on_Household_Income_rP_gP_pall']]
-# Rename the mobility rate column 
-mobility = mobility.rename(columns={'Frac._in_Top_20%_Based_on_Household_Income_rP_gP_pall': 'mobility_rate'})
+# Strip leading/trailing whitespace from county_name and state
+degree_data['county_name'] = degree_data['county_name'].str.strip()
+degree_data['state_name'] = degree_data['state_name'].str.strip()
 
+# 3. Only keep the columns we need and rename the median income column for clarity
+degree_data = degree_data[['county_name', 'state_name', 'S1501_C01_006E', 'S1501_C01_015E']]
+# Rename the degree data columns for clarity
+degree_data = degree_data.rename(columns={'S1501_C01_006E': 'total_population', 'S1501_C01_015E': 'bachelor_degree_or_higher'})
+# 4. Clean the degree data columns (remove non-numeric characters and convert to numeric)
+# errors='coerce' 会把非数字字符变成 NaN
+degree_data['bachelor_degree_or_higher'] = pd.to_numeric(degree_data['bachelor_degree_or_higher'], errors='coerce')
+degree_data['total_population'] = pd.to_numeric(degree_data['total_population'], errors='coerce')
 
-# 5. Save the cleaned mobility data to a new CSV file
-out_file = os.path.join(derived_path, "mobility_rate.csv")
-mobility.to_csv(out_file, index=False)
+# 2. Handle missing values: if bachelor_degree_or_higher is NaN, we can assume it's 0 (no one has a bachelor's degree or higher); if total_population is NaN, we can keep it as NaN for now and handle it in the next step when we calculate the percentage
+degree_data['bachelor_degree_or_higher'] = degree_data['bachelor_degree_or_higher'].fillna(0)
+# if total_population is 0, we should set it to NaN to avoid division by zero when calculating the percentage later (since if total_population is 0, the percentage of people with a bachelor's degree or higher is undefined)
+degree_data['total_population'] = degree_data['total_population'].replace(0, np.nan) 
 
+# 3. Calculate the percentage of people with a bachelor's degree or higher
+degree_data['percent_bachelor_degree_or_higher'] = (
+    degree_data['bachelor_degree_or_higher'] / degree_data['total_population']
+) * 100
+
+# 5. Save the cleaned degree data to a new CSV file
+out_file = os.path.join(derived_path, "degree_data.csv")
+degree_data.to_csv(out_file, index=False)
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 #================================
@@ -374,6 +422,7 @@ OUT_PATH = "data/derived-data/static_map_deserts_50mi_with_schools.png"
 counties_map = gpd.read_file(COUNTIES_PATH)
 eas = pd.read_csv(EAS_PATH)
 schools = gpd.read_file(SCHOOLS_PATH)
+counts = pd.read_csv("data/derived-data/county_school_counts_by_radius.csv")
 
 # 2) Keep CONUS only
 counties_map = counties_map[~counties_map["state"].isin(EXCLUDE_STATES)].copy()
@@ -382,6 +431,14 @@ schools = schools[~schools["state"].isin(EXCLUDE_STATES)].copy()
 # 3) Merge EAS onto counties
 gdf = counties_map.merge(
     eas[["county_name", "state_name", "eas_50mi_per10k"]],
+    on=["county_name", "state_name"],
+    how="left",
+    validate="1:1"
+)
+
+# merge school counts（bring schools_wthin_50mi）
+gdf = gdf.merge(
+    counts[["county_name", "state_name", "schools_within_50mi"]],
     on=["county_name", "state_name"],
     how="left",
     validate="1:1"
@@ -406,9 +463,12 @@ schools_ll = schools_ll.cx[slice(-125, -66.5), slice(24, 49.5)]
 # 5) Identify deserts = bottom 20% of EAS (50mi)
 #   rank(pct=True) 
 gdf_ll["eas_rank_pct"] = gdf_ll["eas_50mi_per10k"].rank(pct=True, method="average")
-gdf_ll["is_desert"] = gdf_ll["eas_rank_pct"] <= 0.20
+gdf_ll["is_desert"] = (gdf_ll["eas_rank_pct"] <= 0.20) & (gdf_ll["schools_within_50mi"] <= 2)
 
 deserts = gdf_ll[gdf_ll["is_desert"]].copy()
+flag = gdf_ll[["county_name", "state_name", "state", "is_desert"]].copy()
+flag.to_csv("data/derived-data/county_desert_flag.csv", index=False)
+print("Saved: data/derived-data/county_desert_flag.csv")
 
 # 6) Select schools to plot
 #    only plot schools that fall within desert counties or within 50 miles of them (for better visibility)
@@ -435,10 +495,10 @@ deserts.plot(ax=ax, color="#4a1486", linewidth=0.08, edgecolor="white", alpha=0.
 # schools points (small + semi-transparent)
 schools_in_deserts.plot(
     ax=ax,
-    markersize=3,
+    markersize=7,
     color="#FFD700",        # golden color for better visibility
     linewidth=0.3,
-    alpha=0.6
+    alpha=0.9
 )
 
 ax.set_title("Education Deserts (Bottom 20% EAS) and Nearby Institutions, 50-mile definition", fontsize=16, pad=12)
@@ -455,62 +515,58 @@ print("Schools shown:", len(schools_in_deserts))
 
 
 # ===============================================
-# Static Plot 2: Scatter (EAS vs Mobility)
+# Static Plot 2: Scatter (EAS vs Degree)
 # ===============================================
 import pandas as pd
 import altair as alt
 
 # Paths
 EAS_PATH = "data/derived-data/eas_by_radius.csv"
-MOBILITY_PATH = "data/derived-data/mobility_rate.csv"
-OUT_PATH = "data/derived-data/static_scatter_eas_vs_mobility_50mi.png"
+DEGREE_DATA_PATH = "data/derived-data/degree_data.csv"
+OUT_PATH = "data/derived-data/static_scatter_eas_vs_degree_50mi.png"
 
 # 1) Load
 eas = pd.read_csv(EAS_PATH)
-mobility = pd.read_csv(MOBILITY_PATH)
-
-#find the duplicated rows in mobility
-dup = mobility[mobility.duplicated(
-    subset=["county_name", "state"],
-    keep=False
-)].sort_values(["county_name", "state"])
-
-print("Number of duplicate rows:", len(dup))
-print("\nDuplicate combinations:")
-print(
-    dup[["county_name", "state"]]
-    .value_counts()
-    .reset_index(name="count")
-    .head(20)
-)
-
-print("\nSample duplicate rows:")
-print(dup.head(20))
+degree_data = pd.read_csv(DEGREE_DATA_PATH)
 
 # find out the duplicated rows are NA
-mobility = mobility.dropna(subset=["county_name", "state"])
+degree_data = degree_data.dropna(subset=["county_name", "state_name"])
 
-# 2) Merge
+# 2) Merge EAS and degree_data data on county_name and state
 df = eas.merge(
-    mobility,
-    on=["county_name", "state"],
+    degree_data,
+    on=["county_name", "state_name"],
     how="left",
     validate="1:1"
 )
 
+
+#  is_desert flag
+deserts_flag = pd.read_csv("data/derived-data/county_desert_flag.csv")
+
+# merge the desert flag onto df
+df = df.merge(
+    deserts_flag[["county_name", "state_name", "is_desert"]],
+    on=["county_name", "state_name"],
+    how="left"
+)
+
+# fill missing desert flag with False (assume missing means not a desert, since we only flagged the bottom 20%)
+df["is_desert"] = df["is_desert"].fillna(False)
+
 # 3) Drop missing
-df = df.dropna(subset=["eas_50mi_per10k", "mobility_rate"])
+df = df.dropna(subset=["eas_50mi_per10k", "percent_bachelor_degree_or_higher"])
 
 # 4) log transform EAS if very skewed
-df["log_eas_50mi"] = df["eas_50mi_per10k"].apply(lambda x: 0 if x <= 0 else x).pipe(lambda s: s + 1).apply(lambda x: np.log(x))
-df["is_desert"] = df["eas_50mi_per10k"].rank(pct=True) <= 0.2
+df["eas_50mi_per10k"] = pd.to_numeric(df["eas_50mi_per10k"], errors="coerce")
+df["log_eas_50mi"] = np.log1p(df["eas_50mi_per10k"].clip(lower=0))
 
 # 5) Build Altair chart
 base = alt.Chart(df).encode(
-    x=alt.X("log_eas_50mi:Q", title="log(EAS + 1), 50-mile"),
+    x=alt.X("log_eas_50mi:Q", title="EAS , 50-mile"),
     y=alt.Y(
-        "mobility_rate:Q",
-        title="Mobility Rate (Top 20% income)"),
+        "percent_bachelor_degree_or_higher:Q",
+        title="Percent Bachelor's Degree or Higher",),
     color=alt.Color(
     "is_desert:N",
     title="Education desert?",
@@ -529,8 +585,8 @@ points = base.mark_circle(
 )
 
 trend = base.transform_regression(
-    "eas_50mi_per10k",
-    "mobility_rate"
+    "log_eas_50mi",
+    "percent_bachelor_degree_or_higher",
 ).mark_line(
     color="red",
     size=2
@@ -539,7 +595,7 @@ trend = base.transform_regression(
 chart = (points + trend).properties(
     width=700,
     height=500,
-    title="Education Access vs Intergenerational Mobility (50-mile)"
+    title="Education Access vs Educational Attainment (Bachelor's or Higher)"
 )
 
 # 6) Save
@@ -552,55 +608,229 @@ import numpy as np
 import altair as alt
 import pandas as pd
 
-#=========================
-# plot
-#=========================
-# ------------------------------------------------
-# 1) 先确保 desert 定义
-# ------------------------------------------------
-df["is_desert"] = df["eas_50mi_per10k"].rank(pct=True) <= 0.2
+chart = alt.Chart(df).mark_boxplot().encode(
+    x=alt.X("is_desert:N", title="Education desert?"),
+    y=alt.Y("percent_bachelor_degree_or_higher:Q", title="Percent Bachelor's Degree or Higher")
+).properties(width=450, height=400, title="Percent Bachelor's Degree or Higher: Deserts vs Non-deserts")
 
-# ------------------------------------------------
-# 2) 计算 group summary
-# ------------------------------------------------
-summary = (
-    df.groupby("is_desert")["mobility_rate"]
-    .agg(["mean", "count", "std"])
-    .reset_index()
-)
+chart.save("data/derived-data/static_box_degree_desert.png")
 
-summary["se"] = summary["std"] / np.sqrt(summary["count"])
-summary["ci_low"] = summary["mean"] - 1.96 * summary["se"]
-summary["ci_high"] = summary["mean"] + 1.96 * summary["se"]
 
-# ------------------------------------------------
-# 3) Plot
-# ------------------------------------------------
-base = alt.Chart(summary).encode(
-    x=alt.X("is_desert:N", title="Education Desert"),
-)
+#================================
+# Streamlit
+#================================
+import streamlit as st
+import pandas as pd
+import geopandas as gpd
+import numpy as np
+import pydeck as pdk
+from shapely.geometry import mapping
 
-bars = base.mark_bar(size=80).encode(
-    y=alt.Y("mean:Q", title="Average Mobility Rate (Top 20%)"),
-    color=alt.Color(
-        "is_desert:N",
-        scale=alt.Scale(
-            domain=[False, True],
-            range=["#bdbdbd", "#311B92"]  # 灰 vs 深紫
-        ),
-        legend=None
+# -----------------------------
+# Config
+# -----------------------------
+st.set_page_config(page_title="Education Access Map", layout="wide")
+
+COUNTIES_PATH = "data/derived-data/counties.geojson"
+SCHOOLS_PATH = "data/derived-data/schools.geojson"
+COUNTS_PATH = "data/derived-data/county_school_counts_by_radius.csv"
+
+PROJECTED_CRS = "EPSG:5070"  # meters
+WGS84 = "EPSG:4326"
+MILES_TO_METERS = 1609.344
+RADII = [25, 50, 75]
+EXCLUDE_STATES = ['AK', 'HI', 'AS', 'GU', 'MP', 'PR', 'VI']
+
+# -----------------------------
+# Load data (cache)
+# -----------------------------
+@st.cache_data
+def load_data():
+    counties = gpd.read_file(COUNTIES_PATH)
+    schools = gpd.read_file(SCHOOLS_PATH)
+    counts = pd.read_csv(COUNTS_PATH)
+
+    # Clean filters (CONUS only)
+    counties = counties[~counties["state"].isin(EXCLUDE_STATES)].copy()
+    schools = schools[~schools["state"].isin(EXCLUDE_STATES)].copy()
+
+    # Ensure CRS
+    if counties.crs is None:
+        counties = counties.set_crs(WGS84)
+    if schools.crs is None:
+        schools = schools.set_crs(WGS84)
+
+    # merge counts onto counties
+    counties = counties.merge(
+        counts,
+        on=["county_name", "state_name", "state"],
+        how="left",
+        validate="1:1"
     )
+
+    return counties, schools
+
+counties_ll, schools_ll = load_data()
+
+# Add a user-friendly county label
+counties_ll["county_label"] = counties_ll["county_name"] + ", " + counties_ll["state"]
+
+# -----------------------------
+# Sidebar controls
+# -----------------------------
+st.sidebar.header("Controls")
+
+county_label = st.sidebar.selectbox(
+    "Select a county",
+    options=sorted(counties_ll["county_label"].dropna().unique().tolist())
 )
 
-error = base.mark_rule(color="black", strokeWidth=2).encode(
-    y="ci_low:Q",
-    y2="ci_high:Q"
+radius_mi = st.sidebar.radio(
+    "Radius (miles)",
+    options=RADII,
+    index=1,  # default 50
+    horizontal=True
 )
 
-chart = (bars + error).properties(
-    width=450,
-    height=500,
-    title="Mobility is Lower in Education Desert Counties"
+# pull selected county row
+county_row = counties_ll.loc[counties_ll["county_label"] == county_label].iloc[0:1].copy()
+county_geom_ll = county_row.geometry.iloc[0]
+
+# -----------------------------
+# Build buffer circle + schools within buffer
+# -----------------------------
+# project for accurate distance buffers
+county_gdf_p = gpd.GeoDataFrame(county_row, geometry="geometry", crs=WGS84).to_crs(PROJECTED_CRS)
+schools_p = schools_ll.to_crs(PROJECTED_CRS)
+
+# representative point (more robust than centroid for weird shapes)
+rep_pt = county_gdf_p.geometry.representative_point().iloc[0]
+
+buffer_poly_p = rep_pt.buffer(radius_mi * MILES_TO_METERS)
+buffer_poly_ll = gpd.GeoSeries([buffer_poly_p], crs=PROJECTED_CRS).to_crs(WGS84).iloc[0]
+
+# schools inside buffer
+buf_gdf_p = gpd.GeoDataFrame(geometry=[buffer_poly_p], crs=PROJECTED_CRS)
+schools_in = gpd.sjoin(
+    schools_p,
+    buf_gdf_p,
+    how="inner",
+    predicate="within"
+).copy()
+
+schools_in_ll = schools_in.to_crs(WGS84)
+
+# counts (two ways: from sjoin, and from precomputed column)
+count_live = len(schools_in_ll)
+col_pre = f"schools_within_{radius_mi}mi"
+count_pre = int(county_row[col_pre].fillna(0).iloc[0]) if col_pre in county_row.columns else None
+
+# -----------------------------
+# Header metrics
+# -----------------------------
+st.title("Education Access Explorer")
+
+c1, c2, c3 = st.columns(3)
+c1.metric("Selected county", county_label)
+c2.metric(f"Schools within {radius_mi} miles (live spatial)", f"{count_live}")
+if count_pre is not None:
+    c3.metric(f"Schools within {radius_mi} miles (precomputed)", f"{count_pre}")
+else:
+    c3.metric("Schools within radius (precomputed)", "N/A")
+
+st.caption("Tip: You can zoom/pan the map. The circle is centered at a representative point of the county.")
+
+# -----------------------------
+# Prepare GeoJSON for Pydeck
+# -----------------------------
+county_geojson = {
+    "type": "FeatureCollection",
+    "features": [{
+        "type": "Feature",
+        "geometry": mapping(county_geom_ll),
+        "properties": {"name": county_label}
+    }]
+}
+
+buffer_geojson = {
+    "type": "FeatureCollection",
+    "features": [{
+        "type": "Feature",
+        "geometry": mapping(buffer_poly_ll),
+        "properties": {"radius_mi": radius_mi}
+    }]
+}
+
+schools_points = schools_in_ll.copy()
+# ensure lon/lat columns exist for pydeck
+schools_points["lon"] = schools_points.geometry.x
+schools_points["lat"] = schools_points.geometry.y
+
+# map center = representative point (in WGS84)
+rep_pt_ll = gpd.GeoSeries([rep_pt], crs=PROJECTED_CRS).to_crs(WGS84).iloc[0]
+center_lat = rep_pt_ll.y
+center_lon = rep_pt_ll.x
+
+# -----------------------------
+# Pydeck layers
+# -----------------------------
+layer_county = pdk.Layer(
+    "GeoJsonLayer",
+    data=county_geojson,
+    stroked=True,
+    filled=False,
+    lineWidthMinPixels=2,
 )
 
-chart
+layer_buffer = pdk.Layer(
+    "GeoJsonLayer",
+    data=buffer_geojson,
+    stroked=True,
+    filled=True,
+    getFillColor=[80, 160, 240, 40],   # light transparent
+    getLineColor=[80, 160, 240, 200],
+    lineWidthMinPixels=2,
+)
+
+layer_schools = pdk.Layer(
+    "ScatterplotLayer",
+    data=schools_points,
+    get_position=["lon", "lat"],
+    get_radius=250,     # meters-ish visual size, not exact; adjust if you want
+    pickable=True,
+)
+
+tooltip = {
+    "html": "<b>{school_name}</b><br/>"
+            "City: {city}<br/>"
+            "State: {state}<br/>"
+            "Admit rate: {admit_rate}",
+    "style": {"backgroundColor": "white", "color": "black"}
+}
+
+view_state = pdk.ViewState(
+    latitude=center_lat,
+    longitude=center_lon,
+    zoom=7,   # default zoom; user can zoom in/out
+    pitch=0
+)
+
+deck = pdk.Deck(
+    layers=[layer_county, layer_buffer, layer_schools],
+    initial_view_state=view_state,
+    tooltip=tooltip,
+)
+
+st.pydeck_chart(deck, use_container_width=True)
+
+# -----------------------------
+# Optional: table of schools in radius
+# -----------------------------
+with st.expander(f"Show schools within {radius_mi} miles (table)"):
+    cols_show = ["school_name", "city", "state", "admit_rate", "pell_grant_rate", "median_earnings"]
+    cols_show = [c for c in cols_show if c in schools_in_ll.columns]
+    st.dataframe(
+        schools_in_ll[cols_show].sort_values(by=["state", "city"], na_position="last"),
+        use_container_width=True,
+        hide_index=True
+    )

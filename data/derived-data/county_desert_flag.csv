@@ -1,0 +1,3110 @@
+county_name,state_name,state,is_desert
+Houston County,Alabama,AL,True
+Choctaw County,Alabama,AL,False
+Russell County,Alabama,AL,False
+Sussex County,Delaware,DE,False
+Jackson County,Alabama,AL,False
+Madison County,Alabama,AL,False
+Mohave County,Arizona,AZ,True
+Chicot County,Arkansas,AR,False
+Randolph County,Arkansas,AR,False
+Lafayette County,Arkansas,AR,False
+Hempstead County,Arkansas,AR,False
+San Luis Obispo County,California,CA,True
+San Mateo County,California,CA,False
+Sierra County,California,CA,False
+La Plata County,Colorado,CO,True
+Bradford County,Florida,FL,False
+New Castle County,Delaware,DE,False
+Western Connecticut Planning Region,Connecticut,CT,False
+Brevard County,Florida,FL,False
+Walton County,Florida,FL,False
+Hernando County,Florida,FL,False
+Hamilton County,Florida,FL,False
+Jefferson County,Florida,FL,False
+Duval County,Florida,FL,False
+Elbert County,Georgia,GA,False
+Murray County,Georgia,GA,False
+Owyhee County,Idaho,ID,True
+Idaho County,Idaho,ID,True
+Livingston County,Illinois,IL,False
+Rock Island County,Illinois,IL,False
+Mahnomen County,Minnesota,MN,False
+Lake County,Indiana,IN,False
+Maricopa County,Arizona,AZ,False
+Sacramento County,California,CA,False
+Ringgold County,Iowa,IA,False
+Tulare County,California,CA,True
+San Benito County,California,CA,False
+Scott County,Iowa,IA,False
+Hennepin County,Minnesota,MN,False
+Mason County,Illinois,IL,False
+Bronx County,New York,NY,False
+Labette County,Kansas,KS,False
+Westchester County,New York,NY,False
+Madison County,New York,NY,False
+Whitley County,Kentucky,KY,False
+Providence County,Rhode Island,RI,False
+Erie County,New York,NY,False
+Lee County,Texas,TX,False
+Saratoga County,New York,NY,False
+Talladega County,Alabama,AL,False
+Letcher County,Kentucky,KY,False
+Cass County,North Dakota,ND,False
+Cuyahoga County,Ohio,OH,False
+Hamilton County,Ohio,OH,False
+Plaquemines Parish,Louisiana,LA,False
+De Soto Parish,Louisiana,LA,False
+Union Parish,Louisiana,LA,False
+Vernon Parish,Louisiana,LA,False
+Macon County,Alabama,AL,False
+Crenshaw County,Alabama,AL,False
+Baltimore County,Maryland,MD,False
+Dorchester County,Maryland,MD,False
+Charles County,Maryland,MD,False
+Cecil County,Maryland,MD,False
+Barnstable County,Massachusetts,MA,False
+Middlesex County,Massachusetts,MA,False
+Marquette County,Michigan,MI,True
+Gogebic County,Michigan,MI,False
+Monroe County,Michigan,MI,False
+Presque Isle County,Michigan,MI,False
+Lake County,Minnesota,MN,True
+Washington County,Minnesota,MN,False
+Adams County,Mississippi,MS,True
+Lowndes County,Mississippi,MS,False
+Tunica County,Mississippi,MS,False
+Tippah County,Mississippi,MS,False
+Jefferson County,Missouri,MO,False
+Beaverhead County,Montana,MT,False
+Valley County,Montana,MT,True
+Blaine County,Montana,MT,False
+Flathead County,Montana,MT,True
+Strafford County,New Hampshire,NH,False
+Atlantic County,New Jersey,NJ,False
+Cape May County,New Jersey,NJ,False
+Warren County,New Jersey,NJ,False
+Hunterdon County,New Jersey,NJ,False
+Monmouth County,New Jersey,NJ,False
+Middlesex County,New Jersey,NJ,False
+San Juan County,New Mexico,NM,True
+Essex County,New York,NY,False
+Columbus County,North Carolina,NC,False
+Cherokee County,North Carolina,NC,False
+Polk County,North Carolina,NC,False
+Ashe County,North Carolina,NC,False
+Dare County,North Carolina,NC,False
+Hertford County,North Carolina,NC,False
+Traill County,North Dakota,ND,False
+McKenzie County,North Dakota,ND,False
+Washington County,Ohio,OH,False
+Marshall County,Oklahoma,OK,False
+Curry County,Oregon,OR,False
+Clatsop County,Oregon,OR,False
+Klamath County,Oregon,OR,True
+Josephine County,Oregon,OR,False
+Wasco County,Oregon,OR,True
+Bowie County,Texas,TX,False
+Lancaster County,Pennsylvania,PA,False
+Northampton County,Pennsylvania,PA,False
+Washington County,Rhode Island,RI,False
+Beaufort County,South Carolina,SC,False
+Horry County,South Carolina,SC,False
+York County,South Carolina,SC,False
+Charles Mix County,South Dakota,SD,False
+Gila County,Arizona,AZ,True
+Shelby County,Tennessee,TN,False
+Sumner County,Tennessee,TN,False
+Carter County,Tennessee,TN,False
+Monroe County,Tennessee,TN,False
+Campbell County,Tennessee,TN,False
+Kleberg County,Texas,TX,False
+Hudspeth County,Texas,TX,True
+Shelby County,Texas,TX,False
+Loving County,Texas,TX,True
+San Juan County,Utah,UT,True
+Grand County,Utah,UT,True
+Utah County,Utah,UT,False
+Juab County,Utah,UT,True
+Northumberland County,Virginia,VA,False
+Westmoreland County,Virginia,VA,False
+Gloucester County,Virginia,VA,False
+Loudoun County,Virginia,VA,False
+Pittsylvania County,Virginia,VA,False
+Halifax County,Virginia,VA,False
+Pierce County,Washington,WA,False
+Thurston County,Washington,WA,False
+Benton County,Washington,WA,False
+McDowell County,West Virginia,WV,False
+Wayne County,West Virginia,WV,False
+Jefferson County,West Virginia,WV,False
+Berkeley County,West Virginia,WV,False
+Ashland County,Wisconsin,WI,False
+Iron County,Wisconsin,WI,False
+Teton County,Wyoming,WY,True
+Faulkner County,Arkansas,AR,False
+Bradley County,Arkansas,AR,True
+Lonoke County,Arkansas,AR,False
+Nevada County,Arkansas,AR,False
+Cross County,Arkansas,AR,False
+Butte County,California,CA,False
+Merced County,California,CA,False
+Jefferson County,Colorado,CO,False
+Lake County,Colorado,CO,True
+Huerfano County,Colorado,CO,False
+Seminole County,Florida,FL,False
+Gilchrist County,Florida,FL,False
+Calhoun County,Florida,FL,False
+Pierce County,Georgia,GA,False
+Sumter County,Georgia,GA,False
+Bibb County,Georgia,GA,False
+Henry County,Georgia,GA,False
+Madison County,Georgia,GA,False
+Taliaferro County,Georgia,GA,False
+Tattnall County,Georgia,GA,False
+Putnam County,Georgia,GA,False
+Oconee County,Georgia,GA,False
+Mitchell County,Georgia,GA,False
+Miller County,Georgia,GA,False
+Valley County,Idaho,ID,True
+Bannock County,Idaho,ID,True
+Elmore County,Idaho,ID,False
+Edwards County,Illinois,IL,False
+Clinton County,Illinois,IL,False
+Fayette County,Indiana,IN,False
+Huntington County,Indiana,IN,False
+Union County,Iowa,IA,False
+Franklin County,Kansas,KS,False
+Scott County,Kansas,KS,True
+Larue County,Kentucky,KY,False
+Johnson County,Kentucky,KY,False
+Jackson County,Kentucky,KY,False
+Morgan County,Kentucky,KY,False
+Bath County,Kentucky,KY,False
+Wayne County,Kentucky,KY,False
+Edmonson County,Kentucky,KY,False
+Menifee County,Kentucky,KY,False
+Acadia Parish,Louisiana,LA,False
+Orleans Parish,Louisiana,LA,False
+St. Tammany Parish,Louisiana,LA,False
+Morehouse Parish,Louisiana,LA,True
+Red River Parish,Louisiana,LA,False
+Evangeline Parish,Louisiana,LA,False
+Grant Parish,Louisiana,LA,False
+Richland Parish,Louisiana,LA,False
+Oscoda County,Michigan,MI,False
+Brown County,Minnesota,MN,False
+Yazoo County,Mississippi,MS,False
+Madison County,Mississippi,MS,False
+Newton County,Mississippi,MS,False
+Carroll County,Missouri,MO,False
+Cedar County,Missouri,MO,False
+Schuyler County,Missouri,MO,False
+Missoula County,Montana,MT,True
+Sweet Grass County,Montana,MT,True
+Lake County,Montana,MT,False
+Petroleum County,Montana,MT,True
+Deer Lodge County,Montana,MT,False
+Loup County,Nebraska,NE,True
+Arthur County,Nebraska,NE,True
+Eureka County,Nevada,NV,True
+De Baca County,New Mexico,NM,True
+Warren County,New York,NY,False
+Chenango County,New York,NY,False
+Livingston County,New York,NY,False
+Wilkes County,North Carolina,NC,False
+Rowan County,North Carolina,NC,False
+Henderson County,North Carolina,NC,False
+Sampson County,North Carolina,NC,False
+Mitchell County,North Carolina,NC,False
+Pierce County,North Dakota,ND,False
+Harrison County,Ohio,OH,False
+Wagoner County,Oklahoma,OK,False
+Seminole County,Oklahoma,OK,False
+Deschutes County,Oregon,OR,True
+Jefferson County,Oregon,OR,False
+Sherman County,Oregon,OR,False
+Fayette County,Pennsylvania,PA,False
+Westmoreland County,Pennsylvania,PA,False
+Cameron County,Pennsylvania,PA,False
+Kershaw County,South Carolina,SC,False
+Clarendon County,South Carolina,SC,False
+Calhoun County,South Carolina,SC,False
+Lake County,South Dakota,SD,False
+Anderson County,Tennessee,TN,False
+Wilson County,Tennessee,TN,False
+Perry County,Tennessee,TN,False
+Dyer County,Tennessee,TN,False
+Cocke County,Tennessee,TN,False
+Fentress County,Tennessee,TN,False
+Humphreys County,Tennessee,TN,False
+White County,Tennessee,TN,False
+Moore County,Tennessee,TN,False
+Montgomery County,Texas,TX,False
+Bexar County,Texas,TX,False
+Jefferson County,Texas,TX,False
+Tyler County,Texas,TX,True
+Fort Bend County,Texas,TX,False
+Ellis County,Texas,TX,False
+Wood County,Texas,TX,False
+Brazos County,Texas,TX,False
+Upshur County,Texas,TX,False
+Morris County,Texas,TX,False
+Roberts County,Texas,TX,False
+Leon County,Texas,TX,False
+Navarro County,Texas,TX,False
+Grimes County,Texas,TX,False
+Van Zandt County,Texas,TX,False
+Dickens County,Texas,TX,True
+Crockett County,Texas,TX,True
+Scurry County,Texas,TX,False
+Rains County,Texas,TX,False
+Kenedy County,Texas,TX,False
+Davis County,Utah,UT,False
+Emery County,Utah,UT,True
+Wasatch County,Utah,UT,False
+Carbon County,Utah,UT,True
+Duchesne County,Utah,UT,True
+Wayne County,Utah,UT,True
+Louisa County,Virginia,VA,False
+Botetourt County,Virginia,VA,False
+Fauquier County,Virginia,VA,False
+Amherst County,Virginia,VA,False
+Roanoke County,Virginia,VA,False
+Southampton County,Virginia,VA,False
+Madison County,Virginia,VA,False
+Douglas County,Washington,WA,False
+Kanawha County,West Virginia,WV,False
+Wyoming County,West Virginia,WV,False
+Greenbrier County,West Virginia,WV,False
+Lewis County,West Virginia,WV,False
+Juneau County,Wisconsin,WI,False
+Eau Claire County,Wisconsin,WI,True
+Fremont County,Wyoming,WY,True
+Dolores County,Colorado,CO,False
+Jefferson County,Alabama,AL,False
+South Central Connecticut Planning Region,Connecticut,CT,False
+Southeastern Connecticut Planning Region,Connecticut,CT,False
+Tuolumne County,California,CA,True
+Pinellas County,Florida,FL,False
+Hillsborough County,Florida,FL,False
+Levy County,Florida,FL,False
+Miami-Dade County,Florida,FL,False
+Lee County,Florida,FL,False
+Santa Rosa County,Florida,FL,False
+Cullman County,Alabama,AL,False
+Franklin County,Florida,FL,True
+Leon County,Florida,FL,False
+Chatham County,Georgia,GA,False
+Lowndes County,Georgia,GA,False
+Brooks County,Georgia,GA,False
+Charlton County,Georgia,GA,False
+Will County,Illinois,IL,False
+Richmond County,Georgia,GA,False
+Rabun County,Georgia,GA,False
+Houston County,Georgia,GA,False
+Franklin County,Idaho,ID,False
+Colbert County,Alabama,AL,False
+Apache County,Arizona,AZ,True
+Benton County,Arkansas,AR,False
+Union County,Arkansas,AR,False
+Ashley County,Arkansas,AR,False
+Sevier County,Arkansas,AR,False
+Sebastian County,Arkansas,AR,False
+Carroll County,Arkansas,AR,False
+Clay County,Arkansas,AR,False
+Desha County,Arkansas,AR,False
+Independence County,Arkansas,AR,False
+Orange County,California,CA,False
+Clark County,Arkansas,AR,False
+Los Angeles County,California,CA,False
+Santa Cruz County,California,CA,False
+Sonoma County,California,CA,False
+Marin County,California,CA,False
+Alameda County,California,CA,False
+Alpine County,California,CA,False
+Placer County,California,CA,False
+Nevada County,California,CA,True
+Mesa County,Colorado,CO,True
+Weld County,Colorado,CO,False
+Montezuma County,Colorado,CO,False
+McCreary County,Kentucky,KY,False
+Stanly County,North Carolina,NC,False
+Anson County,North Carolina,NC,False
+Robeson County,North Carolina,NC,False
+Monroe County,Alabama,AL,True
+Lewis County,Kentucky,KY,False
+Lafourche Parish,Louisiana,LA,False
+Washington Parish,Louisiana,LA,False
+Concordia Parish,Louisiana,LA,False
+East Carroll Parish,Louisiana,LA,True
+Beauregard Parish,Louisiana,LA,True
+York County,Maine,ME,False
+Washington County,Maine,ME,True
+Aroostook County,Maine,ME,True
+Talbot County,Maryland,MD,False
+St. Mary's County,Maryland,MD,False
+Somerset County,Maryland,MD,False
+Wilcox County,Alabama,AL,False
+Caroline County,Maryland,MD,False
+Prince George's County,Maryland,MD,False
+Allegany County,Maryland,MD,False
+Hale County,Alabama,AL,False
+Niagara County,New York,NY,False
+New Hanover County,North Carolina,NC,False
+Pender County,North Carolina,NC,False
+Onslow County,North Carolina,NC,False
+Clay County,North Carolina,NC,False
+Macon County,North Carolina,NC,False
+Transylvania County,North Carolina,NC,False
+Craven County,North Carolina,NC,False
+Pamlico County,North Carolina,NC,False
+Tyrrell County,North Carolina,NC,False
+Currituck County,North Carolina,NC,False
+Northampton County,North Carolina,NC,False
+Graham County,North Carolina,NC,False
+Richland County,North Dakota,ND,False
+Williams County,North Dakota,ND,True
+Walsh County,North Dakota,ND,False
+Pembina County,North Dakota,ND,True
+Sioux County,North Dakota,ND,False
+Erie County,Ohio,OH,False
+Jackson County,Oklahoma,OK,True
+Tillman County,Oklahoma,OK,False
+Jefferson County,Oklahoma,OK,False
+Choctaw County,Oklahoma,OK,False
+Sequoyah County,Oklahoma,OK,False
+McCurtain County,Oklahoma,OK,True
+Multnomah County,Oregon,OR,False
+Gilliam County,Oregon,OR,False
+York County,Pennsylvania,PA,False
+Bucks County,Pennsylvania,PA,False
+Erie County,Pennsylvania,PA,False
+Wayne County,Pennsylvania,PA,False
+Chester County,Pennsylvania,PA,False
+Monroe County,Pennsylvania,PA,False
+Greenville County,South Carolina,SC,False
+Chesterfield County,South Carolina,SC,False
+Suffolk County,Massachusetts,MA,False
+Norfolk County,Massachusetts,MA,False
+Hampden County,Massachusetts,MA,False
+Delta County,Michigan,MI,False
+Alger County,Michigan,MI,False
+Wilkin County,Minnesota,MN,False
+St. Louis County,Minnesota,MN,True
+Polk County,Minnesota,MN,False
+Lac qui Parle County,Minnesota,MN,False
+Pike County,Mississippi,MS,False
+Washington County,Mississippi,MS,False
+Issaquena County,Mississippi,MS,False
+DeSoto County,Mississippi,MS,False
+Claiborne County,Mississippi,MS,False
+Scott County,Missouri,MO,False
+St. Charles County,Missouri,MO,False
+Bates County,Missouri,MO,False
+Holt County,Missouri,MO,False
+Putnam County,Missouri,MO,False
+Lincoln County,Montana,MT,True
+Liberty County,Montana,MT,True
+Roosevelt County,Montana,MT,False
+Powder River County,Montana,MT,True
+Glacier County,Montana,MT,False
+Carbon County,Montana,MT,False
+White Pine County,Nevada,NV,True
+Lincoln County,Nevada,NV,True
+Luna County,New Mexico,NM,True
+Jefferson County,New York,NY,True
+Fremont County,Idaho,ID,False
+Twin Falls County,Idaho,ID,True
+Adams County,Idaho,ID,True
+Nez Perce County,Idaho,ID,False
+Pulaski County,Illinois,IL,False
+Edgar County,Illinois,IL,False
+Spencer County,Indiana,IN,False
+Posey County,Indiana,IN,False
+Lee County,Iowa,IA,False
+Stearns County,Minnesota,MN,False
+Cass County,Missouri,MO,False
+Boone County,Missouri,MO,False
+Pettis County,Missouri,MO,False
+Passaic County,New Jersey,NJ,False
+Wayne County,Michigan,MI,False
+Union County,Indiana,IN,False
+Yolo County,California,CA,False
+Delaware County,Indiana,IN,False
+Emmet County,Iowa,IA,False
+Menominee County,Michigan,MI,False
+Winnebago County,Iowa,IA,False
+Kings County,New York,NY,False
+Brown County,Kansas,KS,False
+Marengo County,Alabama,AL,False
+Montgomery County,Alabama,AL,False
+Marshall County,Alabama,AL,False
+Oswego County,New York,NY,False
+Breckinridge County,Kentucky,KY,False
+McClain County,Oklahoma,OK,False
+Pottawatomie County,Oklahoma,OK,False
+Orange County,New York,NY,False
+Martin County,Kentucky,KY,False
+Henderson County,Texas,TX,False
+Menominee County,Wisconsin,WI,False
+Rush County,Indiana,IN,False
+Henry County,Indiana,IN,False
+Daviess County,Indiana,IN,False
+Jackson County,Indiana,IN,False
+Washington County,Indiana,IN,False
+Delaware County,Iowa,IA,False
+Shelby County,Iowa,IA,False
+Gray County,Kansas,KS,False
+Kearny County,Kansas,KS,True
+Rush County,Kansas,KS,False
+Nelson County,Kentucky,KY,False
+Ohio County,Kentucky,KY,False
+Hopkins County,Kentucky,KY,False
+Scott County,Kentucky,KY,False
+Garrard County,Kentucky,KY,False
+Breathitt County,Kentucky,KY,False
+Mercer County,Kentucky,KY,False
+Bell County,Kentucky,KY,False
+Owen County,Kentucky,KY,False
+Yavapai County,Arizona,AZ,True
+Pennington County,South Dakota,SD,True
+McPherson County,South Dakota,SD,False
+Tipton County,Tennessee,TN,False
+Giles County,Tennessee,TN,False
+Hamilton County,Tennessee,TN,False
+Sevier County,Tennessee,TN,False
+Greene County,Tennessee,TN,False
+Robertson County,Tennessee,TN,False
+Blount County,Tennessee,TN,False
+Nueces County,Texas,TX,False
+Starr County,Texas,TX,True
+San Patricio County,Texas,TX,False
+Brazoria County,Texas,TX,False
+Terrell County,Texas,TX,True
+Hemphill County,Texas,TX,True
+Cass County,Texas,TX,False
+Summit County,Utah,UT,True
+Windsor County,Vermont,VT,False
+Tazewell County,Virginia,VA,False
+Washington County,Virginia,VA,False
+Dickenson County,Virginia,VA,False
+Northampton County,Virginia,VA,False
+Stafford County,Virginia,VA,False
+Lancaster County,Virginia,VA,False
+Richmond County,Virginia,VA,False
+Augusta County,Virginia,VA,False
+Surry County,Virginia,VA,False
+Fairfax County,Virginia,VA,False
+Frederick County,Virginia,VA,False
+Skagit County,Washington,WA,False
+San Juan County,Washington,WA,False
+Grays Harbor County,Washington,WA,False
+Mason County,Washington,WA,False
+King County,Washington,WA,False
+Pacific County,Washington,WA,False
+Island County,Washington,WA,False
+Monroe County,West Virginia,WV,False
+Wetzel County,West Virginia,WV,False
+Tyler County,West Virginia,WV,False
+Wood County,West Virginia,WV,False
+Mineral County,West Virginia,WV,False
+Hardy County,West Virginia,WV,False
+Hampshire County,West Virginia,WV,False
+Crawford County,Wisconsin,WI,False
+Buffalo County,Wisconsin,WI,False
+Trempealeau County,Wisconsin,WI,False
+Carbon County,Wyoming,WY,True
+Sheridan County,Wyoming,WY,True
+Park County,Wyoming,WY,True
+Montgomery County,Arkansas,AR,False
+Cleveland County,Arkansas,AR,False
+Fresno County,California,CA,False
+Trinity County,California,CA,False
+Shasta County,California,CA,False
+Yuba County,California,CA,False
+Colusa County,California,CA,False
+Douglas County,Colorado,CO,False
+Fremont County,Colorado,CO,False
+Custer County,Colorado,CO,False
+Summit County,Colorado,CO,False
+Grand County,Colorado,CO,False
+Delta County,Colorado,CO,True
+Ouray County,Colorado,CO,True
+Park County,Colorado,CO,False
+Lake County,Florida,FL,False
+Marion County,Florida,FL,False
+Columbia County,Florida,FL,False
+Sumter County,Florida,FL,False
+Osceola County,Florida,FL,False
+Suwannee County,Florida,FL,False
+Union County,Florida,FL,False
+Fulton County,Georgia,GA,False
+Barrow County,Georgia,GA,False
+Jefferson County,Georgia,GA,False
+Baldwin County,Georgia,GA,False
+Toombs County,Georgia,GA,False
+Appling County,Georgia,GA,False
+Bleckley County,Georgia,GA,False
+Greene County,Georgia,GA,False
+White County,Georgia,GA,False
+Warren County,Georgia,GA,False
+Wilcox County,Georgia,GA,False
+Wayne County,Georgia,GA,True
+Twiggs County,Georgia,GA,False
+Schley County,Georgia,GA,False
+Blaine County,Idaho,ID,True
+Lewis County,Idaho,ID,False
+Camas County,Idaho,ID,True
+Boise County,Idaho,ID,False
+De Witt County,Illinois,IL,False
+Grant County,Nebraska,NE,True
+Hooker County,Nebraska,NE,True
+Lander County,Nevada,NV,True
+Somerset County,New Jersey,NJ,False
+Harding County,New Mexico,NM,True
+Sierra County,New Mexico,NM,True
+Harnett County,North Carolina,NC,False
+Moore County,North Carolina,NC,False
+Martin County,North Carolina,NC,False
+Cumberland County,North Carolina,NC,False
+Davie County,North Carolina,NC,False
+Halifax County,North Carolina,NC,False
+Caldwell County,North Carolina,NC,False
+Nash County,North Carolina,NC,False
+Bertie County,North Carolina,NC,False
+Hoke County,North Carolina,NC,False
+Wells County,North Dakota,ND,False
+Bedford County,Tennessee,TN,False
+Gibson County,Tennessee,TN,False
+Crockett County,Tennessee,TN,False
+Union County,Tennessee,TN,False
+Coffee County,Tennessee,TN,False
+Maury County,Tennessee,TN,False
+Meigs County,Tennessee,TN,False
+McMinn County,Tennessee,TN,False
+Loudon County,Tennessee,TN,False
+Putnam County,Tennessee,TN,True
+Hickman County,Tennessee,TN,False
+Henry County,Tennessee,TN,False
+Grainger County,Tennessee,TN,False
+Smith County,Tennessee,TN,False
+Red River County,Texas,TX,False
+Hockley County,Texas,TX,False
+Dimmit County,Texas,TX,True
+Walker County,Texas,TX,False
+Colorado County,Texas,TX,False
+Duval County,Texas,TX,False
+Ward County,Texas,TX,True
+Houston County,Texas,TX,False
+Nacogdoches County,Texas,TX,False
+Floyd County,Texas,TX,False
+Victoria County,Texas,TX,True
+Hopkins County,Texas,TX,False
+Bee County,Texas,TX,False
+Delta County,Texas,TX,False
+Trinity County,Texas,TX,False
+Austin County,Texas,TX,False
+Fisher County,Texas,TX,False
+San Jacinto County,Texas,TX,False
+San Augustine County,Texas,TX,False
+Washington County,Texas,TX,False
+Sutton County,Texas,TX,True
+Ramsey County,North Dakota,ND,False
+Huron County,Ohio,OH,False
+Hardin County,Ohio,OH,False
+Muskogee County,Oklahoma,OK,False
+Craig County,Oklahoma,OK,False
+Kiowa County,Oklahoma,OK,False
+Montgomery County,Pennsylvania,PA,False
+Dauphin County,Pennsylvania,PA,False
+Centre County,Pennsylvania,PA,False
+Clearfield County,Pennsylvania,PA,False
+Indiana County,Pennsylvania,PA,False
+Clarion County,Pennsylvania,PA,False
+Clinton County,Pennsylvania,PA,False
+Huntingdon County,Pennsylvania,PA,False
+Sullivan County,Pennsylvania,PA,False
+Richland County,South Carolina,SC,False
+Greenwood County,South Carolina,SC,False
+Union County,South Carolina,SC,False
+Newberry County,South Carolina,SC,False
+Hampton County,South Carolina,SC,False
+Allendale County,South Carolina,SC,False
+Meade County,South Dakota,SD,False
+Jerauld County,South Dakota,SD,False
+Stanley County,South Dakota,SD,True
+Rhea County,Tennessee,TN,False
+Knox County,Tennessee,TN,False
+Knott County,Kentucky,KY,False
+Allen County,Kentucky,KY,False
+Livingston County,Kentucky,KY,False
+Crittenden County,Kentucky,KY,False
+Woodford County,Kentucky,KY,False
+Perry County,Kentucky,KY,False
+Nicholas County,Kentucky,KY,False
+Owsley County,Kentucky,KY,False
+Harrison County,Kentucky,KY,False
+Elliott County,Kentucky,KY,False
+Bossier Parish,Louisiana,LA,False
+Pointe Coupee Parish,Louisiana,LA,False
+West Feliciana Parish,Louisiana,LA,False
+St. Helena Parish,Louisiana,LA,False
+Catahoula Parish,Louisiana,LA,False
+Howard County,Maryland,MD,False
+Gladwin County,Michigan,MI,False
+Itasca County,Minnesota,MN,True
+Wright County,Minnesota,MN,False
+Redwood County,Minnesota,MN,False
+Morrison County,Minnesota,MN,False
+Scott County,Minnesota,MN,False
+Renville County,Minnesota,MN,False
+Norman County,Minnesota,MN,False
+Kanabec County,Minnesota,MN,False
+Leflore County,Mississippi,MS,False
+Stone County,Mississippi,MS,False
+Holmes County,Mississippi,MS,False
+Wilkinson County,Mississippi,MS,False
+Calhoun County,Mississippi,MS,False
+Callaway County,Missouri,MO,False
+Lincoln County,Missouri,MO,False
+Madison County,Missouri,MO,False
+Stoddard County,Missouri,MO,False
+Judith Basin County,Montana,MT,True
+Cascade County,Montana,MT,True
+Broadwater County,Montana,MT,False
+Lewis and Clark County,Montana,MT,True
+Fergus County,Montana,MT,True
+Golden Valley County,Montana,MT,True
+Granite County,Montana,MT,False
+York County,Nebraska,NE,False
+Brunswick County,North Carolina,NC,False
+Mecklenburg County,North Carolina,NC,False
+Person County,North Carolina,NC,False
+Williams County,Ohio,OH,False
+Le Flore County,Oklahoma,OK,False
+Malheur County,Oregon,OR,True
+Lane County,Oregon,OR,False
+Baker County,Oregon,OR,False
+Washington County,Pennsylvania,PA,False
+Newport County,Rhode Island,RI,False
+Anderson County,South Carolina,SC,False
+Spartanburg County,South Carolina,SC,False
+Union County,South Dakota,SD,False
+Graham County,Arizona,AZ,True
+Weakley County,Tennessee,TN,False
+Chambers County,Texas,TX,False
+Presidio County,Texas,TX,False
+Collingsworth County,Texas,TX,True
+Kane County,Utah,UT,True
+Cache County,Utah,UT,True
+Box Elder County,Utah,UT,True
+Essex County,Vermont,VT,False
+Patrick County,Virginia,VA,False
+Buchanan County,Virginia,VA,False
+Isle of Wight County,Virginia,VA,False
+James City County,Virginia,VA,False
+Morgan County,West Virginia,WV,False
+Grant County,West Virginia,WV,False
+Marinette County,Wisconsin,WI,True
+Campbell County,Wyoming,WY,True
+Dallas County,Arkansas,AR,False
+Prairie County,Arkansas,AR,False
+Jackson County,Arkansas,AR,False
+Lawrence County,Arkansas,AR,False
+King County,Texas,TX,True
+Motley County,Texas,TX,True
+Lunenburg County,Virginia,VA,False
+Spotsylvania County,Virginia,VA,False
+Henrico County,Virginia,VA,False
+King William County,Virginia,VA,False
+Pulaski County,Virginia,VA,False
+Warren County,Virginia,VA,False
+Orange County,Virginia,VA,False
+Franklin County,Virginia,VA,False
+Page County,Virginia,VA,False
+New Kent County,Virginia,VA,False
+Nelson County,Virginia,VA,False
+Powhatan County,Virginia,VA,False
+Goochland County,Virginia,VA,False
+Charlotte County,Virginia,VA,False
+Floyd County,Virginia,VA,False
+King and Queen County,Virginia,VA,False
+Chelan County,Washington,WA,True
+Kittitas County,Washington,WA,False
+Lewis County,Washington,WA,False
+Grant County,Washington,WA,True
+Gilmer County,West Virginia,WV,False
+Harrison County,West Virginia,WV,False
+Doddridge County,West Virginia,WV,False
+Ritchie County,West Virginia,WV,False
+Boone County,West Virginia,WV,False
+Tucker County,West Virginia,WV,False
+Roane County,West Virginia,WV,False
+Barbour County,West Virginia,WV,False
+Calhoun County,West Virginia,WV,False
+Sauk County,Wisconsin,WI,True
+Sawyer County,Wisconsin,WI,False
+Adams County,Wisconsin,WI,False
+Baldwin County,Alabama,AL,False
+Barbour County,Alabama,AL,False
+Washington County,Alabama,AL,False
+Pickens County,Alabama,AL,False
+DeKalb County,Alabama,AL,False
+Greenup County,Kentucky,KY,False
+Yuma County,Arizona,AZ,True
+Miller County,Arkansas,AR,False
+Little River County,Arkansas,AR,False
+Riverside County,California,CA,False
+Contra Costa County,California,CA,False
+Humboldt County,California,CA,True
+Costilla County,Colorado,CO,False
+Larimer County,Colorado,CO,False
+Routt County,Colorado,CO,True
+Capitol Planning Region,Connecticut,CT,False
+Taylor County,Florida,FL,False
+Pasco County,Florida,FL,False
+Escambia County,Florida,FL,False
+Nassau County,Florida,FL,False
+Camden County,Georgia,GA,False
+Lincoln County,Georgia,GA,False
+Whitfield County,Georgia,GA,False
+Burke County,Georgia,GA,False
+Caribou County,Idaho,ID,False
+Bear Lake County,Idaho,ID,False
+Alexander County,Illinois,IL,False
+Perry County,Indiana,IN,False
+Hamilton County,Kansas,KS,False
+Clark County,Nevada,NV,False
+Jefferson Parish,Louisiana,LA,False
+Pinal County,Arizona,AZ,False
+Macomb County,Michigan,MI,False
+St. Clair County,Michigan,MI,False
+Polk County,Florida,FL,False
+Plymouth County,Iowa,IA,False
+New York County,New York,NY,False
+Nemaha County,Kansas,KS,False
+Autauga County,Alabama,AL,False
+Clarke County,Alabama,AL,True
+Osage County,Oklahoma,OK,False
+Nassau County,New York,NY,False
+Harlan County,Kentucky,KY,False
+Ulster County,New York,NY,False
+Cameron County,Texas,TX,False
+Lawrence County,Kentucky,KY,False
+St. Bernard Parish,Louisiana,LA,False
+Dallas County,Alabama,AL,False
+Sabine Parish,Louisiana,LA,False
+Webster Parish,Louisiana,LA,False
+Lincoln County,Maine,ME,False
+Conecuh County,Alabama,AL,True
+Calvert County,Maryland,MD,False
+Washington County,Maryland,MD,False
+Grand Traverse County,Michigan,MI,True
+Baraga County,Michigan,MI,False
+Iron County,Michigan,MI,True
+Kittson County,Minnesota,MN,True
+Marshall County,Minnesota,MN,False
+Noxubee County,Mississippi,MS,False
+New Madrid County,Missouri,MO,False
+Jackson County,Missouri,MO,False
+Perry County,Missouri,MO,False
+Mineral County,Montana,MT,False
+Richland County,Montana,MT,False
+Madison County,Montana,MT,False
+Esmeralda County,Nevada,NV,True
+Salem County,New Jersey,NJ,False
+Camden County,New Jersey,NJ,False
+Gloucester County,New Jersey,NJ,False
+Haywood County,North Carolina,NC,False
+Buncombe County,North Carolina,NC,False
+Edgecombe County,North Carolina,NC,False
+Morton County,North Dakota,ND,False
+McLean County,North Dakota,ND,False
+Billings County,North Dakota,ND,False
+Okmulgee County,Oklahoma,OK,False
+Clackamas County,Oregon,OR,False
+Benton County,Oregon,OR,False
+Grant County,Oregon,OR,True
+Allegheny County,Pennsylvania,PA,False
+Cumberland County,Pennsylvania,PA,False
+Juniata County,Pennsylvania,PA,False
+Orangeburg County,South Carolina,SC,False
+Marion County,South Carolina,SC,False
+Bamberg County,South Carolina,SC,False
+Ziebach County,South Dakota,SD,True
+Gulf County,Florida,FL,False
+Dixie County,Florida,FL,False
+Wakulla County,Florida,FL,False
+Lake County,Illinois,IL,False
+Washington County,Idaho,ID,True
+Boone County,Arkansas,AR,True
+San Diego County,California,CA,False
+Monterey County,California,CA,False
+Mendocino County,California,CA,True
+El Dorado County,California,CA,False
+Siskiyou County,California,CA,False
+San Miguel County,Colorado,CO,True
+Las Animas County,Colorado,CO,True
+Jackson County,Colorado,CO,True
+Tensas Parish,Louisiana,LA,False
+Caddo Parish,Louisiana,LA,False
+Waldo County,Maine,ME,False
+Oxford County,Maine,ME,False
+Harford County,Maryland,MD,False
+Worcester County,Maryland,MD,False
+Anne Arundel County,Maryland,MD,False
+Garrett County,Maryland,MD,False
+Camden County,North Carolina,NC,False
+Rutherford County,North Carolina,NC,False
+Grand Forks County,North Dakota,ND,False
+Van Wert County,Ohio,OH,False
+Douglas County,Oregon,OR,False
+Somerset County,Pennsylvania,PA,False
+Delaware County,Pennsylvania,PA,False
+Pike County,Pennsylvania,PA,False
+Charleston County,South Carolina,SC,False
+Aiken County,South Carolina,SC,False
+Cherokee County,South Carolina,SC,False
+Lancaster County,South Carolina,SC,False
+Pearl River County,Mississippi,MS,False
+Butler County,Missouri,MO,False
+Hamblen County,Tennessee,TN,False
+Williamson County,Tennessee,TN,False
+Marshall County,Tennessee,TN,False
+Waller County,Texas,TX,False
+Freestone County,Texas,TX,False
+Travis County,Texas,TX,False
+Winkler County,Texas,TX,False
+Williamson County,Texas,TX,False
+Smith County,Texas,TX,False
+Upton County,Texas,TX,False
+Polk County,Texas,TX,True
+Jasper County,Texas,TX,False
+Titus County,Texas,TX,False
+Reeves County,Texas,TX,True
+Swisher County,Texas,TX,False
+Glasscock County,Texas,TX,False
+Weber County,Utah,UT,False
+Uintah County,Utah,UT,True
+Morgan County,Utah,UT,False
+Garfield County,Utah,UT,True
+Albemarle County,Virginia,VA,False
+Winchester city,Virginia,VA,False
+Rockbridge County,Virginia,VA,False
+Raleigh County,West Virginia,WV,False
+Randolph County,West Virginia,WV,False
+Braxton County,West Virginia,WV,False
+Price County,Wisconsin,WI,True
+Sublette County,Wyoming,WY,True
+Madera County,California,CA,False
+Lake County,California,CA,True
+Eagle County,Colorado,CO,True
+Saguache County,Colorado,CO,False
+Naugatuck Valley Planning Region,Connecticut,CT,False
+Alachua County,Florida,FL,False
+Washington County,Georgia,GA,False
+Jackson County,Georgia,GA,False
+Wheeler County,Georgia,GA,False
+Lamar County,Georgia,GA,False
+Oglethorpe County,Georgia,GA,False
+Wilkes County,Georgia,GA,False
+Crawford County,Georgia,GA,False
+Hancock County,Georgia,GA,False
+Brantley County,Georgia,GA,False
+Clearwater County,Idaho,ID,True
+Stark County,Illinois,IL,False
+Pike County,Indiana,IN,False
+Keokuk County,Iowa,IA,False
+Bremer County,Iowa,IA,False
+Hancock County,Iowa,IA,False
+Pottawatomie County,Kansas,KS,False
+Fayette County,Kentucky,KY,False
+Clark County,Kentucky,KY,False
+Clay County,Kentucky,KY,False
+Carter County,Kentucky,KY,False
+Washington County,Kentucky,KY,False
+Caldwell County,Kentucky,KY,False
+St. Martin Parish,Louisiana,LA,False
+Livingston Parish,Louisiana,LA,False
+East Baton Rouge Parish,Louisiana,LA,False
+LaSalle Parish,Louisiana,LA,False
+Caldwell Parish,Louisiana,LA,False
+Hampshire County,Massachusetts,MA,False
+Kalkaska County,Michigan,MI,False
+Chippewa County,Minnesota,MN,False
+Red Lake County,Minnesota,MN,False
+Hinds County,Mississippi,MS,False
+Humphreys County,Mississippi,MS,False
+Saline County,Missouri,MO,False
+Pulaski County,Missouri,MO,True
+Chouteau County,Montana,MT,False
+Pondera County,Montana,MT,False
+Howard County,Nebraska,NE,False
+Logan County,Nebraska,NE,False
+Keya Paha County,Nebraska,NE,True
+Sandoval County,New Mexico,NM,False
+Otsego County,New York,NY,False
+Onondaga County,New York,NY,False
+Attala County,Mississippi,MS,False
+Copiah County,Mississippi,MS,False
+Benton County,Missouri,MO,False
+Chariton County,Missouri,MO,False
+Rosebud County,Montana,MT,False
+McCone County,Montana,MT,False
+Greeley County,Nebraska,NE,True
+Chesterfield County,Virginia,VA,False
+Alleghany County,Virginia,VA,False
+Bath County,Virginia,VA,False
+Stevens County,Washington,WA,False
+Webster County,Georgia,GA,False
+Big Horn County,Wyoming,WY,False
+Mobile County,Alabama,AL,False
+Coconino County,Arizona,AZ,True
+Ventura County,California,CA,False
+Glynn County,Georgia,GA,True
+St. Clair County,Alabama,AL,False
+Harrison County,Indiana,IN,False
+Tangipahoa Parish,Louisiana,LA,False
+Sutter County,California,CA,False
+Chautauqua County,New York,NY,False
+Mellette County,South Dakota,SD,False
+Knox County,Maine,ME,False
+Carroll County,Maryland,MD,False
+Hardin County,Kentucky,KY,False
+Cook County,Minnesota,MN,True
+Cumberland County,New Jersey,NJ,False
+Mercer County,New Jersey,NJ,False
+Ottawa County,Ohio,OH,False
+Marlboro County,South Carolina,SC,False
+Sanders County,Montana,MT,False
+Washoe County,Nevada,NV,True
+Grafton County,New Hampshire,NH,False
+Rio Arriba County,New Mexico,NM,True
+Taos County,New Mexico,NM,True
+Cattaraugus County,New York,NY,False
+Sullivan County,New York,NY,False
+DuPage County,Illinois,IL,False
+Grant County,Minnesota,MN,False
+Knox County,Indiana,IN,False
+Worth County,Iowa,IA,False
+Orange County,Florida,FL,False
+Leelanau County,Michigan,MI,False
+Marion County,Iowa,IA,False
+Etowah County,Alabama,AL,False
+Oneida County,New York,NY,False
+Henderson County,Kentucky,KY,False
+Pike County,Kentucky,KY,False
+Orange County,Texas,TX,False
+Pike County,Alabama,AL,False
+Palo Alto County,Iowa,IA,False
+Sac County,Iowa,IA,False
+Bullitt County,Kentucky,KY,False
+Marion County,Kentucky,KY,False
+Knox County,Kentucky,KY,False
+Anderson County,Kentucky,KY,False
+Hart County,Kentucky,KY,False
+Sullivan County,Tennessee,TN,False
+Johnson County,Tennessee,TN,False
+Galveston County,Texas,TX,False
+Aransas County,Texas,TX,False
+Val Verde County,Texas,TX,True
+Sabine County,Texas,TX,True
+Marion County,Texas,TX,False
+Rich County,Utah,UT,False
+Prince William County,Virginia,VA,False
+Shenandoah County,Virginia,VA,False
+Jefferson County,Washington,WA,False
+Clark County,Washington,WA,False
+Walla Walla County,Washington,WA,False
+Kitsap County,Washington,WA,False
+Ferry County,Washington,WA,True
+Cabell County,West Virginia,WV,False
+Pleasants County,West Virginia,WV,False
+Ouachita County,Arkansas,AR,False
+Howard County,Arkansas,AR,False
+Calhoun County,Arkansas,AR,False
+Monroe County,Arkansas,AR,False
+Glenn County,California,CA,False
+Mariposa County,California,CA,False
+Denver County,Colorado,CO,False
+Chaffee County,Colorado,CO,False
+Cobb County,Georgia,GA,False
+Bryan County,Georgia,GA,False
+Fayette County,Georgia,GA,False
+Newton County,Georgia,GA,False
+Wilkinson County,Georgia,GA,False
+Emanuel County,Georgia,GA,False
+Cass County,Illinois,IL,False
+Menard County,Illinois,IL,False
+Mora County,New Mexico,NM,False
+Johnston County,North Carolina,NC,False
+Greene County,North Carolina,NC,False
+Davidson County,North Carolina,NC,False
+Montgomery County,North Carolina,NC,False
+Yancey County,North Carolina,NC,False
+Foster County,North Dakota,ND,False
+Cheatham County,Tennessee,TN,False
+Kaufman County,Texas,TX,False
+Lamar County,Texas,TX,True
+Angelina County,Texas,TX,True
+Zavala County,Texas,TX,False
+Rusk County,Texas,TX,False
+Andrews County,Texas,TX,False
+Robertson County,Texas,TX,False
+Pecos County,Texas,TX,True
+Burleson County,Texas,TX,False
+Jackson County,Texas,TX,False
+Pawnee County,Oklahoma,OK,False
+Cleveland County,Oklahoma,OK,False
+Latimer County,Oklahoma,OK,False
+Perry County,Pennsylvania,PA,False
+Pickens County,South Carolina,SC,False
+Laurens County,South Carolina,SC,False
+Sumter County,South Carolina,SC,False
+Lee County,South Carolina,SC,False
+Dewey County,South Dakota,SD,True
+Hyde County,South Dakota,SD,True
+Rutherford County,Tennessee,TN,False
+West Carroll Parish,Louisiana,LA,False
+Sagadahoc County,Maine,ME,False
+Tate County,Mississippi,MS,False
+Yalobusha County,Mississippi,MS,False
+Newton County,Texas,TX,False
+Accomack County,Virginia,VA,False
+Clallam County,Washington,WA,True
+Okanogan County,Washington,WA,True
+Bayfield County,Wisconsin,WI,False
+Clear Creek County,Colorado,CO,False
+Okeechobee County,Florida,FL,False
+Bulloch County,Georgia,GA,False
+Long County,Georgia,GA,False
+Putnam County,Illinois,IL,False
+Roane County,Tennessee,TN,False
+Lauderdale County,Tennessee,TN,False
+Crane County,Texas,TX,False
+Jack County,Texas,TX,False
+Menard County,Texas,TX,True
+Florence County,South Carolina,SC,False
+Leslie County,Kentucky,KY,False
+Iberville Parish,Louisiana,LA,False
+Nicollet County,Minnesota,MN,False
+Allen County,Ohio,OH,False
+Marion County,Oregon,OR,False
+Berkeley County,South Carolina,SC,False
+Burnet County,Texas,TX,False
+Uvalde County,Texas,TX,True
+McMullen County,Texas,TX,True
+Hanover County,Virginia,VA,False
+Culpeper County,Virginia,VA,False
+Kent County,Delaware,DE,False
+Liberty County,Georgia,GA,False
+La Paz County,Arizona,AZ,False
+San Bernardino County,California,CA,True
+Champaign County,Ohio,OH,False
+Wicomico County,Maryland,MD,False
+Scotland County,North Carolina,NC,False
+Georgetown County,South Carolina,SC,True
+Alpena County,Michigan,MI,True
+Ravalli County,Montana,MT,True
+Delaware County,New York,NY,False
+Canyon County,Idaho,ID,False
+Blue Earth County,Minnesota,MN,False
+Stanislaus County,California,CA,False
+Jefferson County,Iowa,IA,False
+Blount County,Alabama,AL,False
+Daviess County,Kentucky,KY,False
+Guadalupe County,Texas,TX,False
+Franklin Parish,Louisiana,LA,False
+Winn Parish,Louisiana,LA,False
+Quitman County,Mississippi,MS,False
+Teton County,Montana,MT,False
+Meagher County,Montana,MT,True
+Buckingham County,Virginia,VA,False
+Prince Edward County,Virginia,VA,False
+Campbell County,Virginia,VA,False
+Fayette County,West Virginia,WV,False
+Lincoln County,West Virginia,WV,False
+Imperial County,California,CA,True
+Sumter County,Alabama,AL,False
+Phillips County,Arkansas,AR,False
+Santa Clara County,California,CA,False
+Calaveras County,California,CA,False
+McIntosh County,Georgia,GA,False
+Muscogee County,Georgia,GA,False
+Lemhi County,Idaho,ID,True
+Ascension Parish,Louisiana,LA,False
+Elmore County,Alabama,AL,False
+Tripp County,South Dakota,SD,False
+Madison Parish,Louisiana,LA,False
+Montgomery County,Maryland,MD,False
+Warren County,Mississippi,MS,False
+Beaufort County,North Carolina,NC,False
+Slope County,North Dakota,ND,False
+Harrison County,Texas,TX,False
+Refugio County,Texas,TX,False
+Tooele County,Utah,UT,True
+Essex County,Virginia,VA,False
+Pendleton County,West Virginia,WV,False
+Tehama County,California,CA,False
+DeKalb County,Georgia,GA,False
+Gilmer County,Georgia,GA,False
+Cook County,Georgia,GA,False
+Franklin County,Iowa,IA,False
+Bourbon County,Kentucky,KY,False
+Fleming County,Kentucky,KY,False
+Calhoun County,Texas,TX,False
+Wise County,Virginia,VA,False
+Snohomish County,Washington,WA,False
+Arkansas County,Arkansas,AR,False
+Woodruff County,Arkansas,AR,False
+Boulder County,Colorado,CO,False
+Putnam County,Florida,FL,False
+McDuffie County,Georgia,GA,False
+Taylor County,Georgia,GA,False
+Clark County,Idaho,ID,False
+Hardin County,Iowa,IA,False
+Ballard County,Kentucky,KY,False
+Lafayette Parish,Louisiana,LA,False
+Montmorency County,Michigan,MI,False
+Camden County,Missouri,MO,False
+Powell County,Montana,MT,False
+Pitt County,North Carolina,NC,False
+Jackson County,North Carolina,NC,False
+Grant County,North Dakota,ND,True
+Linn County,Oregon,OR,False
+Armstrong County,Pennsylvania,PA,False
+Benton County,Tennessee,TN,False
+Eastland County,Texas,TX,False
+Foard County,Texas,TX,True
+Prince George County,Virginia,VA,False
+Logan County,West Virginia,WV,False
+Arapahoe County,Colorado,CO,False
+Effingham County,Georgia,GA,False
+Cochise County,Arizona,AZ,True
+Santa Barbara County,California,CA,False
+Mono County,California,CA,True
+St. Mary Parish,Louisiana,LA,False
+East Feliciana Parish,Louisiana,LA,False
+Queen Anne's County,Maryland,MD,False
+Hyde County,North Carolina,NC,False
+Swain County,North Carolina,NC,False
+Philadelphia County,Pennsylvania,PA,False
+Charlevoix County,Michigan,MI,False
+Cape Girardeau County,Missouri,MO,False
+Gallatin County,Montana,MT,True
+Coos County,New Hampshire,NH,True
+Cassia County,Idaho,ID,True
+Wabash County,Illinois,IL,False
+Huron County,Michigan,MI,True
+Lake of the Woods County,Minnesota,MN,True
+Suffolk County,New York,NY,False
+Lyman County,South Dakota,SD,True
+Shelby County,Indiana,IN,False
+Kiowa County,Kansas,KS,False
+Laurel County,Kentucky,KY,False
+Salt Lake County,Utah,UT,False
+Staunton city,Virginia,VA,False
+District of Columbia,District of Columbia,DC,False
+Gadsden County,Florida,FL,False
+Cook County,Illinois,IL,False
+Del Norte County,California,CA,True
+Somerset County,Maine,ME,True
+Carteret County,North Carolina,NC,True
+Lucas County,Ohio,OH,False
+Franklin County,Massachusetts,MA,False
+Greene County,Alabama,AL,False
+Phillips County,Montana,MT,False
+Colfax County,New Mexico,NM,True
+Howard County,Iowa,IA,False
+Clinton County,Iowa,IA,False
+Shelby County,Alabama,AL,False
+Davidson County,Tennessee,TN,False
+Montgomery County,Indiana,IN,False
+Riley County,Kansas,KS,True
+Rowan County,Kentucky,KY,False
+Middlesex County,Virginia,VA,False
+York County,Virginia,VA,False
+Whitman County,Washington,WA,False
+Door County,Wisconsin,WI,False
+Florence County,Wisconsin,WI,True
+Napa County,California,CA,False
+Hall County,Georgia,GA,False
+Power County,Idaho,ID,False
+Cumberland County,Illinois,IL,False
+Richmond County,North Carolina,NC,False
+Jones County,North Carolina,NC,False
+Cherokee County,Texas,TX,False
+Camp County,Texas,TX,False
+Buena Vista County,Iowa,IA,False
+Madison County,Kentucky,KY,False
+Colleton County,South Carolina,SC,False
+Scott County,Tennessee,TN,False
+El Paso County,Texas,TX,False
+Highland County,Virginia,VA,False
+Rockingham County,Virginia,VA,False
+Cowlitz County,Washington,WA,False
+San Juan County,Colorado,CO,False
+Gwinnett County,Georgia,GA,False
+Coweta County,Georgia,GA,False
+Telfair County,Georgia,GA,False
+Treutlen County,Georgia,GA,False
+Butte County,Idaho,ID,True
+Thomas County,Nebraska,NE,True
+Essex County,New Jersey,NJ,False
+Herkimer County,New York,NY,False
+Bladen County,North Carolina,NC,False
+Benson County,North Dakota,ND,False
+Anderson County,Texas,TX,False
+Hardin County,Texas,TX,False
+Jeff Davis County,Texas,TX,False
+Dorchester County,South Carolina,SC,False
+Haakon County,South Dakota,SD,True
+Estill County,Kentucky,KY,False
+Rapides Parish,Louisiana,LA,True
+Franklin County,Maine,ME,True
+Stevens County,Minnesota,MN,False
+Rankin County,Mississippi,MS,False
+Jefferson County,Montana,MT,False
+Bryan County,Oklahoma,OK,False
+Lee County,Virginia,VA,False
+Jefferson County,Arkansas,AR,False
+Dinwiddie County,Virginia,VA,False
+Williamsburg city,Virginia,VA,False
+Pocahontas County,West Virginia,WV,False
+Mississippi County,Arkansas,AR,False
+Lexington County,South Carolina,SC,False
+Clay County,Minnesota,MN,False
+Rockingham County,New Hampshire,NH,False
+Crook County,Oregon,OR,True
+Darlington County,South Carolina,SC,False
+Screven County,Georgia,GA,False
+White County,Arkansas,AR,False
+Dunklin County,Missouri,MO,False
+Midland County,Texas,TX,False
+Russell County,Virginia,VA,False
+Highlands County,Florida,FL,False
+Whitley County,Indiana,IN,False
+Powell County,Kentucky,KY,False
+Jefferson Davis Parish,Louisiana,LA,False
+Mecklenburg County,Virginia,VA,False
+Osceola County,Iowa,IA,False
+Floyd County,Kentucky,KY,False
+Maverick County,Texas,TX,True
+Washington County,Florida,FL,False
+McDowell County,North Carolina,NC,False
+Young County,Texas,TX,False
+Jones County,South Dakota,SD,False
+Solano County,California,CA,False
+Citrus County,Florida,FL,False
+Habersham County,Georgia,GA,False
+Lowndes County,Alabama,AL,False
+Vermilion Parish,Louisiana,LA,False
+Plymouth County,Massachusetts,MA,False
+Faribault County,Minnesota,MN,False
+St. Louis County,Missouri,MO,False
+Grant County,New Mexico,NM,True
+Pasquotank County,North Carolina,NC,False
+Franklin County,Pennsylvania,PA,False
+Brewster County,Texas,TX,False
+Whatcom County,Washington,WA,False
+Grant County,Wisconsin,WI,False
+Cleburne County,Arkansas,AR,False
+Berrien County,Georgia,GA,False
+Gibson County,Indiana,IN,False
+Muhlenberg County,Kentucky,KY,False
+St. Landry Parish,Louisiana,LA,False
+Piscataquis County,Maine,ME,True
+Cass County,Minnesota,MN,False
+Quay County,New Mexico,NM,True
+Burke County,North Carolina,NC,False
+Union County,Oregon,OR,False
+Northumberland County,Pennsylvania,PA,False
+Cumberland County,Tennessee,TN,False
+Mills County,Texas,TX,False
+Geneva County,Alabama,AL,False
+Covington County,Alabama,AL,False
+Randolph County,Alabama,AL,False
+Franklin County,Alabama,AL,False
+Marion County,Alabama,AL,False
+Scott County,Arkansas,AR,False
+Lee County,Arkansas,AR,False
+Baxter County,Arkansas,AR,True
+Perry County,Arkansas,AR,False
+Modoc County,California,CA,True
+Kit Carson County,Colorado,CO,True
+Yuma County,Colorado,CO,True
+Prowers County,Colorado,CO,False
+Monroe County,Florida,FL,True
+Collier County,Florida,FL,False
+Williamsburg County,South Carolina,SC,False
+Rockcastle County,Kentucky,KY,False
+Bienville Parish,Louisiana,LA,False
+Otsego County,Michigan,MI,False
+Silver Bow County,Montana,MT,False
+Washington County,New York,NY,False
+Greene County,Pennsylvania,PA,False
+Claiborne County,Tennessee,TN,False
+Hidalgo County,Texas,TX,True
+Conway County,Arkansas,AR,False
+Bedford County,Virginia,VA,False
+Manassas Park city,Virginia,VA,False
+Nicholas County,West Virginia,WV,False
+Shoshone County,Idaho,ID,True
+San Joaquin County,California,CA,False
+Kent County,Maryland,MD,False
+Bergen County,New Jersey,NJ,False
+Hocking County,Ohio,OH,False
+Inyo County,California,CA,True
+Madison County,North Carolina,NC,False
+Yellow Medicine County,Minnesota,MN,False
+Wharton County,Texas,TX,False
+Garza County,Texas,TX,False
+Montgomery County,Georgia,GA,False
+Washington County,Illinois,IL,False
+Butler County,Kentucky,KY,False
+Buena Vista city,Virginia,VA,False
+Big Horn County,Montana,MT,False
+Schoharie County,New York,NY,False
+Taylor County,Kentucky,KY,False
+DeSoto County,Florida,FL,False
+DeKalb County,Tennessee,TN,False
+McCormick County,South Carolina,SC,False
+Hinsdale County,Colorado,CO,False
+Grayson County,Kentucky,KY,False
+Morris County,New Jersey,NJ,False
+Amelia County,Virginia,VA,False
+Lower Connecticut River Valley Planning Region,Connecticut,CT,False
+Wichita County,Kansas,KS,True
+Henderson County,Illinois,IL,False
+Oneida County,Idaho,ID,False
+Kootenai County,Idaho,ID,False
+Massac County,Illinois,IL,False
+Randolph County,Illinois,IL,False
+Charlotte County,Florida,FL,False
+Holmes County,Florida,FL,False
+Madison County,Florida,FL,False
+Baker County,Florida,FL,False
+Troup County,Georgia,GA,False
+Polk County,Georgia,GA,False
+St. Clair County,Illinois,IL,False
+Catoosa County,Georgia,GA,False
+Walker County,Georgia,GA,False
+Grady County,Georgia,GA,False
+Seminole County,Georgia,GA,False
+Clay County,Georgia,GA,False
+Macoupin County,Illinois,IL,False
+Carroll County,Georgia,GA,False
+Kendall County,Illinois,IL,False
+Dearborn County,Indiana,IN,False
+Adams County,Indiana,IN,False
+Steuben County,Indiana,IN,False
+Benton County,Indiana,IN,False
+Bay County,Michigan,MI,False
+Genesee County,Michigan,MI,False
+Berrien County,Michigan,MI,False
+Pike County,Illinois,IL,False
+Calhoun County,Illinois,IL,False
+Winnebago County,Illinois,IL,False
+Floyd County,Indiana,IN,False
+Muscatine County,Iowa,IA,False
+Crow Wing County,Minnesota,MN,True
+Fulton County,Illinois,IL,False
+Clay County,Illinois,IL,False
+Vigo County,Indiana,IN,False
+Wyandotte County,Kansas,KS,False
+LaSalle County,Illinois,IL,False
+Atchison County,Kansas,KS,False
+Allegany County,New York,NY,False
+Jefferson County,Kentucky,KY,False
+Garvin County,Oklahoma,OK,False
+Jasper County,South Carolina,SC,False
+Saginaw County,Michigan,MI,False
+Page County,Iowa,IA,False
+Hamilton County,Indiana,IN,False
+Harrison County,Iowa,IA,False
+Montcalm County,Michigan,MI,False
+Van Buren County,Iowa,IA,False
+Muskegon County,Michigan,MI,False
+Lyon County,Iowa,IA,False
+Mason County,Michigan,MI,False
+Freeborn County,Minnesota,MN,False
+Bourbon County,Kansas,KS,False
+Doniphan County,Kansas,KS,False
+Norton County,Kansas,KS,True
+Marshall County,Kansas,KS,False
+Morton County,Kansas,KS,False
+Seward County,Kansas,KS,True
+Dickinson County,Michigan,MI,False
+Tuscola County,Michigan,MI,False
+Arenac County,Michigan,MI,False
+Oceana County,Michigan,MI,False
+Houghton County,Michigan,MI,True
+Rock County,Minnesota,MN,False
+Lincoln County,South Dakota,SD,False
+Minnehaha County,South Dakota,SD,False
+Marshall County,South Dakota,SD,False
+Morgan County,Alabama,AL,False
+Mason County,Kentucky,KY,False
+Logan County,Kentucky,KY,False
+Bristol County,Massachusetts,MA,False
+Oldham County,Kentucky,KY,False
+Cayuga County,New York,NY,False
+Chippewa County,Michigan,MI,True
+Perry County,Alabama,AL,False
+Tulsa County,Oklahoma,OK,False
+Butler County,Alabama,AL,False
+Cass County,Michigan,MI,False
+Lyon County,Nevada,NV,True
+Merrimack County,New Hampshire,NH,False
+Hughes County,South Dakota,SD,True
+Faulk County,South Dakota,SD,False
+Turner County,South Dakota,SD,False
+Sanborn County,South Dakota,SD,False
+Northwest Hills Planning Region,Connecticut,CT,False
+Manatee County,Florida,FL,False
+Santa Fe County,New Mexico,NM,False
+Ontario County,New York,NY,False
+Jackson County,South Dakota,SD,False
+Harding County,South Dakota,SD,True
+Sarasota County,Florida,FL,False
+St. Lucie County,Florida,FL,False
+Columbia County,Georgia,GA,False
+Union County,Georgia,GA,False
+Palm Beach County,Florida,FL,False
+Greene County,New York,NY,False
+Genesee County,New York,NY,False
+Lewis County,New York,NY,False
+Sevier County,Utah,UT,True
+Lamoille County,Vermont,VT,False
+Caroline County,Virginia,VA,False
+Fluvanna County,Virginia,VA,False
+Bay County,Florida,FL,False
+Decatur County,Georgia,GA,False
+Union County,Kentucky,KY,False
+Guernsey County,Ohio,OH,False
+Seneca County,Ohio,OH,False
+Wake County,North Carolina,NC,False
+Guilford County,North Carolina,NC,False
+Lynchburg city,Virginia,VA,False
+Sussex County,Virginia,VA,False
+Petersburg city,Virginia,VA,False
+Towns County,Georgia,GA,False
+Franklin County,Georgia,GA,False
+Heard County,Georgia,GA,False
+Franklin County,Ohio,OH,False
+Summit County,Ohio,OH,False
+Wayne County,North Carolina,NC,False
+Randolph County,North Carolina,NC,False
+Stokes County,North Carolina,NC,False
+Martinsville city,Virginia,VA,False
+Harrisonburg city,Virginia,VA,False
+Franklin city,Virginia,VA,False
+Clay County,West Virginia,WV,False
+Lamar County,Alabama,AL,False
+Cherokee County,Alabama,AL,False
+Wood County,Ohio,OH,False
+Belmont County,Ohio,OH,False
+Yadkin County,North Carolina,NC,False
+Barnes County,North Dakota,ND,False
+Ward County,North Dakota,ND,True
+Upshur County,West Virginia,WV,False
+Jefferson County,Wisconsin,WI,False
+Wood County,Wisconsin,WI,True
+Lauderdale County,Alabama,AL,False
+Limestone County,Alabama,AL,False
+Grundy County,Tennessee,TN,False
+Henderson County,Tennessee,TN,False
+Mountrail County,North Dakota,ND,False
+McHenry County,North Dakota,ND,False
+Waukesha County,Wisconsin,WI,False
+Taylor County,Wisconsin,WI,True
+Platte County,Wyoming,WY,False
+Washakie County,Wyoming,WY,True
+Calhoun County,Alabama,AL,False
+Pima County,Arizona,AZ,True
+Jackson County,Tennessee,TN,False
+Ector County,Texas,TX,True
+Caldwell County,Texas,TX,False
+Terry County,Texas,TX,False
+Licking County,Ohio,OH,False
+Warren County,Ohio,OH,False
+Muskingum County,Ohio,OH,False
+Johnson County,Wyoming,WY,True
+Navajo County,Arizona,AZ,True
+Polk County,Arkansas,AR,False
+Craighead County,Arkansas,AR,False
+Wise County,Texas,TX,False
+Castro County,Texas,TX,False
+McLennan County,Texas,TX,False
+Richland County,Ohio,OH,False
+Vinton County,Ohio,OH,False
+Clinton County,Ohio,OH,False
+Morgan County,Ohio,OH,False
+Columbia County,Arkansas,AR,True
+Archuleta County,Colorado,CO,False
+Moffat County,Colorado,CO,False
+Baca County,Colorado,CO,True
+Milam County,Texas,TX,False
+Comal County,Texas,TX,False
+Gregg County,Texas,TX,False
+Pike County,Ohio,OH,False
+Hughes County,Oklahoma,OK,False
+Carter County,Oklahoma,OK,False
+Stephens County,Oklahoma,OK,False
+Sedgwick County,Colorado,CO,True
+Chilton County,Alabama,AL,False
+Meade County,Kentucky,KY,False
+Hansford County,Texas,TX,False
+Nolan County,Texas,TX,False
+Blanco County,Texas,TX,False
+Live Oak County,Texas,TX,False
+Gray County,Texas,TX,False
+DeWitt County,Texas,TX,False
+Murray County,Oklahoma,OK,False
+Harmon County,Oklahoma,OK,False
+Coal County,Oklahoma,OK,False
+Lavaca County,Texas,TX,False
+Jim Hogg County,Texas,TX,True
+Briscoe County,Texas,TX,False
+Reagan County,Texas,TX,True
+La Salle County,Texas,TX,True
+Hartley County,Texas,TX,True
+Borden County,Texas,TX,False
+Washington County,Oregon,OR,False
+Yamhill County,Oregon,OR,False
+Bollinger County,Missouri,MO,False
+Montgomery County,Missouri,MO,False
+Reynolds County,Missouri,MO,False
+Daniels County,Montana,MT,False
+Wheeler County,Oregon,OR,True
+Butler County,Pennsylvania,PA,False
+Colfax County,Nebraska,NE,False
+Saunders County,Nebraska,NE,False
+Carbon County,Pennsylvania,PA,False
+Luzerne County,Pennsylvania,PA,False
+Dawson County,Nebraska,NE,False
+Fillmore County,Nebraska,NE,False
+Morrill County,Nebraska,NE,False
+Webster County,Nebraska,NE,False
+Mifflin County,Pennsylvania,PA,False
+Forest County,Pennsylvania,PA,False
+Oliver County,North Dakota,ND,False
+Rio Blanco County,Colorado,CO,False
+Logan County,Colorado,CO,True
+Wayne County,Nebraska,NE,False
+Gosper County,Nebraska,NE,False
+Garden County,Nebraska,NE,True
+Edgefield County,South Carolina,SC,False
+Fairfield County,South Carolina,SC,False
+Buchanan County,Iowa,IA,False
+Greene County,Iowa,IA,False
+Guthrie County,Iowa,IA,False
+Cass County,Iowa,IA,False
+Crawford County,Iowa,IA,False
+Lucas County,Iowa,IA,False
+Douglas County,Missouri,MO,False
+Osage County,Missouri,MO,False
+Macon County,Missouri,MO,False
+Mahoning County,Ohio,OH,False
+Adair County,Oklahoma,OK,False
+Saline County,Arkansas,AR,False
+Stone County,Arkansas,AR,False
+Humboldt County,Iowa,IA,False
+Jasper County,Iowa,IA,False
+Audubon County,Iowa,IA,True
+Adams County,Iowa,IA,False
+Ida County,Iowa,IA,False
+Daviess County,Missouri,MO,False
+Clinton County,Missouri,MO,False
+DeKalb County,Missouri,MO,False
+Delaware County,Oklahoma,OK,False
+Ottawa County,Oklahoma,OK,False
+Harney County,Oregon,OR,True
+Garland County,Arkansas,AR,False
+Newton County,Arkansas,AR,False
+Pike County,Arkansas,AR,False
+Plumas County,California,CA,False
+Adams County,Colorado,CO,False
+Gilpin County,Colorado,CO,False
+Jefferson County,Kansas,KS,False
+Wilson County,Kansas,KS,False
+Lyon County,Kansas,KS,False
+Russell County,Kansas,KS,False
+Ford County,Kansas,KS,False
+Franklin County,Missouri,MO,False
+Polk County,Missouri,MO,False
+Crawford County,Missouri,MO,False
+Lincoln County,Oregon,OR,False
+Tillamook County,Oregon,OR,False
+Phillips County,Colorado,CO,True
+Washington County,Colorado,CO,True
+Clay County,Florida,FL,False
+Wabaunsee County,Kansas,KS,False
+Geary County,Kansas,KS,False
+Lincoln County,Kansas,KS,False
+Big Stone County,Minnesota,MN,False
+Carlton County,Minnesota,MN,False
+Hood River County,Oregon,OR,False
+Tioga County,Pennsylvania,PA,False
+Warren County,Pennsylvania,PA,False
+Oconee County,South Carolina,SC,False
+Lafayette County,Florida,FL,False
+Cherokee County,Georgia,GA,False
+Chase County,Kansas,KS,False
+Hodgeman County,Kansas,KS,False
+Marshall County,Kentucky,KY,False
+Shelby County,Kentucky,KY,False
+Jackson County,Mississippi,MS,False
+Itawamba County,Mississippi,MS,False
+Moody County,South Dakota,SD,False
+Obion County,Tennessee,TN,False
+Gordon County,Georgia,GA,False
+Pike County,Georgia,GA,False
+Franklin County,Kentucky,KY,False
+Pulaski County,Kentucky,KY,False
+Spencer County,Kentucky,KY,False
+Marshall County,Mississippi,MS,False
+Newton County,Missouri,MO,False
+Hancock County,Tennessee,TN,False
+Lincoln County,Tennessee,TN,False
+Matagorda County,Texas,TX,True
+Banks County,Georgia,GA,False
+Johnson County,Georgia,GA,False
+Gallatin County,Kentucky,KY,False
+Robertson County,Kentucky,KY,False
+Mississippi County,Missouri,MO,False
+Pike County,Missouri,MO,False
+Montague County,Texas,TX,False
+Clay County,Texas,TX,False
+Lipscomb County,Texas,TX,True
+Ware County,Georgia,GA,False
+Dawson County,Georgia,GA,False
+Pickens County,Georgia,GA,False
+Green County,Kentucky,KY,False
+Casey County,Kentucky,KY,False
+Harrison County,Missouri,MO,False
+Vernon County,Missouri,MO,False
+Hill County,Montana,MT,False
+Cochran County,Texas,TX,False
+Wilbarger County,Texas,TX,False
+Deaf Smith County,Texas,TX,False
+Washington County,Utah,UT,True
+Glascock County,Georgia,GA,False
+Terrell County,Georgia,GA,False
+Carlisle County,Kentucky,KY,False
+St. Charles Parish,Louisiana,LA,False
+Perkins County,Nebraska,NE,False
+Harlan County,Nebraska,NE,False
+Douglas County,Nebraska,NE,False
+Iron County,Utah,UT,True
+Caledonia County,Vermont,VT,False
+Addison County,Vermont,VT,False
+Lanier County,Georgia,GA,False
+Jones County,Georgia,GA,False
+Jackson Parish,Louisiana,LA,False
+Androscoggin County,Maine,ME,False
+Ionia County,Michigan,MI,False
+Furnas County,Nebraska,NE,False
+Dixon County,Nebraska,NE,False
+Elko County,Nevada,NV,True
+Hampton city,Virginia,VA,False
+Scott County,Virginia,VA,False
+Meriwether County,Georgia,GA,False
+Calhoun County,Michigan,MI,False
+Barry County,Michigan,MI,False
+Jackson County,Michigan,MI,False
+Steele County,Minnesota,MN,False
+Humboldt County,Nevada,NV,True
+Cheshire County,New Hampshire,NH,False
+Burlington County,New Jersey,NJ,False
+Catron County,New Mexico,NM,True
+Portsmouth city,Virginia,VA,False
+Poquoson city,Virginia,VA,False
+Lee County,Georgia,GA,False
+Anoka County,Minnesota,MN,False
+Sibley County,Minnesota,MN,False
+Douglas County,Minnesota,MN,False
+Lea County,New Mexico,NM,True
+Otero County,New Mexico,NM,True
+Chemung County,New York,NY,False
+Spokane County,Washington,WA,False
+Monongalia County,West Virginia,WV,False
+Madison County,Idaho,ID,True
+McDonough County,Illinois,IL,False
+Isanti County,Minnesota,MN,False
+Meeker County,Minnesota,MN,False
+Lyon County,Minnesota,MN,False
+Lee County,Mississippi,MS,False
+Sunflower County,Mississippi,MS,False
+Broome County,New York,NY,False
+Monroe County,New York,NY,False
+Hancock County,West Virginia,WV,False
+Pierce County,Wisconsin,WI,False
+Christian County,Illinois,IL,False
+Montgomery County,Illinois,IL,False
+Wayne County,Illinois,IL,False
+Carroll County,Mississippi,MS,False
+Sharkey County,Mississippi,MS,False
+Kemper County,Mississippi,MS,False
+Surry County,North Carolina,NC,False
+Cleveland County,North Carolina,NC,False
+Kewaunee County,Wisconsin,WI,False
+Green County,Wisconsin,WI,False
+Pepin County,Wisconsin,WI,False
+Grant County,Indiana,IN,False
+Kosciusko County,Indiana,IN,False
+Fountain County,Indiana,IN,False
+Miami County,Indiana,IN,False
+Lawrence County,Mississippi,MS,False
+Smith County,Mississippi,MS,False
+Henry County,Missouri,MO,False
+St. Francois County,Missouri,MO,False
+Sargent County,North Dakota,ND,False
+Divide County,North Dakota,ND,False
+Bottineau County,North Dakota,ND,False
+Sweetwater County,Wyoming,WY,True
+Goshen County,Wyoming,WY,False
+Pope County,Arkansas,AR,False
+Pulaski County,Indiana,IN,False
+Madison County,Indiana,IN,False
+Greene County,Indiana,IN,False
+Jasper County,Indiana,IN,False
+Howard County,Missouri,MO,False
+Greene County,Missouri,MO,False
+Wayne County,Missouri,MO,False
+Adams County,Ohio,OH,False
+Jefferson County,Ohio,OH,False
+Yell County,Arkansas,AR,False
+Hot Spring County,Arkansas,AR,False
+Parke County,Indiana,IN,False
+Orange County,Indiana,IN,False
+Cedar County,Iowa,IA,False
+Dallas County,Iowa,IA,False
+Monroe County,Indiana,IN,False
+Adair County,Iowa,IA,False
+Chickasaw County,Iowa,IA,False
+Sheridan County,Kansas,KS,True
+Ellis County,Kansas,KS,False
+Orange County,Vermont,VT,False
+Chittenden County,Vermont,VT,False
+Mingo County,West Virginia,WV,False
+Colquitt County,Georgia,GA,False
+Pulaski County,Georgia,GA,False
+Randolph County,Georgia,GA,False
+Grundy County,Illinois,IL,False
+Moultrie County,Illinois,IL,False
+Noble County,Indiana,IN,False
+Carroll County,Indiana,IN,False
+Osage County,Kansas,KS,False
+Graham County,Kansas,KS,False
+Mitchell County,Kansas,KS,True
+Pawnee County,Kansas,KS,False
+Finney County,Kansas,KS,True
+Stanton County,Kansas,KS,True
+Rutland County,Vermont,VT,False
+Dodge County,Georgia,GA,False
+Jenkins County,Georgia,GA,False
+Boone County,Indiana,IN,False
+Starke County,Indiana,IN,False
+Washington County,Tennessee,TN,False
+Coffey County,Kansas,KS,False
+Dickinson County,Kansas,KS,False
+Thomas County,Kansas,KS,True
+Grant County,Kansas,KS,True
+Elk County,Kansas,KS,False
+Carroll County,Virginia,VA,False
+Virginia Beach city,Virginia,VA,False
+Garfield County,Nebraska,NE,True
+Blaine County,Nebraska,NE,True
+Banner County,Nebraska,NE,False
+Rock County,Nebraska,NE,True
+Churchill County,Nevada,NV,True
+Carroll County,Tennessee,TN,False
+Madison County,Tennessee,TN,False
+Hardin County,Tennessee,TN,False
+Rice County,Kansas,KS,False
+Clark County,Kansas,KS,False
+Osborne County,Kansas,KS,False
+Warren County,Kentucky,KY,False
+Danville city,Virginia,VA,False
+Mathews County,Virginia,VA,False
+Carson City,Nevada,NV,True
+Storey County,Nevada,NV,False
+Valencia County,New Mexico,NM,False
+Dickson County,Tennessee,TN,False
+McLean County,Kentucky,KY,False
+Adair County,Kentucky,KY,False
+Suffolk city,Virginia,VA,False
+Brunswick County,Virginia,VA,False
+Torrance County,New Mexico,NM,False
+San Miguel County,New Mexico,NM,False
+Chaves County,New Mexico,NM,True
+Bledsoe County,Tennessee,TN,False
+Sequatchie County,Tennessee,TN,False
+Lincoln County,Kentucky,KY,False
+Boyle County,Kentucky,KY,False
+Clarke County,Virginia,VA,False
+Columbia County,Washington,WA,False
+Los Alamos County,New Mexico,NM,False
+Albany County,New York,NY,False
+Brooke County,West Virginia,WV,False
+Summers County,West Virginia,WV,False
+Lee County,Kentucky,KY,False
+Webster County,Kentucky,KY,False
+Mercer County,West Virginia,WV,False
+Preston County,West Virginia,WV,False
+Alamance County,North Carolina,NC,False
+Durham County,North Carolina,NC,False
+Jackson County,West Virginia,WV,False
+Walworth County,Wisconsin,WI,False
+Monroe County,Kentucky,KY,False
+Hancock County,Kentucky,KY,False
+Ohio County,West Virginia,WV,False
+Grant County,Arkansas,AR,False
+Catawba County,North Carolina,NC,False
+Lincoln County,North Carolina,NC,False
+Ozaukee County,Wisconsin,WI,False
+Brown County,Wisconsin,WI,False
+Yankton County,South Dakota,SD,False
+Gregory County,South Dakota,SD,True
+Logan County,Arkansas,AR,False
+Searcy County,Arkansas,AR,True
+Amador County,California,CA,False
+Otero County,Colorado,CO,True
+Burleigh County,North Dakota,ND,False
+Oconto County,Wisconsin,WI,False
+Manitowoc County,Wisconsin,WI,False
+Todd County,South Dakota,SD,False
+Deuel County,South Dakota,SD,False
+Brookings County,South Dakota,SD,False
+Pueblo County,Colorado,CO,True
+Alamosa County,Colorado,CO,False
+Bent County,Colorado,CO,False
+Mercer County,North Dakota,ND,True
+Steele County,North Dakota,ND,False
+Sheridan County,North Dakota,ND,True
+Lafayette County,Wisconsin,WI,False
+Vilas County,Wisconsin,WI,False
+St. Croix County,Wisconsin,WI,False
+Lawrence County,South Dakota,SD,False
+Corson County,South Dakota,SD,False
+Broomfield County,Colorado,CO,False
+Hardee County,Florida,FL,False
+Liberty County,Florida,FL,False
+Jeff Davis County,Georgia,GA,False
+Marion County,Georgia,GA,False
+Weston County,Wyoming,WY,True
+Franklin County,Arkansas,AR,False
+St. Francis County,Arkansas,AR,False
+Wayne County,Tennessee,TN,False
+Laurens County,Georgia,GA,False
+Crisp County,Georgia,GA,False
+Atkinson County,Georgia,GA,False
+Bibb County,Alabama,AL,False
+Bowman County,North Dakota,ND,True
+Pipestone County,Minnesota,MN,False
+Howell County,Missouri,MO,True
+Marion County,Tennessee,TN,False
+Lake County,Tennessee,TN,False
+Rockdale County,Georgia,GA,False
+Bartow County,Georgia,GA,False
+Schuyler County,Illinois,IL,False
+Gooding County,Idaho,ID,False
+Stone County,Missouri,MO,False
+Franklin County,Nebraska,NE,False
+Carroll County,Illinois,IL,False
+Montgomery County,Tennessee,TN,False
+Stewart County,Tennessee,TN,False
+Douglas County,Georgia,GA,False
+Worth County,Georgia,GA,False
+Custer County,Idaho,ID,True
+Bond County,Illinois,IL,False
+Warren County,Illinois,IL,False
+Perry County,Illinois,IL,False
+Hamilton County,Illinois,IL,False
+Butler County,Kansas,KS,False
+Franklin County,Indiana,IN,False
+Taylor County,Iowa,IA,False
+Kossuth County,Iowa,IA,False
+Willacy County,Texas,TX,False
+Webb County,Texas,TX,True
+Harris County,Texas,TX,False
+Gaines County,Texas,TX,False
+Parmer County,Texas,TX,False
+Clayton County,Georgia,GA,False
+Morgan County,Georgia,GA,False
+Richland County,Illinois,IL,False
+Jasper County,Illinois,IL,False
+Effingham County,Illinois,IL,False
+Montgomery County,Kansas,KS,False
+Decatur County,Kansas,KS,True
+Jewell County,Kansas,KS,True
+Hancock County,Indiana,IN,False
+Fannin County,Texas,TX,False
+Dallam County,Texas,TX,True
+Orleans County,Vermont,VT,False
+Bacon County,Georgia,GA,False
+Lumpkin County,Georgia,GA,False
+Marshall County,Indiana,IN,False
+Monona County,Iowa,IA,False
+Davis County,Iowa,IA,False
+Fayette County,Iowa,IA,False
+Boone County,Iowa,IA,False
+Washington County,Iowa,IA,False
+Linn County,Iowa,IA,False
+Clarke County,Iowa,IA,False
+Wallowa County,Oregon,OR,True
+Umatilla County,Oregon,OR,False
+Carroll County,New Hampshire,NH,False
+Sullivan County,New Hampshire,NH,False
+Curry County,New Mexico,NM,True
+Jackson County,Iowa,IA,False
+Isabella County,Michigan,MI,False
+Dickinson County,Iowa,IA,False
+Iowa County,Iowa,IA,False
+Monroe County,Iowa,IA,False
+Wright County,Iowa,IA,False
+Kingman County,Kansas,KS,False
+McPherson County,Kansas,KS,False
+Pratt County,Kansas,KS,False
+Jackson County,Oregon,OR,False
+Crawford County,Pennsylvania,PA,False
+Eddy County,New Mexico,NM,True
+Steuben County,New York,NY,False
+Hancock County,Illinois,IL,False
+Boundary County,Idaho,ID,True
+Oakland County,Michigan,MI,False
+Emmet County,Michigan,MI,True
+Tazewell County,Illinois,IL,False
+Douglas County,Kansas,KS,False
+Lane County,Kansas,KS,True
+Anderson County,Kansas,KS,False
+Greenwood County,Kansas,KS,False
+Bradford County,Pennsylvania,PA,False
+Bristol County,Rhode Island,RI,False
+Dillon County,South Carolina,SC,False
+Worcester County,Massachusetts,MA,False
+Mackinac County,Michigan,MI,False
+Teton County,Idaho,ID,False
+Latah County,Idaho,ID,False
+Clare County,Michigan,MI,False
+Sioux County,Iowa,IA,False
+Cottonwood County,Minnesota,MN,False
+Sandusky County,Ohio,OH,False
+Cameron Parish,Louisiana,LA,False
+Keweenaw County,Michigan,MI,False
+Van Buren County,Michigan,MI,False
+St. Joseph County,Michigan,MI,False
+Bonner County,Idaho,ID,True
+Jo Daviess County,Illinois,IL,False
+Johnson County,Iowa,IA,False
+Aitkin County,Minnesota,MN,False
+Barber County,Kansas,KS,False
+Miami County,Kansas,KS,False
+Claiborne Parish,Louisiana,LA,False
+Calcasieu Parish,Louisiana,LA,False
+Frederick County,Maryland,MD,False
+Schoolcraft County,Michigan,MI,True
+Antrim County,Michigan,MI,False
+Sangamon County,Illinois,IL,False
+Benewah County,Idaho,ID,False
+Oklahoma County,Oklahoma,OK,False
+Canadian County,Oklahoma,OK,False
+Essex County,Massachusetts,MA,False
+Nantucket County,Massachusetts,MA,False
+Orleans County,New York,NY,False
+Putnam County,New York,NY,False
+Jackson County,Minnesota,MN,False
+Winona County,Minnesota,MN,False
+Traverse County,Minnesota,MN,False
+Monroe County,Illinois,IL,False
+Gallatin County,Illinois,IL,False
+Caddo County,Oklahoma,OK,False
+Bullock County,Alabama,AL,False
+Phillips County,Kansas,KS,True
+Queens County,New York,NY,False
+Franklin County,New York,NY,False
+Rensselaer County,New York,NY,False
+Mower County,Minnesota,MN,False
+Harrison County,Mississippi,MS,True
+Union County,Illinois,IL,False
+White County,Illinois,IL,False
+Washington County,Kansas,KS,False
+Chautauqua County,Kansas,KS,False
+Meade County,Kansas,KS,False
+Harper County,Kansas,KS,False
+Wallace County,Kansas,KS,True
+Columbia County,New York,NY,False
+Tioga County,New York,NY,False
+Hancock County,Mississippi,MS,False
+Wayne County,Mississippi,MS,False
+George County,Mississippi,MS,False
+Lawrence County,Illinois,IL,False
+Mercer County,Illinois,IL,False
+Stephenson County,Illinois,IL,False
+Montgomery County,New York,NY,False
+Clay County,Alabama,AL,False
+McCracken County,Kentucky,KY,False
+Union County,North Carolina,NC,False
+McDonald County,Missouri,MO,False
+Taney County,Missouri,MO,False
+Barton County,Missouri,MO,False
+Woodford County,Illinois,IL,False
+Linn County,Kansas,KS,False
+Cole County,Missouri,MO,False
+Seneca County,New York,NY,False
+Kenton County,Kentucky,KY,False
+Avery County,North Carolina,NC,False
+Gates County,North Carolina,NC,False
+Buchanan County,Missouri,MO,False
+Platte County,Missouri,MO,False
+McLean County,Illinois,IL,False
+Macon County,Illinois,IL,False
+Tompkins County,New York,NY,False
+Campbell County,Kentucky,KY,False
+Warren County,North Carolina,NC,False
+McIntosh County,North Dakota,ND,False
+Preble County,Ohio,OH,False
+Nodaway County,Missouri,MO,False
+Lewis County,Missouri,MO,False
+Jasper County,Missouri,MO,False
+Johnson County,Kansas,KS,False
+Carroll County,Kentucky,KY,False
+Collin County,Texas,TX,False
+Brown County,Ohio,OH,False
+Meigs County,Ohio,OH,False
+Barry County,Missouri,MO,False
+Ralls County,Missouri,MO,False
+Mercer County,Missouri,MO,False
+Hudson County,New Jersey,NJ,False
+Warren County,Indiana,IN,False
+Racine County,Wisconsin,WI,False
+White County,Indiana,IN,False
+Cass County,Indiana,IN,False
+Johnson County,Indiana,IN,False
+Monroe County,Ohio,OH,False
+Columbiana County,Ohio,OH,False
+Park County,Montana,MT,False
+Sheridan County,Montana,MT,True
+Kimball County,Nebraska,NE,False
+Chase County,Nebraska,NE,True
+Champaign County,Illinois,IL,False
+Sedgwick County,Kansas,KS,False
+Elkhart County,Indiana,IN,False
+Howard County,Indiana,IN,False
+Brown County,Indiana,IN,False
+Morgan County,Indiana,IN,False
+Allen County,Indiana,IN,False
+Wabash County,Indiana,IN,False
+Lorain County,Ohio,OH,False
+Trumbull County,Ohio,OH,False
+Alfalfa County,Oklahoma,OK,False
+Thayer County,Nebraska,NE,False
+Scotts Bluff County,Nebraska,NE,False
+Cedar County,Nebraska,NE,False
+Ohio County,Indiana,IN,False
+Wayne County,Indiana,IN,False
+Randolph County,Indiana,IN,False
+Ripley County,Indiana,IN,False
+Clinton County,Indiana,IN,False
+Putnam County,Indiana,IN,False
+Texas County,Oklahoma,OK,True
+Washington County,Oklahoma,OK,False
+Love County,Oklahoma,OK,False
+Boyd County,Nebraska,NE,True
+Cass County,Nebraska,NE,False
+Kent County,Michigan,MI,False
+Henry County,Illinois,IL,False
+Wayne County,Iowa,IA,False
+Crawford County,Indiana,IN,False
+Owen County,Indiana,IN,False
+Cerro Gordo County,Iowa,IA,False
+Roger Mills County,Oklahoma,OK,True
+Sioux County,Nebraska,NE,False
+Otoe County,Nebraska,NE,False
+Nye County,Nevada,NV,True
+Shiawassee County,Michigan,MI,False
+Decatur County,Iowa,IA,False
+Des Moines County,Iowa,IA,False
+Waushara County,Wisconsin,WI,False
+Converse County,Wyoming,WY,False
+Niobrara County,Wyoming,WY,True
+Sharp County,Arkansas,AR,False
+Bracken County,Kentucky,KY,False
+Dukes County,Massachusetts,MA,False
+Berkshire County,Massachusetts,MA,False
+Morgan County,Illinois,IL,False
+Crittenden County,Arkansas,AR,False
+Ashtabula County,Ohio,OH,False
+Morrow County,Oregon,OR,False
+Greene County,Arkansas,AR,False
+Montrose County,Colorado,CO,True
+Branch County,Michigan,MI,False
+Sussex County,New Jersey,NJ,False
+Cortland County,New York,NY,False
+Marion County,Arkansas,AR,False
+Potter County,Pennsylvania,PA,False
+Mercer County,Pennsylvania,PA,False
+Sterling County,Texas,TX,False
+Roanoke city,Virginia,VA,False
+Greater Bridgeport Planning Region,Connecticut,CT,False
+Broward County,Florida,FL,False
+Volusia County,Florida,FL,False
+Schuyler County,New York,NY,False
+Hamilton County,New York,NY,False
+Wilson County,North Carolina,NC,False
+Chisago County,Minnesota,MN,False
+Martin County,Minnesota,MN,False
+Alcona County,Michigan,MI,False
+Appomattox County,Virginia,VA,False
+Smyth County,Virginia,VA,False
+Harris County,Georgia,GA,False
+Haralson County,Georgia,GA,False
+Dade County,Georgia,GA,False
+Alexander County,North Carolina,NC,False
+Watauga County,North Carolina,NC,False
+Lauderdale County,Mississippi,MS,False
+Alcorn County,Mississippi,MS,False
+Bolivar County,Mississippi,MS,False
+Radford city,Virginia,VA,False
+Fredericksburg city,Virginia,VA,False
+Rappahannock County,Virginia,VA,False
+Hopewell city,Virginia,VA,False
+Galax city,Virginia,VA,False
+Thomas County,Georgia,GA,False
+Stewart County,Georgia,GA,False
+Nelson County,North Dakota,ND,False
+Logan County,North Dakota,ND,False
+Clark County,Ohio,OH,False
+Delaware County,Ohio,OH,False
+Monroe County,Mississippi,MS,False
+Buffalo County,South Dakota,SD,True
+Jackson County,Wisconsin,WI,False
+Calumet County,Wisconsin,WI,False
+Barron County,Wisconsin,WI,False
+Langlade County,Wisconsin,WI,False
+Clinch County,Georgia,GA,False
+Pope County,Illinois,IL,False
+Clark County,Illinois,IL,False
+Miami County,Ohio,OH,False
+Union County,Ohio,OH,False
+Carroll County,Ohio,OH,False
+Haywood County,Tennessee,TN,False
+Chester County,Tennessee,TN,False
+Lenawee County,Michigan,MI,False
+Sanilac County,Michigan,MI,True
+Whiteside County,Illinois,IL,False
+Clark County,Indiana,IN,False
+Logan County,Oklahoma,OK,False
+McIntosh County,Oklahoma,OK,False
+Lewis County,Tennessee,TN,False
+Overton County,Tennessee,TN,False
+Cheboygan County,Michigan,MI,False
+Iosco County,Michigan,MI,True
+Sullivan County,Indiana,IN,False
+Jefferson County,Indiana,IN,False
+Porter County,Indiana,IN,False
+Okfuskee County,Oklahoma,OK,False
+Dewey County,Oklahoma,OK,False
+Hays County,Texas,TX,False
+Denton County,Texas,TX,False
+Lubbock County,Texas,TX,False
+Runnels County,Texas,TX,False
+Wabasha County,Minnesota,MN,False
+Amite County,Mississippi,MS,False
+Jay County,Indiana,IN,False
+Vanderburgh County,Indiana,IN,False
+Switzerland County,Indiana,IN,False
+Polk County,Oregon,OR,False
+Lehigh County,Pennsylvania,PA,False
+Kendall County,Texas,TX,False
+Medina County,Texas,TX,False
+Jim Wells County,Texas,TX,False
+Hamilton County,Texas,TX,False
+Coahoma County,Mississippi,MS,False
+Walthall County,Mississippi,MS,False
+Ozark County,Missouri,MO,False
+Ottawa County,Michigan,MI,False
+Livingston County,Michigan,MI,False
+Knox County,Illinois,IL,False
+Lackawanna County,Pennsylvania,PA,False
+Montour County,Pennsylvania,PA,False
+McCook County,South Dakota,SD,False
+Limestone County,Texas,TX,False
+Hall County,Texas,TX,True
+Lynn County,Texas,TX,False
+Crosby County,Texas,TX,False
+Edwards County,Texas,TX,True
+Nuckolls County,Nebraska,NE,False
+Sarpy County,Nebraska,NE,False
+Deuel County,Nebraska,NE,True
+Manistee County,Michigan,MI,False
+Mitchell County,Iowa,IA,False
+Washtenaw County,Michigan,MI,False
+Mills County,Iowa,IA,False
+Hutchinson County,South Dakota,SD,False
+Custer County,South Dakota,SD,False
+San Francisco County,California,CA,False
+Cheyenne County,Colorado,CO,True
+Coosa County,Alabama,AL,False
+Avoyelles Parish,Louisiana,LA,False
+Washington County,Nebraska,NE,False
+Ocean County,New Jersey,NJ,False
+Bureau County,Illinois,IL,False
+Sumner County,Kansas,KS,False
+Winston County,Alabama,AL,False
+Baltimore city,Maryland,MD,False
+Bell County,Texas,TX,False
+Bastrop County,Texas,TX,False
+Taylor County,Texas,TX,False
+Griggs County,North Dakota,ND,False
+Shelby County,Ohio,OH,False
+Koochiching County,Minnesota,MN,True
+Sherman County,Kansas,KS,True
+Graves County,Kentucky,KY,False
+Prairie County,Montana,MT,False
+Indian River County,Florida,FL,False
+Chowan County,North Carolina,NC,False
+Holmes County,Ohio,OH,False
+Luce County,Michigan,MI,True
+Kandiyohi County,Minnesota,MN,False
+Pope County,Minnesota,MN,False
+Neshoba County,Mississippi,MS,False
+Dale County,Alabama,AL,False
+Kay County,Oklahoma,OK,False
+Okaloosa County,Florida,FL,False
+Early County,Georgia,GA,False
+Perquimans County,North Carolina,NC,False
+Golden Valley County,North Dakota,ND,False
+Burke County,North Dakota,ND,True
+Benton County,Mississippi,MS,False
+Hickory County,Missouri,MO,False
+Dent County,Missouri,MO,False
+Lincoln County,Nebraska,NE,False
+Hamilton County,Nebraska,NE,False
+Perkins County,South Dakota,SD,True
+Boyd County,Kentucky,KY,False
+Douglas County,South Dakota,SD,False
+Cumberland County,Maine,ME,False
+Echols County,Georgia,GA,False
+Quitman County,Georgia,GA,False
+Lawrence County,Ohio,OH,False
+Gallia County,Ohio,OH,False
+Defiance County,Ohio,OH,False
+Towner County,North Dakota,ND,False
+Lincoln County,Wyoming,WY,True
+Washington County,Wisconsin,WI,False
+Marquette County,Wisconsin,WI,False
+Liberty County,Texas,TX,False
+Cabarrus County,North Carolina,NC,False
+Fannin County,Georgia,GA,False
+Floyd County,Georgia,GA,False
+Cimarron County,Oklahoma,OK,False
+Lake County,Oregon,OR,True
+McKean County,Pennsylvania,PA,False
+Wirt County,West Virginia,WV,False
+Portage County,Wisconsin,WI,True
+Green Lake County,Wisconsin,WI,False
+Pontotoc County,Oklahoma,OK,False
+Mayes County,Oklahoma,OK,False
+Waseca County,Minnesota,MN,False
+Murray County,Minnesota,MN,False
+Dodge County,Minnesota,MN,False
+Pennington County,Minnesota,MN,False
+Lincoln County,Mississippi,MS,False
+Susquehanna County,Pennsylvania,PA,False
+Bon Homme County,South Dakota,SD,False
+McNairy County,Tennessee,TN,False
+Clay County,Tennessee,TN,False
+Rusk County,Wisconsin,WI,False
+Columbia County,Wisconsin,WI,False
+Washita County,Oklahoma,OK,False
+Rogers County,Oklahoma,OK,False
+Pushmataha County,Oklahoma,OK,False
+Leake County,Mississippi,MS,False
+Oktibbeha County,Mississippi,MS,False
+Jones County,Mississippi,MS,False
+Tallahatchie County,Mississippi,MS,False
+Pulaski County,Arkansas,AR,False
+Richland County,Wisconsin,WI,False
+Waupaca County,Wisconsin,WI,False
+Outagamie County,Wisconsin,WI,False
+Woodward County,Oklahoma,OK,False
+Johnston County,Oklahoma,OK,False
+Lebanon County,Pennsylvania,PA,False
+Pontotoc County,Mississippi,MS,False
+Scott County,Mississippi,MS,False
+Winston County,Mississippi,MS,False
+Grenada County,Mississippi,MS,False
+Hardeman County,Texas,TX,False
+Wheeler County,Texas,TX,True
+Bailey County,Texas,TX,False
+Van Buren County,Tennessee,TN,False
+Tarrant County,Texas,TX,False
+Cambria County,Pennsylvania,PA,False
+Lycoming County,Pennsylvania,PA,False
+Choctaw County,Mississippi,MS,False
+Johnson County,Missouri,MO,False
+Shannon County,Missouri,MO,False
+Wichita County,Texas,TX,True
+Millard County,Utah,UT,True
+King George County,Virginia,VA,False
+McCulloch County,Texas,TX,False
+Gonzales County,Texas,TX,False
+Hood County,Texas,TX,False
+Jefferson County,Pennsylvania,PA,False
+Bedford County,Pennsylvania,PA,False
+Gasconade County,Missouri,MO,False
+Lawrence County,Missouri,MO,False
+Grundy County,Missouri,MO,False
+Texas County,Missouri,MO,False
+Henry County,Virginia,VA,False
+Yoakum County,Texas,TX,False
+Howard County,Texas,TX,False
+Coryell County,Texas,TX,False
+Tom Green County,Texas,TX,True
+Fayette County,Texas,TX,False
+Throckmorton County,Texas,TX,True
+Archer County,Texas,TX,False
+Snyder County,Pennsylvania,PA,False
+Wyoming County,Pennsylvania,PA,False
+Randolph County,Missouri,MO,False
+Livingston County,Missouri,MO,False
+Maries County,Missouri,MO,False
+Shelby County,Missouri,MO,False
+Grayson County,Virginia,VA,False
+Skamania County,Washington,WA,False
+Atascosa County,Texas,TX,False
+Erath County,Texas,TX,False
+Potter County,Texas,TX,False
+Moore County,Texas,TX,False
+Hutchinson County,Texas,TX,False
+Mason County,Texas,TX,True
+Barnwell County,South Carolina,SC,False
+Dade County,Missouri,MO,False
+St. Clair County,Missouri,MO,False
+Scotland County,Missouri,MO,False
+Wheatland County,Montana,MT,True
+Asotin County,Washington,WA,False
+Garfield County,Washington,WA,False
+Bandera County,Texas,TX,False
+Lamb County,Texas,TX,False
+Goliad County,Texas,TX,False
+Baylor County,Texas,TX,False
+Martin County,Texas,TX,False
+Saluda County,South Carolina,SC,False
+Chester County,South Carolina,SC,False
+Custer County,Montana,MT,False
+Garfield County,Montana,MT,True
+Carter County,Montana,MT,True
+Wibaux County,Montana,MT,False
+Mason County,West Virginia,WV,False
+Milwaukee County,Wisconsin,WI,False
+Knox County,Texas,TX,True
+Somervell County,Texas,TX,False
+Frio County,Texas,TX,False
+Madison County,Texas,TX,False
+San Saba County,Texas,TX,False
+Kent County,Texas,TX,False
+Potter County,South Dakota,SD,True
+Day County,South Dakota,SD,False
+Davison County,South Dakota,SD,False
+Kingsbury County,South Dakota,SD,False
+Hamlin County,South Dakota,SD,False
+Holt County,Nebraska,NE,True
+Hall County,Nebraska,NE,False
+Madison County,Nebraska,NE,False
+La Crosse County,Wisconsin,WI,False
+Vernon County,Wisconsin,WI,False
+Childress County,Texas,TX,True
+Stonewall County,Texas,TX,False
+Stark County,North Dakota,ND,True
+Stutsman County,North Dakota,ND,False
+Kidder County,North Dakota,ND,False
+Bennett County,South Dakota,SD,False
+Butte County,South Dakota,SD,False
+Buffalo County,Nebraska,NE,True
+Seward County,Nebraska,NE,False
+Adams County,Nebraska,NE,False
+Poinsett County,Arkansas,AR,False
+Van Buren County,Arkansas,AR,False
+Lincoln County,Arkansas,AR,False
+Culberson County,Texas,TX,True
+Schleicher County,Texas,TX,False
+LaMoure County,North Dakota,ND,False
+Auglaize County,Ohio,OH,False
+Fairfield County,Ohio,OH,False
+Oglala Lakota County,South Dakota,SD,False
+Decatur County,Tennessee,TN,False
+Wolfe County,Kentucky,KY,False
+Magoffin County,Kentucky,KY,False
+Keith County,Nebraska,NE,False
+Antelope County,Nebraska,NE,False
+Platte County,Nebraska,NE,False
+Armstrong County,Texas,TX,False
+Concho County,Texas,TX,False
+Beaver County,Utah,UT,False
+Montgomery County,Virginia,VA,False
+Stark County,Ohio,OH,False
+Highland County,Ohio,OH,False
+Hancock County,Ohio,OH,False
+Trimble County,Kentucky,KY,False
+Henry County,Kentucky,KY,False
+Iberia Parish,Louisiana,LA,True
+Ouachita Parish,Louisiana,LA,False
+Polk County,Nebraska,NE,False
+Thurston County,Nebraska,NE,False
+Hayes County,Nebraska,NE,False
+Manassas city,Virginia,VA,False
+Cumberland County,Virginia,VA,False
+Charlottesville city,Virginia,VA,False
+Henry County,Ohio,OH,False
+Knox County,Ohio,OH,False
+Marion County,Ohio,OH,False
+Morrow County,Ohio,OH,False
+Geauga County,Ohio,OH,False
+West Baton Rouge Parish,Louisiana,LA,False
+Kennebec County,Maine,ME,False
+Cibola County,New Mexico,NM,True
+Roosevelt County,New Mexico,NM,False
+Union County,New Mexico,NM,True
+Charles City County,Virginia,VA,False
+Craig County,Virginia,VA,False
+Emporia city,Virginia,VA,False
+Fairfax city,Virginia,VA,False
+Lexington city,Virginia,VA,False
+Madison County,Ohio,OH,False
+Ashland County,Ohio,OH,False
+Coshocton County,Ohio,OH,False
+Fayette County,Ohio,OH,False
+Newaygo County,Michigan,MI,False
+Mecosta County,Michigan,MI,False
+Gratiot County,Michigan,MI,False
+Clinton County,Michigan,MI,False
+Wayne County,New York,NY,False
+St. Lawrence County,New York,NY,False
+Covington city,Virginia,VA,False
+Norton city,Virginia,VA,False
+Marion County,West Virginia,WV,False
+Noble County,Oklahoma,OK,False
+Greer County,Oklahoma,OK,False
+Osceola County,Michigan,MI,False
+Crawford County,Michigan,MI,False
+Dakota County,Minnesota,MN,False
+Vance County,North Carolina,NC,False
+Rockingham County,North Carolina,NC,False
+Adams County,North Dakota,ND,True
+Renville County,North Dakota,ND,False
+Webster County,West Virginia,WV,False
+Putnam County,West Virginia,WV,False
+Grady County,Oklahoma,OK,False
+Otter Tail County,Minnesota,MN,False
+Olmsted County,Minnesota,MN,False
+McLeod County,Minnesota,MN,False
+Mille Lacs County,Minnesota,MN,False
+Clermont County,Ohio,OH,False
+Darke County,Ohio,OH,False
+Grant County,Oklahoma,OK,False
+Calhoun County,Iowa,IA,False
+Macon County,Tennessee,TN,False
+Sherman County,Texas,TX,False
+Kings County,California,CA,False
+Todd County,Minnesota,MN,False
+Benton County,Minnesota,MN,False
+Fall River County,South Dakota,SD,False
+Richmond County,New York,NY,False
+Tallapoosa County,Alabama,AL,False
+Clay County,Indiana,IN,False
+Hanson County,South Dakota,SD,False
+Edmunds County,South Dakota,SD,False
+Cumberland County,Kentucky,KY,False
+Midland County,Michigan,MI,False
+Hendry County,Florida,FL,False
+Walton County,Georgia,GA,False
+Talbot County,Georgia,GA,False
+Tift County,Georgia,GA,False
+Panola County,Texas,TX,False
+Fayette County,Tennessee,TN,False
+Alleghany County,North Carolina,NC,False
+Dickey County,North Dakota,ND,False
+Ramsey County,Minnesota,MN,False
+Le Sueur County,Minnesota,MN,False
+Bonneville County,Idaho,ID,True
+Jefferson County,Idaho,ID,False
+Fayette County,Illinois,IL,False
+Giles County,Virginia,VA,False
+Norfolk city,Virginia,VA,False
+Laclede County,Missouri,MO,False
+Grand Isle County,Vermont,VT,False
+Lamar County,Mississippi,MS,False
+Izard County,Arkansas,AR,False
+Crowley County,Colorado,CO,False
+Piatt County,Illinois,IL,False
+Lee County,Illinois,IL,False
+Scott County,Illinois,IL,False
+Rock County,Wisconsin,WI,False
+Laramie County,Wyoming,WY,True
+Union County,Pennsylvania,PA,False
+Adams County,Washington,WA,True
+Winnebago County,Wisconsin,WI,False
+Clark County,Wisconsin,WI,True
+Jasper County,Georgia,GA,False
+Saline County,Illinois,IL,False
+Decatur County,Indiana,IN,False
+Benton County,Iowa,IA,False
+Brown County,Illinois,IL,False
+Marion County,Indiana,IN,False
+Elk County,Pennsylvania,PA,False
+Lake County,Michigan,MI,False
+Chickasaw County,Mississippi,MS,False
+Miller County,Missouri,MO,False
+Chambers County,Alabama,AL,False
+Boone County,Illinois,IL,False
+LaPorte County,Indiana,IN,False
+Linn County,Missouri,MO,False
+Knox County,Missouri,MO,False
+Butler County,Nebraska,NE,False
+Sherman County,Nebraska,NE,False
+Lee County,North Carolina,NC,False
+Moniteau County,Missouri,MO,False
+Musselshell County,Montana,MT,False
+Nance County,Nebraska,NE,False
+Winneshiek County,Iowa,IA,False
+Leavenworth County,Kansas,KS,False
+Madison County,Arkansas,AR,False
+Teller County,Colorado,CO,False
+Paulding County,Georgia,GA,False
+Lenoir County,North Carolina,NC,False
+Socorro County,New Mexico,NM,False
+Schenectady County,New York,NY,False
+Orange County,North Carolina,NC,False
+Rockland County,New York,NY,False
+Fayette County,Alabama,AL,False
+Benzie County,Michigan,MI,False
+Macon County,Georgia,GA,False
+Ada County,Idaho,ID,False
+Duplin County,North Carolina,NC,False
+Ransom County,North Dakota,ND,False
+Eddy County,North Dakota,ND,False
+Emmons County,North Dakota,ND,False
+Cherokee County,Oklahoma,OK,False
+Goodhue County,Minnesota,MN,False
+Ripley County,Missouri,MO,False
+Cherry County,Nebraska,NE,True
+Franklin County,Illinois,IL,False
+Pershing County,Nevada,NV,True
+Lincoln County,New Mexico,NM,False
+Cannon County,Tennessee,TN,False
+Kerr County,Texas,TX,False
+Johnson County,Texas,TX,False
+Bosque County,Texas,TX,False
+Schuylkill County,Pennsylvania,PA,False
+Codington County,South Dakota,SD,False
+Houston County,Tennessee,TN,False
+Coke County,Texas,TX,False
+Union County,New Jersey,NJ,False
+Lake County,Ohio,OH,False
+Chatham County,North Carolina,NC,False
+Dunn County,North Dakota,ND,False
+Hill County,Texas,TX,False
+Palo Pinto County,Texas,TX,False
+Mitchell County,Texas,TX,False
+Hale County,Texas,TX,False
+Franklin County,Texas,TX,False
+Cottle County,Texas,TX,True
+Lincoln County,Washington,WA,False
+Monroe County,Wisconsin,WI,False
+Harper County,Oklahoma,OK,True
+Hardeman County,Tennessee,TN,False
+Klickitat County,Washington,WA,False
+Gillespie County,Texas,TX,False
+Comanche County,Texas,TX,False
+Brown County,Texas,TX,True
+Kimble County,Texas,TX,True
+Stephens County,Texas,TX,False
+Irion County,Texas,TX,False
+Carson County,Texas,TX,False
+Donley County,Texas,TX,True
+Medina County,Ohio,OH,False
+Logan County,Ohio,OH,False
+Wyandot County,Ohio,OH,False
+Mercer County,Ohio,OH,False
+Beckham County,Oklahoma,OK,False
+Beaver County,Pennsylvania,PA,False
+Lincoln County,Minnesota,MN,False
+Pickaway County,Ohio,OH,False
+Noble County,Ohio,OH,False
+Custer County,Oklahoma,OK,True
+Greene County,Ohio,OH,False
+Perry County,Ohio,OH,False
+Pittsburg County,Oklahoma,OK,False
+Clarke County,Mississippi,MS,False
+Oregon County,Missouri,MO,False
+Atchison County,Missouri,MO,False
+Jefferson County,Nebraska,NE,False
+Natrona County,Wyoming,WY,True
+Martin County,Indiana,IN,False
+Payne County,Oklahoma,OK,False
+Blaine County,Oklahoma,OK,False
+Atoka County,Oklahoma,OK,False
+Spink County,South Dakota,SD,False
+Martin County,Florida,FL,False
+Douglas County,Nevada,NV,True
+Kane County,Illinois,IL,False
+Russell County,Kentucky,KY,False
+Swift County,Minnesota,MN,False
+Wright County,Missouri,MO,False
+Saline County,Nebraska,NE,False
+Hand County,South Dakota,SD,True
+Clark County,South Dakota,SD,False
+Miner County,South Dakota,SD,False
+Campbell County,South Dakota,SD,False
+Chattahoochee County,Georgia,GA,False
+Crawford County,Illinois,IL,False
+St. Joseph County,Indiana,IN,False
+Logan County,Illinois,IL,False
+Dallas County,Missouri,MO,False
+Frontier County,Nebraska,NE,False
+Salem city,Virginia,VA,False
+LaGrange County,Indiana,IN,False
+Allen Parish,Louisiana,LA,False
+Penobscot County,Maine,ME,False
+Eaton County,Michigan,MI,False
+Crawford County,Arkansas,AR,False
+Woodbury County,Iowa,IA,False
+Tuscaloosa County,Alabama,AL,False
+Red Willow County,Nebraska,NE,False
+Cheyenne County,Nebraska,NE,True
+Hillsdale County,Michigan,MI,False
+Poweshiek County,Iowa,IA,False
+Lapeer County,Michigan,MI,False
+Kalamazoo County,Michigan,MI,False
+Wexford County,Michigan,MI,False
+Becker County,Minnesota,MN,False
+Conejos County,Colorado,CO,False
+Pemiscot County,Missouri,MO,False
+Clinton County,New York,NY,False
+Grayson County,Texas,TX,False
+Newport News city,Virginia,VA,False
+Bingham County,Idaho,ID,False
+Johnson County,Illinois,IL,False
+Marshall County,Illinois,IL,False
+Guadalupe County,New Mexico,NM,True
+Yates County,New York,NY,False
+Montgomery County,Mississippi,MS,False
+Granville County,North Carolina,NC,False
+Woods County,Oklahoma,OK,False
+Chesapeake city,Virginia,VA,False
+Alexandria city,Virginia,VA,False
+Pend Oreille County,Washington,WA,True
+Uinta County,Wyoming,WY,True
+Ogle County,Illinois,IL,False
+Hendricks County,Indiana,IN,False
+Tipton County,Indiana,IN,False
+Fulton County,Indiana,IN,False
+Simpson County,Mississippi,MS,False
+Prentiss County,Mississippi,MS,False
+Panola County,Mississippi,MS,False
+Lawrence County,Pennsylvania,PA,False
+Ste. Genevieve County,Missouri,MO,False
+St. Louis city,Missouri,MO,False
+Douglas County,Wisconsin,WI,False
+Johnson County,Arkansas,AR,False
+DeKalb County,Indiana,IN,False
+Pocahontas County,Iowa,IA,False
+Story County,Iowa,IA,False
+Black Hawk County,Iowa,IA,False
+Mahaska County,Iowa,IA,False
+Franklin County,Mississippi,MS,False
+Jefferson County,Mississippi,MS,False
+Hitchcock County,Nebraska,NE,False
+Knox County,Nebraska,NE,False
+Dakota County,Nebraska,NE,False
+Iowa County,Wisconsin,WI,False
+Warren County,Iowa,IA,False
+Henry County,Iowa,IA,False
+Carroll County,Iowa,IA,False
+Madison County,Iowa,IA,False
+Cherokee County,Iowa,IA,False
+Morgan County,Missouri,MO,False
+Dawson County,Montana,MT,False
+Fallon County,Montana,MT,True
+Nemaha County,Nebraska,NE,False
+Hillsborough County,New Hampshire,NH,False
+Reno County,Kansas,KS,False
+Logan County,Kansas,KS,True
+Neosho County,Kansas,KS,False
+Harvey County,Kansas,KS,False
+Allen County,Kansas,KS,False
+Dodge County,Nebraska,NE,False
+Burt County,Nebraska,NE,False
+Vermilion County,Illinois,IL,False
+Kankakee County,Illinois,IL,False
+Cherokee County,Kansas,KS,False
+Rawlins County,Kansas,KS,True
+Barren County,Kentucky,KY,False
+Custer County,Nebraska,NE,True
+Dawes County,Nebraska,NE,False
+Wheeler County,Nebraska,NE,True
+McPherson County,Nebraska,NE,False
+Crawford County,Kansas,KS,False
+Vermillion County,Indiana,IN,False
+Cloud County,Kansas,KS,False
+Lyon County,Kentucky,KY,False
+Montgomery County,Kentucky,KY,False
+Bland County,Virginia,VA,False
+Wythe County,Virginia,VA,False
+Gage County,Nebraska,NE,False
+Marion County,Illinois,IL,False
+Fremont County,Iowa,IA,False
+Hickman County,Kentucky,KY,False
+Assumption Parish,Louisiana,LA,False
+Greene County,Virginia,VA,False
+Pottawattamie County,Iowa,IA,False
+Clayton County,Iowa,IA,False
+Lincoln Parish,Louisiana,LA,False
+St. James Parish,Louisiana,LA,False
+Roscommon County,Michigan,MI,False
+Clearwater County,Minnesota,MN,False
+Richmond city,Virginia,VA,False
+Nottoway County,Virginia,VA,False
+DeKalb County,Illinois,IL,False
+Nobles County,Minnesota,MN,False
+Williamson County,Illinois,IL,False
+Ford County,Illinois,IL,False
+Hubbard County,Minnesota,MN,False
+Sherburne County,Minnesota,MN,False
+Colonial Heights city,Virginia,VA,False
+Dodge County,Wisconsin,WI,False
+Chippewa County,Wisconsin,WI,True
+Clinton County,Kentucky,KY,False
+Walker County,Alabama,AL,False
+Gunnison County,Colorado,CO,False
+Elbert County,Colorado,CO,False
+Beltrami County,Minnesota,MN,False
+Union County,Mississippi,MS,False
+Forrest County,Mississippi,MS,False
+Covington County,Mississippi,MS,False
+Forest County,Wisconsin,WI,True
+Dunn County,Wisconsin,WI,False
+Cotton County,Oklahoma,OK,False
+Dutchess County,New York,NY,False
+Coffee County,Georgia,GA,False
+Jasper County,Mississippi,MS,False
+Clay County,Missouri,MO,False
+Webster County,Missouri,MO,False
+Gentry County,Missouri,MO,False
+Lee County,Alabama,AL,False
+Garfield County,Colorado,CO,True
+Northeastern Connecticut Planning Region,Connecticut,CT,False
+Wilson County,Texas,TX,False
+Shawano County,Wisconsin,WI,False
+Tippecanoe County,Indiana,IN,False
+Tama County,Iowa,IA,False
+Butts County,Georgia,GA,False
+Forsyth County,Georgia,GA,False
+Christian County,Missouri,MO,False
+Andrew County,Missouri,MO,False
+Jackson County,Florida,FL,False
+Jackson County,Illinois,IL,False
+Butler County,Iowa,IA,False
+Floyd County,Iowa,IA,False
+Jones County,Iowa,IA,False
+Jackson County,Kansas,KS,False
+Haskell County,Kansas,KS,False
+Trego County,Kansas,KS,False
+Spalding County,Georgia,GA,False
+Candler County,Georgia,GA,False
+Warren County,Missouri,MO,False
+Cooper County,Missouri,MO,False
+Iron County,Missouri,MO,False
+Adams County,Illinois,IL,False
+Yellowstone County,Montana,MT,False
+Comanche County,Kansas,KS,False
+Jessamine County,Kentucky,KY,False
+Pendleton County,Kentucky,KY,False
+Irwin County,Georgia,GA,False
+Turner County,Georgia,GA,False
+Stillwater County,Montana,MT,False
+Treasure County,Montana,MT,False
+Toole County,Montana,MT,True
+Allamakee County,Iowa,IA,False
+Simpson County,Kentucky,KY,False
+Dane County,Wisconsin,WI,False
+Trigg County,Kentucky,KY,False
+Polk County,Tennessee,TN,False
+Pickett County,Tennessee,TN,False
+Evans County,Georgia,GA,False
+Baker County,Georgia,GA,False
+Clay County,Nebraska,NE,False
+Stanton County,Nebraska,NE,False
+Brown County,Nebraska,NE,True
+Mineral County,Nevada,NV,True
+Butler County,Ohio,OH,False
+Houston County,Minnesota,MN,False
+Lincoln County,Idaho,ID,False
+Grundy County,Iowa,IA,False
+O'Brien County,Iowa,IA,False
+Ness County,Kansas,KS,False
+Perry County,Mississippi,MS,False
+Monroe County,Missouri,MO,False
+Lafayette County,Missouri,MO,False
+Cuming County,Nebraska,NE,False
+Cheyenne County,Kansas,KS,True
+Adair County,Missouri,MO,True
+Phelps County,Nebraska,NE,False
+Fulton County,New York,NY,False
+Lawrence County,Tennessee,TN,False
+Richardson County,Nebraska,NE,False
+Hardin County,Illinois,IL,False
+Crawford County,Ohio,OH,False
+Lincoln County,Oklahoma,OK,False
+Walworth County,South Dakota,SD,True
+Jones County,Texas,TX,False
+Shackelford County,Texas,TX,False
+Columbia County,Pennsylvania,PA,False
+Brule County,South Dakota,SD,True
+Carver County,Minnesota,MN,False
+Marion County,Mississippi,MS,False
+Clay County,Mississippi,MS,False
+Carter County,Missouri,MO,False
+Box Butte County,Nebraska,NE,False
+Appanoose County,Iowa,IA,False
+Fulton County,Kentucky,KY,False
+Saline County,Kansas,KS,False
+Bristol city,Virginia,VA,False
+Beaver County,Oklahoma,OK,True
+Franklin County,Vermont,VT,False
+Marshall County,West Virginia,WV,False
+Burnett County,Wisconsin,WI,False
+Jerome County,Idaho,ID,True
+Waynesboro city,Virginia,VA,False
+Lincoln County,Wisconsin,WI,True
+Cleburne County,Alabama,AL,False
+Gem County,Idaho,ID,False
+Forsyth County,North Carolina,NC,False
+Lassen County,California,CA,False
+St. Johns County,Florida,FL,False
+Real County,Texas,TX,False
+Kingfisher County,Oklahoma,OK,False
+Missaukee County,Michigan,MI,False
+McKinley County,New Mexico,NM,True
+Creek County,Oklahoma,OK,False
+Franklin County,North Carolina,NC,False
+Ross County,Ohio,OH,False
+Grant County,South Dakota,SD,False
+Fillmore County,Minnesota,MN,False
+Marion County,Missouri,MO,False
+Aurora County,South Dakota,SD,False
+Newton County,Indiana,IN,False
+Allegan County,Michigan,MI,False
+Hawkins County,Tennessee,TN,False
+Greensville County,Virginia,VA,False
+Pitkin County,Colorado,CO,False
+Iredell County,North Carolina,NC,False
+Blair County,Pennsylvania,PA,False
+Stevens County,Kansas,KS,False
+Greeley County,Kansas,KS,True
+Crook County,Wyoming,WY,False
+Jennings County,Indiana,IN,False
+Major County,Oklahoma,OK,False
+Stephens County,Georgia,GA,False
+Hancock County,Maine,ME,False
+Karnes County,Texas,TX,False
+Ingham County,Michigan,MI,False
+Comanche County,Oklahoma,OK,False
+Bartholomew County,Indiana,IN,False
+Unicoi County,Tennessee,TN,False
+Yakima County,Washington,WA,False
+El Paso County,Colorado,CO,False
+Venango County,Pennsylvania,PA,False
+Clay County,South Dakota,SD,False
+Putnam County,Ohio,OH,False
+Lincoln County,Colorado,CO,True
+Montgomery County,Iowa,IA,False
+Edwards County,Kansas,KS,False
+Ogemaw County,Michigan,MI,False
+Hidalgo County,New Mexico,NM,True
+Louisa County,Iowa,IA,False
+Upson County,Georgia,GA,False
+Lafayette County,Mississippi,MS,False
+Sullivan County,Missouri,MO,False
+Pierce County,Nebraska,NE,False
+Lancaster County,Nebraska,NE,False
+Valley County,Nebraska,NE,True
+Washington County,North Carolina,NC,False
+Boone County,Kentucky,KY,False
+Pawnee County,Nebraska,NE,False
+Athens County,Ohio,OH,False
+Jersey County,Illinois,IL,False
+Jefferson County,Illinois,IL,False
+Douglas County,Illinois,IL,False
+Columbia County,Oregon,OR,False
+Wahkiakum County,Washington,WA,False
+Washington County,Vermont,VT,False
+Falls Church city,Virginia,VA,False
+Coos County,Oregon,OR,True
+Roberts County,South Dakota,SD,False
+Flagler County,Florida,FL,False
+Hart County,Georgia,GA,False
+Smith County,Kansas,KS,True
+Dubois County,Indiana,IN,False
+Marshall County,Iowa,IA,False
+Morris County,Kansas,KS,False
+Stafford County,Kansas,KS,False
+Marathon County,Wisconsin,WI,True
+Henry County,Alabama,AL,False
+Shelby County,Illinois,IL,False
+Zapata County,Texas,TX,False
+Windham County,Vermont,VT,False
+Rio Grande County,Colorado,CO,False
+Washington County,Arkansas,AR,False
+Kiowa County,Colorado,CO,False
+Bernalillo County,New Mexico,NM,False
+Brown County,South Dakota,SD,False
+Bradley County,Tennessee,TN,False
+Payette County,Idaho,ID,False
+Ray County,Missouri,MO,False
+Coffee County,Alabama,AL,True
+Terrebonne Parish,Louisiana,LA,True
+Polk County,Iowa,IA,False
+Ochiltree County,Texas,TX,False
+Montgomery County,Ohio,OH,False
+Gaston County,North Carolina,NC,False
+Rolette County,North Dakota,ND,False
+Cooke County,Texas,TX,False
+Morgan County,Colorado,CO,True
+Glades County,Florida,FL,False
+Morgan County,Tennessee,TN,False
+Dawson County,Texas,TX,False
+Scioto County,Ohio,OH,False
+Clark County,Missouri,MO,False
+Cavalier County,North Dakota,ND,False
+Daggett County,Utah,UT,True
+Arlington County,Virginia,VA,False
+Fulton County,Ohio,OH,False
+Ellis County,Oklahoma,OK,True
+Dougherty County,Georgia,GA,False
+Clarke County,Georgia,GA,False
+Adams County,Pennsylvania,PA,False
+Pine County,Minnesota,MN,True
+Sheboygan County,Wisconsin,WI,False
+Ben Hill County,Georgia,GA,False
+Ontonagon County,Michigan,MI,False
+Calhoun County,Georgia,GA,False
+Belknap County,New Hampshire,NH,False
+Randall County,Texas,TX,True
+Haskell County,Texas,TX,False
+Lampasas County,Texas,TX,False
+Kinney County,Texas,TX,False
+Sanpete County,Utah,UT,True
+Peach County,Georgia,GA,False
+Greene County,Illinois,IL,False
+Hamilton County,Iowa,IA,False
+Roseau County,Minnesota,MN,False
+Tishomingo County,Mississippi,MS,False
+Worth County,Missouri,MO,False
+Dundy County,Nebraska,NE,True
+Tuscarawas County,Ohio,OH,False
+Paulding County,Ohio,OH,False
+Haskell County,Oklahoma,OK,False
+Taylor County,West Virginia,WV,False
+Wapello County,Iowa,IA,False
+Marion County,Kansas,KS,False
+Rooks County,Kansas,KS,False
+Metcalfe County,Kentucky,KY,False
+Warrick County,Indiana,IN,False
+Peoria County,Illinois,IL,False
+Webster County,Iowa,IA,False
+Woodson County,Kansas,KS,False
+Ellsworth County,Kansas,KS,False
+Calloway County,Kentucky,KY,False
+Dooly County,Georgia,GA,False
+Minidoka County,Idaho,ID,True
+Gove County,Kansas,KS,True
+St. John the Baptist Parish,Louisiana,LA,False
+Watonwan County,Minnesota,MN,False
+Jefferson Davis County,Mississippi,MS,False
+Caldwell County,Missouri,MO,False
+Dubuque County,Iowa,IA,False
+Republic County,Kansas,KS,True
+Todd County,Kentucky,KY,False
+Franklin County,Tennessee,TN,False
+Oldham County,Texas,TX,False
+Bennington County,Vermont,VT,False
+Washington County,Missouri,MO,False
+Merrick County,Nebraska,NE,False
+Kearney County,Nebraska,NE,False
+Johnson County,Nebraska,NE,False
+Boone County,Nebraska,NE,False
+Wyoming County,New York,NY,False
+Christian County,Kentucky,KY,True
+Lawrence County,Indiana,IN,False
+Wells County,Indiana,IN,False
+Clay County,Iowa,IA,False
+Kenosha County,Wisconsin,WI,False
+Polk County,Wisconsin,WI,False
+Washburn County,Wisconsin,WI,False
+McHenry County,Illinois,IL,False
+Cowley County,Kansas,KS,False
+Blackford County,Indiana,IN,False
+Jackson County,Ohio,OH,False
+Fulton County,Pennsylvania,PA,False
+Abbeville County,South Carolina,SC,False
+Ottawa County,Kansas,KS,False
+Clay County,Kansas,KS,False
+Grant County,Kentucky,KY,False
+Franklin County,Washington,WA,False
+Oneida County,Wisconsin,WI,True
+Drew County,Arkansas,AR,False
+Mineral County,Colorado,CO,True
+Coles County,Illinois,IL,False
+Jefferson County,Tennessee,TN,False
+Shawnee County,Kansas,KS,False
+Albany County,Wyoming,WY,True
+Monroe County,Georgia,GA,False
+Sully County,South Dakota,SD,True
+Dallas County,Texas,TX,False
+Coleman County,Texas,TX,False
+Warren County,Tennessee,TN,False
+Trousdale County,Tennessee,TN,False
+Parker County,Texas,TX,False
+Natchitoches Parish,Louisiana,LA,True
+Rice County,Minnesota,MN,False
+Escambia County,Alabama,AL,False
+Llano County,Texas,TX,True
+Brooks County,Texas,TX,False
+Greenlee County,Arizona,AZ,True
+Rockwall County,Texas,TX,False
+Callahan County,Texas,TX,False
+Falls County,Texas,TX,False
+Hettinger County,North Dakota,ND,False
+Santa Cruz County,Arizona,AZ,True
+Chattooga County,Georgia,GA,False
+Iroquois County,Illinois,IL,False
+Barton County,Kansas,KS,False
+Piute County,Utah,UT,True
+Fond du Lac County,Wisconsin,WI,False
+Fulton County,Arkansas,AR,False
+Doña Ana County,New Mexico,NM,False
+Caswell County,North Carolina,NC,False
+Wayne County,Ohio,OH,False
+Portage County,Ohio,OH,False
+Garfield County,Oklahoma,OK,False
+Kern County,California,CA,True
+Scott County,Indiana,IN,False
+Hot Springs County,Wyoming,WY,False
+Nowata County,Oklahoma,OK,False
+Kent County,Rhode Island,RI,False
+Greene County,Mississippi,MS,False
+Berks County,Pennsylvania,PA,False
+Beadle County,South Dakota,SD,True
+Wadena County,Minnesota,MN,False
+Lawrence County,Alabama,AL,False
+Hunt County,Texas,TX,False
+Sheridan County,Nebraska,NE,False
+Madison County,Illinois,IL,False
+Webster County,Mississippi,MS,False
+Phelps County,Missouri,MO,True
+Audrain County,Missouri,MO,False
