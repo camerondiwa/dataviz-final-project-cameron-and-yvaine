@@ -1,9 +1,0 @@
-streamlit
-pandas
-geopandas
-matplotlib
-requests
-mapclassify
-shapely
-seaborn
-numpy
