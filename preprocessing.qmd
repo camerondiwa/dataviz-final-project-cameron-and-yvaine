@@ -264,7 +264,7 @@ med_income_by_county.columns = ['county', 'med_income']
 med_income_by_county = med_income_by_county.iloc[1:]
 med_income_by_county.to_csv("med_income_by_county.csv")
 
-med_income_by_county = pd.read_csv("processed_med_income.csv")
+med_income_by_county = pd.read_csv("data/derived-data/processed_med_income.csv")
 med_income_by_county.columns = ['county', 'state', 'med_income']
 med_income_by_county = med_income_by_county[~med_income_by_county['state'].isin(['AK', 'HI', 'PR'])]
 med_income_by_county
@@ -318,28 +318,10 @@ sns.scatterplot(
     palette='magma_r',
     alpha=0.6
 )
-plt.axvline(50, color='gray', linestyle='--') # Median Score line
-plt.axhline(12.6, color='red', linestyle='--') # National Poverty Avg
+plt.axvline(50, color='gray', linestyle='--') # median score line
+plt.axhline(12.6, color='red', linestyle='--') # national poverty average
 plt.legend(loc='upper right', title='Proportion of Racial Minorities (%)')
 plt.title("Opportunity Score vs. Poverty Rate")
 plt.xlabel("Opportunity Score")
 plt.ylabel("Poverty Rate (%)")
-```
-
-
-```{python}
-
-
-```
-
-
-```{python}
-
-
-```
-
-
-```{python}
-
-
 ```
