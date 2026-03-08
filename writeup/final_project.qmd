@@ -1,0 +1,44 @@
+---
+title: "Final Project Write Up: Identifying Education Deserts"
+author: 
+- Cameron Diwa (camerondiwa | TTh 11:00 - 12:20)
+- Yvaine Jiang (jyfanx | TTh 9:30 - 10:50)
+format:
+  pdf:
+    include-in-header:
+      text: |
+        % Enable wrapping for Pandoc code blocks in PDF
+        \usepackage{fvextra}
+        \usepackage{float}
+        \usepackage{makecell}
+        \usepackage{booktabs}
+        \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+editor: source
+execute-dir: project
+execute:
+    echo: true
+---
+
+Our project covers an equity issue in higher education policy. Namely, we examine college access and opportunity by identifying education deserts, or regions of the U.S. where students lack access to broad-access or selective postsecondary institutions within a reasonable commuting distance. The goal of the project is to create and provide a diagnostic tool to identify inequities in access to higher education by geography. By identifying these inequities, we are able to help education policymakers better understand where to direct funding for things like recruitment travel and counseling services for students living in education deserts.
+
+With these goals in mind, our guiding research question is the following: Where are the education deserts in the U.S., and how should we prioritize funding if we want to target the most vulnerable populations? This research question helped us decide how to create our static visualizations for this project, and in turn informed the construction of our streamlit app.
+
+To answer our research question, the initial tasks included collecting selected higher education data and geographic data. Particularly, we collected data from the College Scorecard pertaining to institutional characteristics (e.g. location, admit rate, control), student body racial compositions, proportions of students based on income brackets (income boundaries were defined in College Scorecard variables), and student outcomes (e.g. completion rate, transfer rate, earnings). Additionally, we collected county-level data from the American Community Survey pertaining to county boundaries, poverty levels, racial compositions, and constituent earnings. After gathering and processing our data, the next task was to map all schools represented in the College Scorecard onto the counties in the continental United States. We accomplished this task using county FIPS codes. 
+
+After mapping our data using spatial techniques, we designed an Opportunity Score to characterize the extent to which a county would be considered an education desert in our project. Three measures were taken into account for the calculation: (1) access (i.e. how many colleges/universities existed in each county?), (2) earnings (i.e. what is the median earnings of county residents?) and (3) equity (i.e. how successful is the county in serving low-income students enrolling in higher education?). Since these measures inherently have different scales, we then normalized them for the final calculation of the Opportunity Score. Placing weights on each measure and finally summing the products, we arrived at the Opportunity Score for each county. Ranging from 0-100, a low score represents a county with low access to higher education, and thus low overall educational opportunity for students living in that county. In contrast, a high score represents a county with high access to higher education and high overall educational opportunity for students living in that county.
+
+With the Opportunity Scores calculated, we visualized the United States using a static map of all counties. The intention of this map is to highlight the spectrum of educational opportunity across the country, where each colored county has some level of opportunity. Red represents counties with lower Opportunity Scores, blue represents counties with higher Opportunity Scores, and uncolored represents counties with no opportunity (note: we restricted our sample of institutions to community colleges and 4-year public/private nonprofit institutions; thus, if a county is uncolored, then it does not have any of the aforementioned institutions present).
+
+![Opportunity Score by County](visualizations/oppscores.png)
+
+To further illustrate where education deserts exist according to our definition, we visualized another map highlighting the bottom quintile of counties with the worst Opportunity Scores, as well as the counties with a zero Opportunity Score.
+
+![Education Deserts in the U.S.](visualizations/eddeserts.png)
+
+We were also interested in discovering who was most negatively impacted by education deserts. To this end, we visualized a four-quadrant scatter plot, with the x-axis as the Opportunity Score, and the y-axis as the poverty rate. We delineated the quadrants with a horizontal line representing the national average poverty rate, and a vertical line representing the median Opportunity Score. Each marker represents one county. The upper left quadrant represents the education deserts (high poverty rate, low Opportunity Score), the lower left quadrant represents the structural gaps (low poverty rate, low Opportunity Score), the upper right quadrant represents the success stories (high poverty rate, high Opportunity Score), and the lower right quadrant represents the gold standards (low poverty rate, high Opportunity Score). Finally, the color scheme is a gradient from lighter to darker colors, where lighter colors represent lower proportions of racial minorities living in a given county, and darker colors represents higher proportions of racial minorities living in a given county. The main takeaway from this plot is that, generally speaking, we can observe that there are greater proportions of racial minorities both living in poverty and residing in education deserts. Thus, racial minorities living in poverty are most affected by education deserts. This result can be used by policymakers to target vulnerable populations as the primary beneficiaries of policy improvements in the educational infrastructures on certain counties.
+
+![Opportunity Score vs. Poverty Rate](visualizations/negimpacts.png)
+
+Collectively, these visualizations allow us to pinpoint the exact counties that are experiencing higher levels of educational inequities, as well as which groups of people are most affected. These identifications thereby allow education policymakers to know where to direct efforts in improving educational equity.
+
+These visualizations are merely a snapshot of the state of educational equity in the United States, created through subjective design choices. We methodologically characterized each county by an Opportunity Score that we designed. To allow for greater flexibility and interpretation of educational equity present in particular counties, we built a [diagnostic tool](https://dataviz-final-project-cameron-and-yvaine-swimwf9ee2hefy7qcjbza.streamlit.app/) for education policymakers via a streamlit app. With this tool, users can choose three different weights to place on the measures included in the Opportunity Score calculation (how important is each measure to the user?). Users can also choose two filters to specify minimum poverty levels as well as minimum proportion of racial minorities per county. After these inputs are given to the app, a visualization of U.S. counties matching the inputs is computed in the middle panel of the screen. Counties are color-coded by Opportunity Score. Perhaps the most important feature of the app is the table created on the right-hand side panel. This table lists the top 15 counties with the lowest Opportunity Scores calculated using the user's inputs. The given list can be extremely insightful in helping policymakers identify the counties that need the most assistance in improving educational equity.
