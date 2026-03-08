@@ -1,0 +1,345 @@
+---
+title: "Untitled"
+format: html
+---
+
+```{python}
+# set up
+import pandas as pd
+import geopandas as gpd
+from shapely.geometry import Point
+import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
+import numpy as np
+import seaborn as sns
+```
+
+
+```{python}
+# load the College Scorecard data
+scorecard = pd.read_csv("Most-Recent-Cohorts-Institution.csv")
+```
+
+
+```{python}
+# get the necessary columns and rename
+needed_cols = ['UNITID', 'INSTNM', 'CITY', 'STABBR', 'ZIP', 'PREDDEG', 'LOCALE', 'LATITUDE', 'LONGITUDE', 'ADM_RATE', 'CONTROL',
+               'UGDS_WHITE', 'UGDS_BLACK', 'UGDS_HISP', 'UGDS_ASIAN', 'UGDS_AIAN', 'UGDS_NHPI', 
+               'PCTPELL', 
+               'DEP_INC_PCT_LO', 'DEP_INC_PCT_M1', 'DEP_INC_PCT_M2', 'DEP_INC_PCT_H1', 'DEP_INC_PCT_H2',
+               'MD_EARN_WNE_P10', 'C150_L4', 'C150_4', 'NPT4_PUB', 'NPT4_PRIV']
+scorecard = scorecard[needed_cols]
+scorecard.columns = ['id', 'school_name', 'city', 'state', 'zipcode', 'predom_degree_awarded', 'locale', 'latitude', 'longitude', 'admit_rate', 'control',
+                     'prop_white', 'prop_black', 'prop_hispanic', 'prop_asian', 'prop_aian', 'prop_nhpi',
+                     'pell_grant_rate',
+                     'pct_lowinc', 'pct_lowmedinc', 'pct_medinc', 'pct_lowhighinc', 'pct_highinc',
+                     'median_earnings', 'cc_completion_rate', '4yr_completion_rate', 'net_price_pub', 'net_price_priv']
+
+# drop rows with no location data
+scorecard = scorecard.dropna(subset=['latitude', 'longitude'])
+
+# categorize each institution as either broad-access or not
+scorecard['is_broad_access'] = (scorecard['admit_rate'] >= 0.75) | (scorecard['admit_rate'].isna())
+
+# filter for community colleges and 4-year universities
+scorecard = scorecard[(scorecard['predom_degree_awarded'] == 2) | (scorecard['predom_degree_awarded'] == 3)]
+
+# filter for public and private non-profits
+scorecard = scorecard[(scorecard['control'] == 1) | (scorecard['control'] == 2)]
+
+# drop rows in the U.S. territories
+scorecard = scorecard[~scorecard['state'].isin(['AS', 'GU', 'MP', 'PR', 'FM', 'PW', 'VI', 'MH'])]
+
+# save cleaned dataset to a CSV file
+scorecard.to_csv("data/derived-data/scorecard.csv")
+```
+
+
+```{python}
+# convert to a geodataframe
+geometry = [Point(xy) for xy in zip(scorecard['longitude'], scorecard['latitude'])]
+schools_gdf = gpd.GeoDataFrame(scorecard, geometry=geometry, crs="EPSG:4326")
+
+# save to a CSV file
+schools_gdf.to_csv("data/derived-data/schools_gdf.csv")
+```
+
+
+```{python}
+# process the county-level data
+county_gdf = gpd.read_file("data/raw-data/cb_2024_us_county_500k/cb_2024_us_county_500k.shp")
+county_cols = ['GEOID', 'NAME', 'STUSPS', 'geometry']
+county_gdf = county_gdf[county_cols]
+county_gdf.columns = ['fips', 'county', 'state', 'geometry']
+
+# drop counties in U.S. territories
+county_gdf = county_gdf[~county_gdf['state'].isin(['AK', 'HI', 'AS', 'GU', 'MP', 'PR', 'VI'])]
+
+# save to a parquet file
+county_gdf.to_parquet("data/derived-data/county_gdf.parquet")
+```
+
+
+```{python}
+# find the FIPS code for each institution
+county_gdf = county_gdf.to_crs("EPSG:4326")
+
+schools_with_fips = gpd.sjoin(schools_gdf, county_gdf[['fips', 'geometry']], how='left', predicate='within')
+schools_with_fips = schools_with_fips.drop(columns=['index_right'])
+
+# drop Alaska and Hawaii
+schools_with_fips = schools_with_fips[~(schools_with_fips['state'].isin(['AK', 'HI']))]
+
+```
+
+
+```{python}
+# calculate the Opportunity Score for each county
+
+# handle missing earnings data
+state_avgs = schools_with_fips.groupby(['state', 'predom_degree_awarded'])['median_earnings'].transform('mean') # finds average earnings for type of school in each state
+schools_with_fips['median_earnings'] = schools_with_fips['median_earnings'].fillna(state_avgs)
+
+# get county metrics by FIPS
+county_metrics = schools_with_fips.groupby('fips').agg({
+    'id':'count',
+    'median_earnings':'mean',
+    'pell_grant_rate':'mean'
+}).rename(columns={
+    'id':'num_institutions',
+    'median_earnings':'median_earnings',
+    'pell_grant_rate':'pell_grant_rate'
+})
+
+# normalize access
+county_metrics['access_score'] = county_metrics['num_institutions'] / county_metrics['num_institutions'].max()
+
+# normalize earnings
+min_earnings = county_metrics['median_earnings'].min()
+max_earnings = county_metrics['median_earnings'].max()
+county_metrics['earnings_score'] = (county_metrics['median_earnings'] - min_earnings) / (max_earnings - min_earnings)
+
+# normalize Pell Grant Rate
+min_pgr = county_metrics['pell_grant_rate'].min()
+max_pgr = county_metrics['pell_grant_rate'].max()
+county_metrics['pell_score'] = (county_metrics['pell_grant_rate'] - min_pgr) / (max_pgr - min_pgr)
+
+# calculate opportunity score (weights: 40% access, 30% earnings, 30% pell/equity)
+county_metrics['opportunity_score'] = (
+    (county_metrics['access_score'] * 0.4) +
+    (county_metrics['earnings_score'] * 0.3) +
+    (county_metrics['pell_score'] * 0.3)
+) * 100
+
+# handle missing values for opportunity score (counties with no schools)
+county_metrics['opportunity_score'] = county_metrics['opportunity_score'].fillna(0)
+
+county_metrics = county_metrics.reset_index()
+
+# save to CSV
+county_metrics.to_csv("data/derived-data/county_metrics.csv")
+```
+
+
+```{python}
+county_and_opscore_gdf = county_gdf.merge(county_metrics, on='fips', how='left')
+county_with_opscore_gdf = county_and_opscore_gdf.dropna(subset=['opportunity_score'])
+
+county_and_opscore_gdf.to_parquet("data/derived-data/county_and_opscore_gdf.parquet")
+```
+
+
+```{python}
+# use the same CRS
+county_with_opscore_gdf = county_with_opscore_gdf.to_crs("EPSG:5070")
+schools_with_fips = schools_with_fips.to_crs("EPSG:5070")
+county_gdf = county_gdf.to_crs("EPSG:5070")
+
+# initialize the plot
+fig, ax = plt.subplots(figsize=(15, 10))
+
+# plot the base map
+county_gdf.boundary.plot(ax=ax, color='whitesmoke', edgecolor='lightgrey', linewidth=0.5)
+
+# color the counties by opportunity score
+county_with_opscore_gdf.plot(
+    column='opportunity_score',
+    ax=ax,
+    cmap='RdYlBu',
+    scheme='Quantiles',
+    k=5, 
+    legend=True,
+    legend_kwds={
+        'title': "Opportunity Score",
+        'loc': 'lower left',
+        'fmt': "{:.0f}"
+    },
+    edgecolor='black',
+    linewidth=0.1
+)
+
+# add title
+plt.title("Higher Education Opportunity Index by County", fontsize=18, fontweight='bold', pad=20)
+ax.set_axis_off()
+
+# add a note for context
+plt.text(0.5, 0.02, "Note: Opportunity scores were calculated using measures of access, post-graduation earnings, and Pell Grant rates.", 
+         transform=ax.transAxes, ha="center", fontsize=10, color='gray')
+
+plt.show()
+```
+
+
+```{python}
+# highlight the education deserts
+
+# get the counties with zero schools
+county_withno_opscore_gdf = county_and_opscore_gdf[county_and_opscore_gdf['opportunity_score'].isna()]
+
+# identify the bottom 20% of counties with the lowest opportunity scores
+threshold = county_and_opscore_gdf['opportunity_score'].quantile(0.20)
+deserts_gdf = county_and_opscore_gdf[county_and_opscore_gdf['opportunity_score'] <= threshold]
+
+# use the same CRS
+county_withno_opscore_gdf = county_withno_opscore_gdf.to_crs('EPSG:5070')
+deserts_gdf = deserts_gdf.to_crs('EPSG:5070')
+
+# initialize the plot
+fig, ax = plt.subplots(figsize=(15, 10))
+
+# plot the base map
+county_gdf.boundary.plot(ax=ax, color='whitesmoke', edgecolor='lightgrey', linewidth=0.5)
+
+# plot the deserts
+deserts_gdf.plot(ax=ax, color='orange', edgecolor='white', linewidth=0.2, label='Education Deserts (Bottom 20% Opportunity Score)')
+county_withno_opscore_gdf.plot(ax=ax, color='#e63946', edgecolor='white', linewidth=0.2, label='Absolute Deserts (Zero Schools)')
+
+# add a legend
+red_patch = mpatches.Patch(color='orange', label='Education Deserts (Bottom 20% Opportunity Score)')
+orange_patch = mpatches.Patch(color='#e63946', label='Absolute Deserts (Zero Schools)')
+
+ax.legend(
+    handles=[red_patch, orange_patch], 
+    loc='lower left',
+    bbox_to_anchor=(0, 0.07), # offsets position of legend from loc input
+    fontsize=10, 
+    title='Legend', 
+    title_fontsize=12, 
+    frameon=False
+)
+
+# add title
+plt.title("Education Deserts by County", fontsize=18, fontweight='bold', pad=20)
+
+# add a note for context
+plt.text(0.5, 0.02, 'Note: Education deserts are defined by low physical access and poor mobility outcomes.', 
+         transform=ax.transAxes, ha="center", fontsize=10, color='gray')
+
+ax.set_axis_off()
+plt.show()
+```
+
+
+```{python}
+acs_data = pd.read_csv("data/raw-data/cc-est2024-alldata.csv", encoding='latin1')
+
+racial_dems_by_county = acs_data[['STNAME', 'COUNTY', 'CTYNAME', 'TOT_POP', 'WA_MALE', 'WA_FEMALE']]
+racial_dems_by_county.columns = ['state', 'fips', 'county', 'total_pop', 'white_male_pop', 'white_female_pop']
+racial_dems_by_county['racial_min_pop'] = racial_dems_by_county['total_pop'] - (racial_dems_by_county['white_male_pop'] + racial_dems_by_county['white_female_pop'])
+
+racial_dems_by_county = racial_dems_by_county.groupby(['county', 'state'])[['total_pop', 'white_male_pop', 'white_female_pop', 'racial_min_pop']].sum().reset_index()
+
+# drop Alaska and Hawaii
+racial_dems_by_county = racial_dems_by_county[~(racial_dems_by_county['state'].isin(['Alaska', 'Hawaii']))]
+
+# calculate proportion of racial minorities in each county
+racial_dems_by_county['prop_racial_min'] = racial_dems_by_county['racial_min_pop'] / racial_dems_by_county['total_pop']
+```
+
+
+```{python}
+med_income_by_county = pd.read_csv("data/raw-data/med_income_by_county/ACSDT5Y2023.B19013-Data.csv")
+med_income_by_county = med_income_by_county.drop(columns=['GEO_ID', 'B19013_001M', 'Unnamed: 4'])
+med_income_by_county.columns = ['county', 'med_income']
+med_income_by_county = med_income_by_county.iloc[1:]
+med_income_by_county.to_csv("med_income_by_county.csv")
+
+med_income_by_county = pd.read_csv("processed_med_income.csv")
+med_income_by_county.columns = ['county', 'state', 'med_income']
+med_income_by_county = med_income_by_county[~med_income_by_county['state'].isin(['AK', 'HI', 'PR'])]
+med_income_by_county
+
+counties = gpd.read_file("data/derived-data/counties.geojson")
+counties = counties[['geoid', 'county_name', 'state']]
+counties = counties.rename(columns={'geoid':'fips', 'county_name':'county'})
+
+med_income_by_county = med_income_by_county.merge(counties, on=['county', 'state'], how='left')
+
+# merge median income and opportunity score data
+merged_df = med_income_by_county.merge(county_and_opscore_gdf, on=['fips', 'state'], how='left')
+merged_df = merged_df[['county_x', 'state', 'fips', 'med_income', 'opportunity_score']]
+merged_df['med_income'] = pd.to_numeric(merged_df['med_income'].str.replace('-', ''), errors='coerce')
+merged_df['med_income'] = merged_df['med_income'].fillna(0).astype(int)
+merged_df['log_med_income'] = np.log(merged_df['med_income'])
+
+poverty_df = pd.read_excel("data/raw-data/poverty.xls")
+poverty_df = poverty_df.iloc[2:]
+poverty_df = poverty_df[['Table with column headers in rows 3 and 4', 'Unnamed: 1', 'Unnamed: 2', 'Unnamed: 3', 'Unnamed: 7']]
+poverty_df.columns = ['state_fips', 'county_fips', 'state', 'county', 'poverty_rate']
+poverty_df = poverty_df[~poverty_df['state'].isin(['AK', 'HI'])]
+poverty_df = poverty_df.iloc[3:].reset_index().drop(columns=['index'])
+poverty_df['fips'] = poverty_df['state_fips'] + poverty_df['county_fips']
+
+poverty_and_opscore = county_and_opscore_gdf.merge(poverty_df, on=['fips', 'state'], how='left')
+poverty_and_opscore = poverty_and_opscore[['fips', 'county_x', 'state', 'opportunity_score', 'poverty_rate']]
+poverty_and_opscore['opportunity_score'] = poverty_and_opscore['opportunity_score'].fillna(0)
+poverty_and_opscore = poverty_and_opscore.dropna(subset=['opportunity_score'])
+poverty_and_opscore = poverty_and_opscore.rename(columns={'county_x':'county'})
+poverty_and_opscore.to_csv("poverty_and_opscore.csv")
+
+pov_opscore_rm_df = pd.read_csv("data/derived-data/poverty_racial_merged.csv")
+pov_opscore_rm_df = pov_opscore_rm_df[['fips', 'county', 'state', 'opportunity_score', 'poverty_rate', 'total_pop', 'racial_min_pop', 'prop_racial_min']]
+
+pov_opscore_rm_df = pov_opscore_rm_df.merge(county_and_opscore_gdf, on=['county', 'state'], how='left')
+pov_opscore_rm_df = pov_opscore_rm_df.drop(columns=['fips_x', 'index', 'num_institutions', 'median_earnings', 'pell_grant_rate', 'access_score', 'earnings_score', 'pell_score', 'opportunity_score_y', 'geometry'])
+pov_opscore_rm_df = pov_opscore_rm_df.rename(columns={'opportunity_score_x':'opportunity_score', 'fips_y':'fips'})
+
+pov_opscore_rm_df.to_csv("data/derived-data/pov_opscore_rm_df.csv")
+```
+
+
+```{python}
+plt.figure(figsize=(10, 6))
+sns.scatterplot(
+    data=pov_opscore_rm_df, 
+    x='opportunity_score', 
+    y='poverty_rate', 
+    hue='prop_racial_min',
+    palette='magma_r',
+    alpha=0.6
+)
+plt.axvline(50, color='gray', linestyle='--') # Median Score line
+plt.axhline(12.6, color='red', linestyle='--') # National Poverty Avg
+plt.legend(loc='upper right', title='Proportion of Racial Minorities (%)')
+plt.title("Opportunity Score vs. Poverty Rate")
+plt.xlabel("Opportunity Score")
+plt.ylabel("Poverty Rate (%)")
+```
+
+
+```{python}
+
+
+```
+
+
+```{python}
+
+
+```
+
+
+```{python}
+
+
+```
